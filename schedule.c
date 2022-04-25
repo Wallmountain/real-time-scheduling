@@ -16,6 +16,23 @@ schedule periodic_task_schedule(list *stream)
          * check if the task can be add into the list.
          * else, end the scheduling
          */
+        int period = node->period;
+        while(period % 2 == 0)
+            period /= 2;
+        while(period % 3 == 0)
+            period /= 3;
+        while(period % 5 == 0)
+            period /= 5;
+        while(period % 7 == 0)
+            period /= 7;
+
+        if(period != 1) {
+            free(node->job);
+            free(node);
+            node = get_min(stream);
+            continue;
+        }
+
         if(utilization + node->utilization <= 1.) {
             if(check_periodic_schedule(&p_list, &hyperperiod, node)) {
                 en_list(&p_list.head, node, deadline);

@@ -11,6 +11,7 @@ int main() {
     build_periodic_task_hashtable(success, &p_fail);
     //while((node = get_min(success)))
     //    printf("%3d %3d %3d %f\n", node->id, node->period, node->deadline, node->utilization);
+    
     schedule plan = periodic_task_schedule(success);
     for(int i=0;i < table_number;i++)
         free_list(&success[i]);
