@@ -272,6 +272,8 @@ void expand_schedule(schedule *plan, unsigned int hyperperiod)
             } else
                 time++;
                 //time = now->release_time;
+            if(time > (now_period + 1) * hyperperiod)
+                now_period++;
         }
         event *node = malloc(sizeof(*node));
         node->type = PERIODIC;
@@ -345,7 +347,8 @@ void print_schedule(list *p_list, unsigned int hyperperiod)
             } else
                 time++;
                 //time = now->release_time;
-
+            if(time > (now_period + 1) * hyperperiod)
+                printf("Period (%d)\n", ++now_period);
         }
 
         if(time > (now_period + 1) * hyperperiod)
