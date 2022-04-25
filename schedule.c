@@ -16,23 +16,6 @@ schedule periodic_task_schedule(list *stream)
          * check if the task can be add into the list.
          * else, end the scheduling
          */
-        int period = node->period;
-        while(period % 2 == 0)
-            period /= 2;
-        while(period % 3 == 0)
-            period /= 3;
-        while(period % 5 == 0)
-            period /= 5;
-        while(period % 7 == 0)
-            period /= 7;
-
-        if(period != 1) {
-            free(node->job);
-            free(node);
-            node = get_min(stream);
-            continue;
-        }
-
         if(utilization + node->utilization <= 1.) {
             if(check_periodic_schedule(&p_list, &hyperperiod, node)) {
                 en_list(&p_list.head, node, deadline);
@@ -154,7 +137,8 @@ int check_periodic_schedule(list *p_list, unsigned int *hyperperiod, task *node)
                 }
                 time += spend;
             } else
-                time = now->release_time;
+                time++;
+                //time = now->release_time;
         }
         /*
          * the release time is reached
@@ -264,7 +248,7 @@ void expand_schedule(schedule *plan, unsigned int hyperperiod)
                 node->shift = comp->deadline;
 
                 int spend = update_status_job(comp, time, 
-                                                now->release_time - time);
+                                              now->release_time - time);
 
                 node->start_time = time;
                 node->end_time = time + spend;
@@ -285,8 +269,9 @@ void expand_schedule(schedule *plan, unsigned int hyperperiod)
                     en_status_list(&head, comp, deadline);
                 }
                 time += spend;
-            } else 
-                time = now->release_time;
+            } else
+                time++;
+                //time = now->release_time;
         }
         event *node = malloc(sizeof(*node));
         node->type = PERIODIC;
@@ -358,7 +343,8 @@ void print_schedule(list *p_list, unsigned int hyperperiod)
                 if(time > (now_period + 1) * hyperperiod)
                     printf("Period (%d)\n", ++now_period);
             } else
-                time = now->release_time;
+                time++;
+                //time = now->release_time;
 
         }
 

@@ -6,6 +6,16 @@ void list_init(list *p)
     p->count = 0;
 }
 
+bool task_selection(task *node)
+{
+    unsigned int period = node->period;
+    for(int i = 0;i < pf_limit;i++) {
+        while(period % prime_factor[i] == 0)
+            period /= prime_factor[i];
+    }
+    return !(period ^ 1);
+}
+
 int build_periodic_task_hashtable(list *success, list *fail)
 {
     FILE *fd = fopen(periodic_task_input, "r");
@@ -111,9 +121,14 @@ int build_periodic_task_hashtable(list *success, list *fail)
             }
             token = strtok(NULL, " ");
         }
-        node->next = NULL;
-        success[(int)(node->utilization * 10)].count++;
-        en_list(&success[(int)(node->utilization * 10)].head, node, utilization);
+        if(!task_selection(node)) {
+            free(node->job);
+            free(node);
+        } else {
+            node->next = NULL;
+            success[(int)(node->utilization * 10)].count++;
+            en_list(&success[(int)(node->utilization * 10)].head, node, utilization);
+        }
         if(task_num!=1)
             fgets(buffer, 10000, fd);
         memset(buffer, '\0', 10000);
