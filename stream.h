@@ -6,7 +6,7 @@
 #include <math.h>
 #include <stdbool.h>
 
-#define pf_limit 4
+#define pf_limit 3
 #define prime_factor_len 23
 
 static int prime_factor[] = {2, 3, 5, 7, 11, 13, 17, 19, \
@@ -15,8 +15,9 @@ static int prime_factor[] = {2, 3, 5, 7, 11, 13, 17, 19, \
 
 #define stream_time 10000 // total time unit
 #define periodic_job_input "OnlinejobsOfHRT.txt"
-#define periodic_task_input "TaskModel.txt"
-#define table_number 10
+#define aperiodic_job_input "OnlinejobsOf100AP.txt"
+#define periodic_task_num 100
+#define table_number 11
 
 
 /*
@@ -59,6 +60,8 @@ void list_init(list *p);
 bool task_selection(task *node);
 
 int build_periodic_task_hashtable(list *success, list *fail);
+
+int read_aperiodic_task(list *success);
 
 void free_list(list *a);
 

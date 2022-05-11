@@ -10,38 +10,61 @@ int main() {
     //task *node;
     build_periodic_task_hashtable(success, &p_fail);
     //while((node = get_min(success)))
-    //    printf("%3d %3d %3d %f\n", node->id, node->period, node->deadline, node->utilization);
+    //    printf("%3d %3d %f\n", node->id, node->period, node->utilization);
     schedule plan = periodic_task_schedule(success);
     for(int i=0;i < table_number;i++)
         free_list(&success[i]);
+
+    read_aperiodic_task(&plan.aperiodic_task);
+    delay_schedule(&plan);
+    //aperiodic_task_schedule(&plan);
     print_periodic_info(&plan, &p_fail);
     /* 
        add aperiodic and sporadic implement here
        */
     free(success);
+    free_schedule(&plan);
     return 0;
 }
 
 void print_periodic_info(schedule *plan, list *fail)
 {
-    printf("(1) ");
-    for(task *node = fail->head; node; node = node->next) {
-        printf("TASK %d", node->id);
-        if(node->next)
-            printf(", ");
-    }
-    printf(".\n(2) %d tasks: ", plan->periodic_task.count);
+    // printf("(1) ");
+    // for(task *node = fail->head; node; node = node->next) {
+    //     printf("TASK %d", node->id);
+    //     if(node->next)
+    //         printf(", ");
+    // }
+    printf("(1) %d tasks: ", plan->periodic_task.count);
     for(task *node = plan->periodic_task.head; node; node = node->next) {
         printf("TASK %d", node->id);
         if(node->next)
             printf(", ");
     }
-    printf(".\n(3) Hyper-period: %d\n", plan->period);
+    printf(".\n(2) Hyper-period: %d\n", plan->period);
     int using_time = 0;
     for(int i = 0; i < plan->count; i++)
         using_time += plan->hyperperiod[i].using_time;
-    printf("(4) %d%\n", (int)using_time * 100 / stream_time);
-    printf("(5)\n");
+    printf("(3) %d%\n", (int)using_time * 100 / stream_time);
 
-    print_schedule(&plan->periodic_task, plan->period);
+    printf("(5) %5.2f\n", (double)plan->aperiodic_response_time / periodic_task_num);
+    printf("(6) %5.2f\n", (double)plan->aperiodic_waiting_time / periodic_task_num);
+    printf("(4)\n");
+
+    int now_period = 0;
+    event *entry;
+
+    for(int i = 0;i < plan->count; i++) {
+        printf("Period (%d)\n", i);
+        list_for_each_entry(entry, &plan->hyperperiod[i].job_list, list) {
+            printf("type:");
+            if(entry->type & 0x1)
+                printf("P, ");
+            else if(entry->type & 0x2) 
+                printf("A, ");
+            else
+                printf("S, ");
+            printf("ID:%3d, start time: %5d, end time: %5d, shift:%3d\n", entry->id, entry->start_time, entry->end_time, entry->shift);
+        }
+    }
 }

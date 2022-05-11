@@ -1,1562 +1,1062 @@
-(1) TASK 96, TASK 93, TASK 92, TASK 90, TASK 86, TASK 85, TASK 78, TASK 76, TASK 72, TASK 71, TASK 61, TASK 59, TASK 56, TASK 54, TASK 51, TASK 48, TASK 46, TASK 28, TASK 24, TASK 21, TASK 12, TASK 9, TASK 8, TASK 5.
-(2) 5 tasks: TASK 81, TASK 39, TASK 17, TASK 4, TASK 26.
-(3) Hyper-period: 8100
-(4) 69%
-(5)
+(1) 6 tasks: TASK 63, TASK 22, TASK 72, TASK 14, TASK 79, TASK 58.
+(2) Hyper-period: 1440
+(3) 79%
+(5) 733.12
+(6) 727.71
+(4)
 Period (0)
-ID: 17, start time:     1 end time:     3, shift: 58
-ID: 81, start time:     3 end time:    13, shift:  0
-ID: 39, start time:    13 end time:    28, shift: 32
-ID: 17, start time:    28 end time:    48, shift: 13
-ID:  4, start time:    48 end time:    69, shift: 10
-ID: 26, start time:    69 end time:    77, shift: 15
-ID: 39, start time:    83 end time:    98, shift: 43
-ID:  4, start time:    98 end time:   103, shift: 66
-ID: 81, start time:   103 end time:   113, shift:  0
-ID: 17, start time:   113 end time:   135, shift: 26
-ID:  4, start time:   135 end time:   151, shift: 18
-ID: 26, start time:   151 end time:   159, shift: 33
-ID: 39, start time:   164 end time:   179, shift: 43
-ID:  4, start time:   181 end time:   202, shift: 57
-ID: 17, start time:   202 end time:   203, shift: 58
-ID: 81, start time:   203 end time:   213, shift:  0
-ID: 17, start time:   213 end time:   234, shift: 27
-ID: 26, start time:   234 end time:   242, shift: 50
-ID: 39, start time:   245 end time:   260, shift: 43
-ID:  4, start time:   271 end time:   292, shift: 57
-ID: 17, start time:   301 end time:   303, shift: 58
-ID: 81, start time:   303 end time:   313, shift:  0
-ID: 17, start time:   313 end time:   333, shift: 28
-ID: 39, start time:   333 end time:   348, shift: 36
-ID: 26, start time:   348 end time:   356, shift: 36
-ID:  4, start time:   361 end time:   382, shift: 57
-ID: 17, start time:   401 end time:   403, shift: 58
-ID: 81, start time:   403 end time:   413, shift:  0
-ID: 17, start time:   413 end time:   433, shift: 28
-ID: 39, start time:   433 end time:   448, shift: 17
-ID: 26, start time:   448 end time:   456, shift: 36
-ID:  4, start time:   456 end time:   477, shift: 52
-ID: 39, start time:   488 end time:   503, shift: 43
-ID: 81, start time:   503 end time:   513, shift:  0
-ID: 17, start time:   513 end time:   535, shift: 26
-ID: 26, start time:   535 end time:   543, shift: 49
-ID:  4, start time:   543 end time:   564, shift: 55
-ID: 39, start time:   569 end time:   584, shift: 43
-ID: 17, start time:   601 end time:   603, shift: 58
-ID: 81, start time:   603 end time:   613, shift:  0
-ID: 17, start time:   613 end time:   633, shift: 28
-ID: 26, start time:   633 end time:   641, shift: 51
-ID:  4, start time:   641 end time:   650, shift: 59
-ID: 39, start time:   650 end time:   665, shift: 43
-ID:  4, start time:   665 end time:   677, shift: 32
-ID: 17, start time:   701 end time:   703, shift: 58
-ID: 81, start time:   703 end time:   713, shift:  0
-ID: 17, start time:   713 end time:   733, shift: 28
-ID: 39, start time:   733 end time:   748, shift: 41
-ID: 26, start time:   748 end time:   756, shift: 36
-ID:  4, start time:   756 end time:   777, shift: 22
-ID: 17, start time:   801 end time:   803, shift: 58
-ID: 81, start time:   803 end time:   813, shift:  0
-ID: 17, start time:   813 end time:   833, shift: 28
-ID: 39, start time:   833 end time:   848, shift: 22
-ID:  4, start time:   848 end time:   869, shift: 20
-ID: 26, start time:   869 end time:   877, shift: 15
-ID: 39, start time:   893 end time:   903, shift: 48
-ID: 81, start time:   903 end time:   913, shift:  0
-ID: 39, start time:   913 end time:   918, shift: 33
-ID: 17, start time:   918 end time:   940, shift: 21
-ID:  4, start time:   940 end time:   961, shift: 18
-ID: 26, start time:   961 end time:   969, shift: 23
-ID: 39, start time:   974 end time:   989, shift: 43
-ID:  4, start time:   991 end time:  1003, shift: 66
-ID: 81, start time:  1003 end time:  1013, shift:  0
-ID: 17, start time:  1013 end time:  1035, shift: 26
-ID:  4, start time:  1035 end time:  1044, shift: 25
-ID: 26, start time:  1044 end time:  1052, shift: 40
-ID: 39, start time:  1055 end time:  1070, shift: 43
-ID:  4, start time:  1081 end time:  1102, shift: 57
-ID: 17, start time:  1102 end time:  1103, shift: 58
-ID: 81, start time:  1103 end time:  1113, shift:  0
-ID: 17, start time:  1113 end time:  1134, shift: 27
-ID: 26, start time:  1134 end time:  1142, shift: 50
-ID: 39, start time:  1142 end time:  1157, shift: 37
-ID:  4, start time:  1171 end time:  1192, shift: 57
-ID: 17, start time:  1201 end time:  1203, shift: 58
-ID: 81, start time:  1203 end time:  1213, shift:  0
-ID: 17, start time:  1213 end time:  1233, shift: 28
-ID: 39, start time:  1233 end time:  1248, shift: 27
-ID: 26, start time:  1248 end time:  1256, shift: 36
-ID:  4, start time:  1261 end time:  1282, shift: 57
-ID: 39, start time:  1298 end time:  1303, shift: 53
-ID: 81, start time:  1303 end time:  1313, shift:  0
-ID: 39, start time:  1313 end time:  1323, shift: 33
-ID: 17, start time:  1323 end time:  1345, shift: 16
-ID: 26, start time:  1345 end time:  1353, shift: 39
-ID:  4, start time:  1353 end time:  1374, shift: 55
-ID: 39, start time:  1379 end time:  1394, shift: 43
-ID: 17, start time:  1401 end time:  1403, shift: 58
-ID: 81, start time:  1403 end time:  1413, shift:  0
-ID: 17, start time:  1413 end time:  1433, shift: 28
-ID: 26, start time:  1433 end time:  1441, shift: 51
-ID:  4, start time:  1441 end time:  1462, shift: 57
-ID: 39, start time:  1462 end time:  1477, shift: 41
-ID: 17, start time:  1501 end time:  1503, shift: 58
-ID: 81, start time:  1503 end time:  1513, shift:  0
-ID: 17, start time:  1513 end time:  1533, shift: 28
-ID: 26, start time:  1533 end time:  1541, shift: 51
-ID: 39, start time:  1541 end time:  1556, shift: 43
-ID:  4, start time:  1556 end time:  1577, shift: 32
-ID: 17, start time:  1601 end time:  1603, shift: 58
-ID: 81, start time:  1603 end time:  1613, shift:  0
-ID: 17, start time:  1613 end time:  1633, shift: 28
-ID: 39, start time:  1633 end time:  1648, shift: 32
-ID: 26, start time:  1648 end time:  1656, shift: 36
-ID:  4, start time:  1656 end time:  1677, shift: 22
-ID: 17, start time:  1701 end time:  1703, shift: 58
-ID: 81, start time:  1703 end time:  1713, shift:  0
-ID: 17, start time:  1713 end time:  1733, shift: 28
-ID: 39, start time:  1733 end time:  1748, shift: 13
-ID:  4, start time:  1748 end time:  1769, shift: 20
-ID: 26, start time:  1769 end time:  1777, shift: 15
-ID: 39, start time:  1784 end time:  1799, shift: 43
-ID: 17, start time:  1801 end time:  1803, shift: 58
-ID: 81, start time:  1803 end time:  1813, shift:  0
-ID: 17, start time:  1813 end time:  1833, shift: 28
-ID:  4, start time:  1833 end time:  1854, shift: 25
-ID: 26, start time:  1854 end time:  1862, shift: 30
-ID: 39, start time:  1865 end time:  1880, shift: 43
-ID:  4, start time:  1891 end time:  1903, shift: 66
-ID: 81, start time:  1903 end time:  1913, shift:  0
-ID: 17, start time:  1913 end time:  1935, shift: 26
-ID:  4, start time:  1935 end time:  1944, shift: 25
-ID: 26, start time:  1944 end time:  1952, shift: 40
-ID: 39, start time:  1952 end time:  1967, shift: 37
-ID:  4, start time:  1981 end time:  2002, shift: 57
-ID: 17, start time:  2002 end time:  2003, shift: 58
-ID: 81, start time:  2003 end time:  2013, shift:  0
-ID: 17, start time:  2013 end time:  2034, shift: 27
-ID: 39, start time:  2034 end time:  2049, shift: 36
-ID: 26, start time:  2049 end time:  2057, shift: 35
-ID:  4, start time:  2071 end time:  2092, shift: 57
-ID: 17, start time:  2101 end time:  2103, shift: 58
-ID: 81, start time:  2103 end time:  2113, shift:  0
-ID: 17, start time:  2113 end time:  2133, shift: 28
-ID: 39, start time:  2133 end time:  2148, shift: 18
-ID: 26, start time:  2148 end time:  2156, shift: 36
-ID:  4, start time:  2161 end time:  2182, shift: 57
-ID: 39, start time:  2189 end time:  2203, shift: 44
-ID: 81, start time:  2203 end time:  2213, shift:  0
-ID: 39, start time:  2213 end time:  2214, shift: 33
-ID: 17, start time:  2214 end time:  2236, shift: 25
-ID: 26, start time:  2236 end time:  2244, shift: 48
-ID:  4, start time:  2251 end time:  2272, shift: 57
-ID: 39, start time:  2272 end time:  2287, shift: 41
-ID: 17, start time:  2301 end time:  2303, shift: 58
-ID: 81, start time:  2303 end time:  2313, shift:  0
-ID: 17, start time:  2313 end time:  2333, shift: 28
-ID: 26, start time:  2333 end time:  2341, shift: 51
-ID:  4, start time:  2341 end time:  2351, shift: 68
-ID: 39, start time:  2351 end time:  2366, shift: 43
-ID:  4, start time:  2366 end time:  2377, shift: 42
-ID: 17, start time:  2401 end time:  2403, shift: 58
-ID: 81, start time:  2403 end time:  2413, shift:  0
-ID: 17, start time:  2413 end time:  2433, shift: 28
-ID: 39, start time:  2433 end time:  2448, shift: 42
-ID: 26, start time:  2448 end time:  2456, shift: 36
-ID:  4, start time:  2456 end time:  2477, shift: 32
-ID: 17, start time:  2501 end time:  2503, shift: 58
-ID: 81, start time:  2503 end time:  2513, shift:  0
-ID: 17, start time:  2513 end time:  2533, shift: 28
-ID: 39, start time:  2533 end time:  2548, shift: 23
-ID: 26, start time:  2548 end time:  2556, shift: 36
-ID:  4, start time:  2556 end time:  2577, shift: 22
-ID: 39, start time:  2594 end time:  2603, shift: 49
-ID: 81, start time:  2603 end time:  2613, shift:  0
-ID: 39, start time:  2613 end time:  2619, shift: 33
-ID: 17, start time:  2619 end time:  2641, shift: 20
-ID:  4, start time:  2641 end time:  2662, shift: 27
-ID: 26, start time:  2662 end time:  2670, shift: 22
-ID: 39, start time:  2675 end time:  2690, shift: 43
-ID: 17, start time:  2701 end time:  2703, shift: 58
-ID: 81, start time:  2703 end time:  2713, shift:  0
-ID: 17, start time:  2713 end time:  2733, shift: 28
-ID:  4, start time:  2733 end time:  2754, shift: 25
-ID: 26, start time:  2754 end time:  2762, shift: 30
-ID: 39, start time:  2762 end time:  2777, shift: 37
-ID:  4, start time:  2791 end time:  2803, shift: 66
-ID: 81, start time:  2803 end time:  2813, shift:  0
-ID: 17, start time:  2813 end time:  2835, shift: 26
-ID:  4, start time:  2835 end time:  2844, shift: 25
-ID: 26, start time:  2844 end time:  2852, shift: 40
-ID: 39, start time:  2852 end time:  2867, shift: 28
-ID:  4, start time:  2881 end time:  2902, shift: 57
-ID: 17, start time:  2902 end time:  2903, shift: 58
-ID: 81, start time:  2903 end time:  2913, shift:  0
-ID: 17, start time:  2913 end time:  2934, shift: 27
-ID: 39, start time:  2934 end time:  2949, shift: 27
-ID: 26, start time:  2949 end time:  2957, shift: 35
-ID:  4, start time:  2971 end time:  2992, shift: 57
-ID: 39, start time:  2999 end time:  3003, shift: 54
-ID: 81, start time:  3003 end time:  3013, shift:  0
-ID: 39, start time:  3013 end time:  3024, shift: 33
-ID: 17, start time:  3024 end time:  3046, shift: 15
-ID: 26, start time:  3046 end time:  3054, shift: 38
-ID:  4, start time:  3061 end time:  3082, shift: 57
-ID: 39, start time:  3082 end time:  3097, shift: 41
-ID: 17, start time:  3101 end time:  3103, shift: 58
-ID: 81, start time:  3103 end time:  3113, shift:  0
-ID: 17, start time:  3113 end time:  3133, shift: 28
-ID: 26, start time:  3133 end time:  3141, shift: 51
-ID:  4, start time:  3151 end time:  3172, shift: 57
-ID: 39, start time:  3172 end time:  3187, shift: 32
-ID: 17, start time:  3201 end time:  3203, shift: 58
-ID: 81, start time:  3203 end time:  3213, shift:  0
-ID: 17, start time:  3213 end time:  3233, shift: 28
-ID: 26, start time:  3233 end time:  3241, shift: 51
-ID:  4, start time:  3241 end time:  3242, shift: 77
-ID: 39, start time:  3242 end time:  3257, shift: 43
-ID:  4, start time:  3257 end time:  3277, shift: 42
-ID: 17, start time:  3301 end time:  3303, shift: 58
-ID: 81, start time:  3303 end time:  3313, shift:  0
-ID: 17, start time:  3313 end time:  3333, shift: 28
-ID: 39, start time:  3333 end time:  3348, shift: 33
-ID: 26, start time:  3348 end time:  3356, shift: 36
-ID:  4, start time:  3356 end time:  3377, shift: 32
-ID: 17, start time:  3401 end time:  3403, shift: 58
-ID: 81, start time:  3403 end time:  3413, shift:  0
-ID: 17, start time:  3413 end time:  3433, shift: 28
-ID: 39, start time:  3433 end time:  3448, shift: 14
-ID: 26, start time:  3448 end time:  3456, shift: 36
-ID:  4, start time:  3456 end time:  3477, shift: 22
-ID: 39, start time:  3485 end time:  3500, shift: 43
-ID: 17, start time:  3501 end time:  3503, shift: 58
-ID: 81, start time:  3503 end time:  3513, shift:  0
-ID: 17, start time:  3513 end time:  3533, shift: 28
-ID:  4, start time:  3533 end time:  3554, shift: 35
-ID: 26, start time:  3554 end time:  3562, shift: 30
-ID: 39, start time:  3566 end time:  3581, shift: 43
-ID: 17, start time:  3601 end time:  3603, shift: 58
-ID: 81, start time:  3603 end time:  3613, shift:  0
-ID: 17, start time:  3613 end time:  3633, shift: 28
-ID:  4, start time:  3633 end time:  3654, shift: 25
-ID: 26, start time:  3654 end time:  3662, shift: 30
-ID: 39, start time:  3662 end time:  3677, shift: 28
-ID:  4, start time:  3691 end time:  3703, shift: 66
-ID: 81, start time:  3703 end time:  3713, shift:  0
-ID: 17, start time:  3713 end time:  3735, shift: 26
-ID:  4, start time:  3735 end time:  3744, shift: 25
-ID: 39, start time:  3744 end time:  3759, shift: 27
-ID: 26, start time:  3759 end time:  3767, shift: 25
-ID:  4, start time:  3781 end time:  3802, shift: 57
-ID: 17, start time:  3802 end time:  3803, shift: 58
-ID: 81, start time:  3803 end time:  3813, shift:  0
-ID: 17, start time:  3813 end time:  3834, shift: 27
-ID: 39, start time:  3834 end time:  3849, shift: 18
-ID: 26, start time:  3849 end time:  3857, shift: 35
-ID:  4, start time:  3871 end time:  3892, shift: 57
-ID: 39, start time:  3892 end time:  3903, shift: 45
-ID: 81, start time:  3903 end time:  3913, shift:  0
-ID: 39, start time:  3913 end time:  3917, shift: 31
-ID: 17, start time:  3917 end time:  3939, shift: 22
-ID: 26, start time:  3939 end time:  3947, shift: 45
-ID:  4, start time:  3961 end time:  3982, shift: 57
-ID: 39, start time:  3982 end time:  3997, shift: 32
-ID: 17, start time:  4001 end time:  4003, shift: 58
-ID: 81, start time:  4003 end time:  4013, shift:  0
-ID: 17, start time:  4013 end time:  4033, shift: 28
-ID: 26, start time:  4033 end time:  4041, shift: 51
-ID:  4, start time:  4051 end time:  4052, shift: 77
-ID: 39, start time:  4052 end time:  4067, shift: 43
-ID:  4, start time:  4067 end time:  4087, shift: 42
-ID: 17, start time:  4101 end time:  4103, shift: 58
-ID: 81, start time:  4103 end time:  4113, shift:  0
-ID: 17, start time:  4113 end time:  4133, shift: 28
-ID: 39, start time:  4133 end time:  4148, shift: 43
-ID: 26, start time:  4148 end time:  4156, shift: 36
-ID:  4, start time:  4156 end time:  4177, shift: 42
-ID: 17, start time:  4201 end time:  4203, shift: 58
-ID: 81, start time:  4203 end time:  4213, shift:  0
-ID: 17, start time:  4213 end time:  4233, shift: 28
-ID: 39, start time:  4233 end time:  4248, shift: 24
-ID: 26, start time:  4248 end time:  4256, shift: 36
-ID:  4, start time:  4256 end time:  4277, shift: 32
-ID: 39, start time:  4295 end time:  4303, shift: 50
-ID: 81, start time:  4303 end time:  4313, shift:  0
-ID: 39, start time:  4313 end time:  4320, shift: 33
-ID: 17, start time:  4320 end time:  4342, shift: 19
-ID: 26, start time:  4342 end time:  4350, shift: 42
-ID:  4, start time:  4350 end time:  4371, shift: 28
-ID: 39, start time:  4376 end time:  4391, shift: 43
-ID: 17, start time:  4401 end time:  4403, shift: 58
-ID: 81, start time:  4403 end time:  4413, shift:  0
-ID: 17, start time:  4413 end time:  4433, shift: 28
-ID:  4, start time:  4433 end time:  4454, shift: 35
-ID: 26, start time:  4454 end time:  4462, shift: 30
-ID: 39, start time:  4462 end time:  4477, shift: 38
-ID: 17, start time:  4501 end time:  4503, shift: 58
-ID: 81, start time:  4503 end time:  4513, shift:  0
-ID: 17, start time:  4513 end time:  4533, shift: 28
-ID:  4, start time:  4533 end time:  4554, shift: 25
-ID: 26, start time:  4554 end time:  4562, shift: 30
-ID: 39, start time:  4562 end time:  4577, shift: 19
-ID:  4, start time:  4591 end time:  4603, shift: 66
-ID: 81, start time:  4603 end time:  4613, shift:  0
-ID: 17, start time:  4613 end time:  4635, shift: 26
-ID:  4, start time:  4635 end time:  4644, shift: 25
-ID: 39, start time:  4644 end time:  4659, shift: 18
-ID: 26, start time:  4659 end time:  4667, shift: 25
-ID:  4, start time:  4681 end time:  4702, shift: 57
-ID: 39, start time:  4702 end time:  4703, shift: 55
-ID: 81, start time:  4703 end time:  4713, shift:  0
-ID: 39, start time:  4713 end time:  4727, shift: 31
-ID: 17, start time:  4727 end time:  4749, shift: 12
-ID: 26, start time:  4749 end time:  4757, shift: 35
-ID:  4, start time:  4771 end time:  4792, shift: 57
-ID: 39, start time:  4792 end time:  4803, shift: 36
-ID: 81, start time:  4803 end time:  4813, shift:  0
-ID: 39, start time:  4813 end time:  4817, shift: 22
-ID: 17, start time:  4817 end time:  4839, shift: 22
-ID: 26, start time:  4839 end time:  4847, shift: 45
-ID:  4, start time:  4861 end time:  4882, shift: 57
-ID: 39, start time:  4882 end time:  4897, shift: 23
-ID: 17, start time:  4901 end time:  4903, shift: 58
-ID: 81, start time:  4903 end time:  4913, shift:  0
-ID: 17, start time:  4913 end time:  4933, shift: 28
-ID: 26, start time:  4933 end time:  4941, shift: 51
-ID: 39, start time:  4943 end time:  4958, shift: 43
-ID:  4, start time:  4958 end time:  4979, shift: 50
-ID: 17, start time:  5001 end time:  5003, shift: 58
-ID: 81, start time:  5003 end time:  5013, shift:  0
-ID: 17, start time:  5013 end time:  5033, shift: 28
-ID: 39, start time:  5033 end time:  5048, shift: 34
-ID: 26, start time:  5048 end time:  5056, shift: 36
-ID:  4, start time:  5056 end time:  5077, shift: 42
-ID: 17, start time:  5101 end time:  5103, shift: 58
-ID: 81, start time:  5103 end time:  5113, shift:  0
-ID: 17, start time:  5113 end time:  5133, shift: 28
-ID: 39, start time:  5133 end time:  5148, shift: 15
-ID: 26, start time:  5148 end time:  5156, shift: 36
-ID:  4, start time:  5156 end time:  5177, shift: 32
-ID: 39, start time:  5186 end time:  5201, shift: 43
-ID: 17, start time:  5201 end time:  5203, shift: 58
-ID: 81, start time:  5203 end time:  5213, shift:  0
-ID: 17, start time:  5213 end time:  5233, shift: 28
-ID: 26, start time:  5233 end time:  5241, shift: 51
-ID:  4, start time:  5241 end time:  5262, shift: 37
-ID: 39, start time:  5267 end time:  5282, shift: 43
-ID: 17, start time:  5301 end time:  5303, shift: 58
-ID: 81, start time:  5303 end time:  5313, shift:  0
-ID: 17, start time:  5313 end time:  5333, shift: 28
-ID:  4, start time:  5333 end time:  5354, shift: 35
-ID: 26, start time:  5354 end time:  5362, shift: 30
-ID: 39, start time:  5362 end time:  5377, shift: 29
-ID: 17, start time:  5401 end time:  5403, shift: 58
-ID: 81, start time:  5403 end time:  5413, shift:  0
-ID: 17, start time:  5413 end time:  5433, shift: 28
-ID:  4, start time:  5433 end time:  5454, shift: 25
-ID: 39, start time:  5454 end time:  5469, shift: 18
-ID: 26, start time:  5469 end time:  5477, shift: 15
-ID:  4, start time:  5491 end time:  5503, shift: 66
-ID: 81, start time:  5503 end time:  5513, shift:  0
-ID: 17, start time:  5513 end time:  5535, shift: 26
-ID: 39, start time:  5535 end time:  5550, shift: 18
-ID:  4, start time:  5550 end time:  5559, shift: 10
-ID: 26, start time:  5559 end time:  5567, shift: 25
-ID:  4, start time:  5581 end time:  5602, shift: 57
-ID: 39, start time:  5602 end time:  5603, shift: 46
-ID: 81, start time:  5603 end time:  5613, shift:  0
-ID: 39, start time:  5613 end time:  5627, shift: 22
-ID: 17, start time:  5627 end time:  5649, shift: 12
-ID: 26, start time:  5649 end time:  5657, shift: 35
-ID:  4, start time:  5671 end time:  5692, shift: 57
-ID: 39, start time:  5692 end time:  5703, shift: 27
-ID: 81, start time:  5703 end time:  5713, shift:  0
-ID: 39, start time:  5713 end time:  5717, shift: 13
-ID: 17, start time:  5717 end time:  5739, shift: 22
-ID: 26, start time:  5739 end time:  5747, shift: 45
-ID: 39, start time:  5753 end time:  5768, shift: 43
-ID:  4, start time:  5768 end time:  5789, shift: 50
-ID: 17, start time:  5801 end time:  5803, shift: 58
-ID: 81, start time:  5803 end time:  5813, shift:  0
-ID: 17, start time:  5813 end time:  5833, shift: 28
-ID: 26, start time:  5833 end time:  5834, shift: 58
-ID: 39, start time:  5834 end time:  5849, shift: 43
-ID: 26, start time:  5849 end time:  5856, shift: 36
-ID:  4, start time:  5856 end time:  5877, shift: 52
-ID: 17, start time:  5901 end time:  5903, shift: 58
-ID: 81, start time:  5903 end time:  5913, shift:  0
-ID: 17, start time:  5913 end time:  5933, shift: 28
-ID: 39, start time:  5933 end time:  5948, shift: 25
-ID: 26, start time:  5948 end time:  5956, shift: 36
-ID:  4, start time:  5956 end time:  5977, shift: 42
-ID: 39, start time:  5996 end time:  6003, shift: 51
-ID: 81, start time:  6003 end time:  6013, shift:  0
-ID: 39, start time:  6013 end time:  6021, shift: 33
-ID: 17, start time:  6021 end time:  6043, shift: 18
-ID: 26, start time:  6043 end time:  6051, shift: 41
-ID:  4, start time:  6051 end time:  6072, shift: 37
-ID: 39, start time:  6077 end time:  6092, shift: 43
-ID: 17, start time:  6101 end time:  6103, shift: 58
-ID: 81, start time:  6103 end time:  6113, shift:  0
-ID: 17, start time:  6113 end time:  6133, shift: 28
-ID: 26, start time:  6133 end time:  6141, shift: 51
-ID:  4, start time:  6141 end time:  6162, shift: 37
-ID: 39, start time:  6162 end time:  6177, shift: 39
-ID: 17, start time:  6201 end time:  6203, shift: 58
-ID: 81, start time:  6203 end time:  6213, shift:  0
-ID: 17, start time:  6213 end time:  6233, shift: 28
-ID:  4, start time:  6233 end time:  6254, shift: 35
-ID: 26, start time:  6254 end time:  6262, shift: 30
-ID: 39, start time:  6262 end time:  6277, shift: 20
-ID: 17, start time:  6301 end time:  6303, shift: 58
-ID: 81, start time:  6303 end time:  6313, shift:  0
-ID: 17, start time:  6313 end time:  6333, shift: 28
-ID: 39, start time:  6333 end time:  6348, shift: 30
-ID:  4, start time:  6348 end time:  6369, shift: 10
-ID: 26, start time:  6369 end time:  6377, shift: 15
-ID:  4, start time:  6391 end time:  6403, shift: 66
-ID: 81, start time:  6403 end time:  6413, shift:  0
-ID: 39, start time:  6413 end time:  6428, shift: 31
-ID: 17, start time:  6428 end time:  6450, shift: 11
-ID:  4, start time:  6450 end time:  6459, shift: 10
-ID: 26, start time:  6459 end time:  6467, shift: 25
-ID:  4, start time:  6481 end time:  6502, shift: 57
-ID: 39, start time:  6502 end time:  6503, shift: 37
-ID: 81, start time:  6503 end time:  6513, shift:  0
-ID: 39, start time:  6513 end time:  6527, shift: 13
-ID: 17, start time:  6527 end time:  6549, shift: 12
-ID: 26, start time:  6549 end time:  6557, shift: 35
-ID: 39, start time:  6563 end time:  6578, shift: 43
-ID:  4, start time:  6578 end time:  6599, shift: 50
-ID: 17, start time:  6601 end time:  6603, shift: 58
-ID: 81, start time:  6603 end time:  6613, shift:  0
-ID: 17, start time:  6613 end time:  6633, shift: 28
-ID: 26, start time:  6633 end time:  6641, shift: 51
-ID: 39, start time:  6644 end time:  6659, shift: 43
-ID:  4, start time:  6661 end time:  6682, shift: 57
-ID: 17, start time:  6701 end time:  6703, shift: 58
-ID: 81, start time:  6703 end time:  6713, shift:  0
-ID: 17, start time:  6713 end time:  6733, shift: 28
-ID: 39, start time:  6733 end time:  6748, shift: 35
-ID: 26, start time:  6748 end time:  6756, shift: 36
-ID:  4, start time:  6756 end time:  6777, shift: 52
-ID: 17, start time:  6801 end time:  6803, shift: 58
-ID: 81, start time:  6803 end time:  6813, shift:  0
-ID: 17, start time:  6813 end time:  6833, shift: 28
-ID: 39, start time:  6833 end time:  6848, shift: 16
-ID: 26, start time:  6848 end time:  6856, shift: 36
-ID:  4, start time:  6856 end time:  6877, shift: 42
-ID: 39, start time:  6887 end time:  6902, shift: 43
-ID: 17, start time:  6902 end time:  6903, shift: 58
-ID: 81, start time:  6903 end time:  6913, shift:  0
-ID: 17, start time:  6913 end time:  6934, shift: 27
-ID: 26, start time:  6934 end time:  6942, shift: 50
-ID:  4, start time:  6942 end time:  6963, shift: 46
-ID: 39, start time:  6968 end time:  6983, shift: 43
-ID: 17, start time:  7001 end time:  7003, shift: 58
-ID: 81, start time:  7003 end time:  7013, shift:  0
-ID: 17, start time:  7013 end time:  7033, shift: 28
-ID: 26, start time:  7033 end time:  7041, shift: 51
-ID:  4, start time:  7041 end time:  7062, shift: 37
-ID: 39, start time:  7062 end time:  7077, shift: 30
-ID: 17, start time:  7101 end time:  7103, shift: 58
-ID: 81, start time:  7103 end time:  7113, shift:  0
-ID: 17, start time:  7113 end time:  7133, shift: 28
-ID: 39, start time:  7133 end time:  7148, shift: 40
-ID:  4, start time:  7148 end time:  7169, shift: 20
-ID: 26, start time:  7169 end time:  7177, shift: 15
-ID: 17, start time:  7201 end time:  7203, shift: 58
-ID: 81, start time:  7203 end time:  7213, shift:  0
-ID: 17, start time:  7213 end time:  7233, shift: 28
-ID: 39, start time:  7233 end time:  7248, shift: 21
-ID:  4, start time:  7248 end time:  7269, shift: 10
-ID: 26, start time:  7269 end time:  7277, shift: 15
-ID:  4, start time:  7291 end time:  7303, shift: 66
-ID: 81, start time:  7303 end time:  7313, shift:  0
-ID: 39, start time:  7313 end time:  7328, shift: 22
-ID: 17, start time:  7328 end time:  7350, shift: 11
-ID:  4, start time:  7350 end time:  7359, shift: 10
-ID: 26, start time:  7359 end time:  7367, shift: 25
-ID: 39, start time:  7373 end time:  7388, shift: 43
-ID:  4, start time:  7388 end time:  7403, shift: 56
-ID: 81, start time:  7403 end time:  7413, shift:  0
-ID:  4, start time:  7413 end time:  7419, shift: 40
-ID: 17, start time:  7419 end time:  7441, shift: 20
-ID: 26, start time:  7441 end time:  7449, shift: 43
-ID: 39, start time:  7454 end time:  7469, shift: 43
-ID:  4, start time:  7471 end time:  7492, shift: 57
-ID: 17, start time:  7501 end time:  7503, shift: 58
-ID: 81, start time:  7503 end time:  7513, shift:  0
-ID: 17, start time:  7513 end time:  7533, shift: 28
-ID: 26, start time:  7533 end time:  7541, shift: 51
-ID: 39, start time:  7541 end time:  7556, shift: 37
-ID:  4, start time:  7561 end time:  7582, shift: 57
-ID: 17, start time:  7601 end time:  7603, shift: 58
-ID: 81, start time:  7603 end time:  7613, shift:  0
-ID: 17, start time:  7613 end time:  7633, shift: 28
-ID: 39, start time:  7633 end time:  7648, shift: 26
-ID: 26, start time:  7648 end time:  7656, shift: 36
-ID:  4, start time:  7656 end time:  7677, shift: 52
-ID: 39, start time:  7697 end time:  7703, shift: 52
-ID: 81, start time:  7703 end time:  7713, shift:  0
-ID: 39, start time:  7713 end time:  7722, shift: 33
-ID: 17, start time:  7722 end time:  7744, shift: 17
-ID: 26, start time:  7744 end time:  7752, shift: 40
-ID:  4, start time:  7752 end time:  7773, shift: 46
-ID: 39, start time:  7778 end time:  7793, shift: 43
-ID: 17, start time:  7801 end time:  7803, shift: 58
-ID: 81, start time:  7803 end time:  7813, shift:  0
-ID: 17, start time:  7813 end time:  7833, shift: 28
-ID: 26, start time:  7833 end time:  7841, shift: 51
-ID:  4, start time:  7841 end time:  7862, shift: 47
-ID: 39, start time:  7862 end time:  7877, shift: 40
-ID: 17, start time:  7901 end time:  7903, shift: 58
-ID: 81, start time:  7903 end time:  7913, shift:  0
-ID: 17, start time:  7913 end time:  7933, shift: 28
-ID: 26, start time:  7933 end time:  7941, shift: 51
-ID: 39, start time:  7941 end time:  7956, shift: 42
-ID:  4, start time:  7956 end time:  7977, shift: 22
-ID: 17, start time:  8001 end time:  8003, shift: 58
-ID: 81, start time:  8003 end time:  8013, shift:  0
-ID: 17, start time:  8013 end time:  8033, shift: 28
-ID: 39, start time:  8033 end time:  8048, shift: 31
-ID:  4, start time:  8048 end time:  8069, shift: 20
-ID: 26, start time:  8069 end time:  8077, shift: 15
+type:A, ID:  6, start time:     0, end time:     2, shift:  0
+type:A, ID: 14, start time:     2, end time:     4, shift:  0
+type:A, ID:  1, start time:     4, end time:     6, shift:  0
+type:A, ID: 12, start time:     6, end time:     8, shift:  0
+type:A, ID: 27, start time:     8, end time:    10, shift:  0
+type:A, ID: 34, start time:    10, end time:    12, shift:  0
+type:A, ID: 35, start time:    12, end time:    14, shift:  0
+type:A, ID: 41, start time:    14, end time:    16, shift:  0
+type:A, ID: 46, start time:    16, end time:    18, shift:  0
+type:A, ID: 54, start time:    18, end time:    20, shift:  0
+type:A, ID: 55, start time:    20, end time:    22, shift:  0
+type:A, ID: 64, start time:    22, end time:    24, shift:  0
+type:A, ID: 65, start time:    24, end time:    26, shift:  0
+type:A, ID: 66, start time:    26, end time:    28, shift:  0
+type:A, ID: 78, start time:    28, end time:    30, shift:  0
+type:A, ID: 86, start time:    30, end time:    32, shift:  0
+type:A, ID: 88, start time:    32, end time:    34, shift:  0
+type:A, ID: 97, start time:    34, end time:    36, shift:  0
+type:A, ID:100, start time:    36, end time:    38, shift:  0
+type:A, ID: 13, start time:    38, end time:    40, shift:  0
+type:P, ID: 14, start time:    40, end time:    41, shift: 37
+type:P, ID: 63, start time:    41, end time:    53, shift:  9
+type:P, ID: 22, start time:    53, end time:    61, shift: 14
+type:P, ID: 14, start time:    61, end time:    64, shift: 17
+type:P, ID: 72, start time:    64, end time:    79, shift:  4
+type:P, ID: 79, start time:    79, end time:    91, shift:  0
+type:A, ID: 13, start time:    91, end time:    92, shift:  0
+type:A, ID: 17, start time:    92, end time:    93, shift:  0
+type:P, ID: 58, start time:    93, end time:    99, shift:  0
+type:A, ID: 17, start time:    99, end time:   101, shift:  0
+type:A, ID: 19, start time:   101, end time:   104, shift:  0
+type:A, ID: 23, start time:   104, end time:   107, shift:  0
+type:A, ID: 24, start time:   107, end time:   110, shift:  0
+type:A, ID: 37, start time:   110, end time:   113, shift:  0
+type:A, ID: 73, start time:   113, end time:   116, shift:  0
+type:P, ID: 63, start time:   116, end time:   122, shift:  0
+type:A, ID: 93, start time:   122, end time:   125, shift:  0
+type:A, ID: 18, start time:   125, end time:   127, shift:  0
+type:P, ID: 22, start time:   127, end time:   136, shift: 11
+type:P, ID: 14, start time:   136, end time:   142, shift: 19
+type:P, ID: 72, start time:   142, end time:   156, shift:  7
+type:P, ID: 79, start time:   156, end time:   170, shift: 11
+type:P, ID: 58, start time:   170, end time:   174, shift: 11
+type:P, ID: 63, start time:   174, end time:   182, shift:  0
+type:A, ID: 18, start time:   182, end time:   184, shift:  0
+type:A, ID: 33, start time:   184, end time:   185, shift:  0
+type:P, ID: 58, start time:   185, end time:   195, shift:  0
+type:A, ID: 33, start time:   195, end time:   198, shift:  0
+type:A, ID: 42, start time:   198, end time:   202, shift:  0
+type:A, ID: 52, start time:   202, end time:   206, shift:  0
+type:A, ID: 72, start time:   206, end time:   210, shift:  0
+type:A, ID: 82, start time:   210, end time:   211, shift:  0
+type:P, ID: 22, start time:   211, end time:   217, shift:  2
+type:P, ID: 14, start time:   217, end time:   221, shift: 20
+type:P, ID: 72, start time:   221, end time:   235, shift:  8
+type:P, ID: 79, start time:   235, end time:   236, shift: 22
+type:P, ID: 63, start time:   236, end time:   242, shift:  0
+type:A, ID: 82, start time:   242, end time:   245, shift:  0
+type:A, ID: 84, start time:   245, end time:   249, shift:  0
+type:A, ID: 87, start time:   249, end time:   253, shift:  0
+type:A, ID: 96, start time:   253, end time:   256, shift:  0
+type:P, ID: 79, start time:   256, end time:   269, shift:  2
+type:P, ID: 58, start time:   269, end time:   281, shift: 10
+type:P, ID: 22, start time:   281, end time:   291, shift:  0
+type:P, ID: 14, start time:   291, end time:   292, shift: 26
+type:P, ID: 63, start time:   292, end time:   302, shift:  0
+type:A, ID: 96, start time:   302, end time:   303, shift:  0
+type:A, ID:  2, start time:   303, end time:   306, shift:  0
+type:P, ID: 14, start time:   306, end time:   309, shift: 12
+type:P, ID: 72, start time:   309, end time:   323, shift:  0
+type:A, ID:  2, start time:   323, end time:   325, shift:  0
+type:A, ID:  7, start time:   325, end time:   330, shift:  0
+type:A, ID: 20, start time:   330, end time:   335, shift:  0
+type:A, ID: 21, start time:   335, end time:   336, shift:  0
+type:P, ID: 79, start time:   336, end time:   345, shift: 16
+type:P, ID: 22, start time:   345, end time:   351, shift: 12
+type:P, ID: 58, start time:   351, end time:   356, shift: 24
+type:P, ID: 63, start time:   356, end time:   362, shift:  0
+type:A, ID: 21, start time:   362, end time:   366, shift:  0
+type:A, ID: 28, start time:   366, end time:   371, shift:  0
+type:A, ID: 39, start time:   371, end time:   376, shift:  0
+type:A, ID: 43, start time:   376, end time:   378, shift:  0
+type:P, ID: 58, start time:   378, end time:   385, shift:  2
+type:P, ID: 14, start time:   385, end time:   389, shift: 12
+type:P, ID: 72, start time:   389, end time:   403, shift:  0
+type:A, ID: 43, start time:   403, end time:   406, shift:  0
+type:A, ID: 47, start time:   406, end time:   411, shift:  0
+type:A, ID: 48, start time:   411, end time:   412, shift:  0
+type:P, ID: 79, start time:   412, end time:   413, shift: 29
+type:P, ID: 63, start time:   413, end time:   422, shift:  0
+type:A, ID: 48, start time:   422, end time:   426, shift:  0
+type:P, ID: 22, start time:   426, end time:   435, shift:  0
+type:P, ID: 79, start time:   435, end time:   444, shift:  7
+type:P, ID: 58, start time:   444, end time:   452, shift: 31
+type:P, ID: 14, start time:   452, end time:   458, shift: 23
+type:P, ID: 72, start time:   458, end time:   470, shift: 13
+type:P, ID: 63, start time:   470, end time:   482, shift:  0
+type:A, ID: 50, start time:   482, end time:   487, shift:  0
+type:A, ID: 56, start time:   487, end time:   492, shift:  0
+type:A, ID: 58, start time:   492, end time:   497, shift:  0
+type:P, ID: 22, start time:   497, end time:   507, shift:  0
+type:A, ID: 59, start time:   507, end time:   512, shift:  0
+type:A, ID: 74, start time:   512, end time:   513, shift:  0
+type:P, ID: 79, start time:   513, end time:   527, shift: 14
+type:P, ID: 14, start time:   527, end time:   528, shift: 30
+type:P, ID: 63, start time:   528, end time:   540, shift:  2
+type:P, ID: 14, start time:   540, end time:   543, shift: 18
+type:P, ID: 72, start time:   543, end time:   557, shift:  6
+type:P, ID: 22, start time:   557, end time:   565, shift: 14
+type:P, ID: 58, start time:   565, end time:   579, shift:  0
+type:A, ID: 74, start time:   579, end time:   583, shift:  0
+type:A, ID: 90, start time:   583, end time:   588, shift:  0
+type:A, ID: 92, start time:   588, end time:   592, shift:  0
+type:P, ID: 79, start time:   592, end time:   593, shift: 27
+type:P, ID: 63, start time:   593, end time:   602, shift:  0
+type:A, ID: 92, start time:   602, end time:   603, shift:  0
+type:A, ID: 15, start time:   603, end time:   607, shift:  0
+type:P, ID: 79, start time:   607, end time:   618, shift: 13
+type:P, ID: 14, start time:   618, end time:   621, shift: 20
+type:P, ID: 72, start time:   621, end time:   636, shift:  7
+type:P, ID: 22, start time:   636, end time:   646, shift:  5
+type:P, ID: 58, start time:   646, end time:   654, shift: 21
+type:P, ID: 63, start time:   654, end time:   662, shift:  0
+type:A, ID: 15, start time:   662, end time:   664, shift:  0
+type:A, ID: 40, start time:   664, end time:   668, shift:  0
+type:P, ID: 79, start time:   668, end time:   678, shift: 38
+type:P, ID: 14, start time:   678, end time:   684, shift: 37
+type:P, ID: 79, start time:   684, end time:   689, shift: 32
+type:P, ID: 22, start time:   689, end time:   698, shift: 25
+type:P, ID: 72, start time:   698, end time:   699, shift: 10
+type:P, ID: 63, start time:   699, end time:   709, shift: 13
+type:P, ID: 72, start time:   709, end time:   723, shift:  0
+type:A, ID: 40, start time:   723, end time:   725, shift:  0
+type:A, ID: 60, start time:   725, end time:   731, shift:  0
+type:A, ID: 70, start time:   731, end time:   737, shift:  0
+type:A, ID: 71, start time:   737, end time:   743, shift:  0
+type:A, ID: 75, start time:   743, end time:   749, shift:  0
+type:A, ID: 89, start time:   749, end time:   752, shift:  0
+type:P, ID: 58, start time:   752, end time:   761, shift: 10
+type:P, ID: 14, start time:   761, end time:   762, shift: 36
+type:P, ID: 63, start time:   762, end time:   774, shift:  8
+type:P, ID: 22, start time:   774, end time:   783, shift: 12
+type:P, ID: 14, start time:   783, end time:   786, shift: 15
+type:P, ID: 72, start time:   786, end time:   801, shift:  2
+type:P, ID: 79, start time:   801, end time:   811, shift:  0
+type:A, ID: 89, start time:   811, end time:   814, shift:  0
+type:A, ID: 95, start time:   814, end time:   820, shift:  0
+type:A, ID:  9, start time:   820, end time:   824, shift:  0
+type:P, ID: 58, start time:   824, end time:   830, shift: 37
+type:P, ID: 63, start time:   830, end time:   842, shift:  0
+type:A, ID:  9, start time:   842, end time:   845, shift:  0
+type:A, ID: 10, start time:   845, end time:   852, shift:  0
+type:A, ID: 11, start time:   852, end time:   854, shift:  0
+type:P, ID: 22, start time:   854, end time:   864, shift:  3
+type:P, ID: 14, start time:   864, end time:   868, shift: 13
+type:P, ID: 72, start time:   868, end time:   880, shift:  3
+type:P, ID: 79, start time:   880, end time:   894, shift:  7
+type:P, ID: 63, start time:   894, end time:   902, shift:  0
+type:A, ID: 11, start time:   902, end time:   907, shift:  0
+type:A, ID: 16, start time:   907, end time:   914, shift:  0
+type:A, ID: 29, start time:   914, end time:   915, shift:  0
+type:P, ID: 22, start time:   915, end time:   921, shift: 18
+type:P, ID: 58, start time:   921, end time:   929, shift: 30
+type:P, ID: 14, start time:   929, end time:   933, shift: 28
+type:P, ID: 58, start time:   933, end time:   937, shift: 26
+type:P, ID: 72, start time:   937, end time:   949, shift: 14
+type:P, ID: 79, start time:   949, end time:   950, shift: 28
+type:P, ID: 63, start time:   950, end time:   962, shift:  0
+type:A, ID: 29, start time:   962, end time:   968, shift:  0
+type:A, ID: 31, start time:   968, end time:   975, shift:  0
+type:A, ID: 36, start time:   975, end time:   978, shift:  0
+type:P, ID: 79, start time:   978, end time:   991, shift:  0
+type:A, ID: 36, start time:   991, end time:   995, shift:  0
+type:A, ID: 38, start time:   995, end time:  1002, shift:  0
+type:A, ID: 45, start time:  1002, end time:  1005, shift:  0
+type:P, ID: 22, start time:  1005, end time:  1011, shift:  0
+type:P, ID: 14, start time:  1011, end time:  1012, shift: 26
+type:P, ID: 63, start time:  1012, end time:  1022, shift:  0
+type:A, ID: 45, start time:  1022, end time:  1026, shift:  0
+type:A, ID: 49, start time:  1026, end time:  1028, shift:  0
+type:P, ID: 14, start time:  1028, end time:  1031, shift: 10
+type:P, ID: 72, start time:  1031, end time:  1043, shift:  0
+type:P, ID: 58, start time:  1043, end time:  1053, shift:  6
+type:P, ID: 79, start time:  1053, end time:  1065, shift: 16
+type:P, ID: 22, start time:  1065, end time:  1073, shift: 10
+type:P, ID: 63, start time:  1073, end time:  1082, shift:  0
+type:A, ID: 49, start time:  1082, end time:  1087, shift:  0
+type:A, ID: 63, start time:  1087, end time:  1094, shift:  0
+type:A, ID: 76, start time:  1094, end time:  1101, shift:  0
+type:A, ID: 83, start time:  1101, end time:  1104, shift:  0
+type:P, ID: 14, start time:  1104, end time:  1108, shift: 13
+type:P, ID: 72, start time:  1108, end time:  1123, shift:  0
+type:P, ID: 58, start time:  1123, end time:  1131, shift: 24
+type:P, ID: 79, start time:  1131, end time:  1132, shift: 26
+type:P, ID: 63, start time:  1132, end time:  1142, shift:  0
+type:A, ID: 83, start time:  1142, end time:  1146, shift:  0
+type:A, ID: 85, start time:  1146, end time:  1147, shift:  0
+type:P, ID: 22, start time:  1147, end time:  1155, shift:  0
+type:A, ID: 85, start time:  1155, end time:  1158, shift:  0
+type:P, ID: 79, start time:  1158, end time:  1171, shift:  0
+type:A, ID: 85, start time:  1171, end time:  1174, shift:  0
+type:P, ID: 14, start time:  1174, end time:  1178, shift: 23
+type:P, ID: 72, start time:  1178, end time:  1192, shift: 11
+type:P, ID: 63, start time:  1192, end time:  1202, shift:  0
+type:A, ID: 99, start time:  1202, end time:  1209, shift:  0
+type:A, ID:  3, start time:  1209, end time:  1217, shift:  0
+type:A, ID:  4, start time:  1217, end time:  1219, shift:  0
+type:P, ID: 22, start time:  1219, end time:  1227, shift:  0
+type:A, ID:  4, start time:  1227, end time:  1232, shift:  0
+type:P, ID: 58, start time:  1232, end time:  1242, shift:  9
+type:P, ID: 79, start time:  1242, end time:  1251, shift: 10
+type:P, ID: 14, start time:  1251, end time:  1252, shift: 24
+type:P, ID: 63, start time:  1252, end time:  1262, shift:  0
+type:A, ID:  4, start time:  1262, end time:  1263, shift:  0
+type:P, ID: 14, start time:  1263, end time:  1268, shift: 13
+type:P, ID: 72, start time:  1268, end time:  1283, shift:  0
+type:A, ID: 22, start time:  1283, end time:  1291, shift:  0
+type:P, ID: 22, start time:  1291, end time:  1299, shift:  0
+type:A, ID: 25, start time:  1299, end time:  1303, shift:  0
+type:P, ID: 58, start time:  1303, end time:  1314, shift: 30
+type:P, ID: 63, start time:  1314, end time:  1322, shift:  0
+type:A, ID: 25, start time:  1322, end time:  1326, shift:  0
+type:A, ID: 30, start time:  1326, end time:  1330, shift:  0
+type:P, ID: 58, start time:  1330, end time:  1333, shift: 14
+type:P, ID: 79, start time:  1333, end time:  1345, shift:  6
+type:P, ID: 14, start time:  1345, end time:  1349, shift: 12
+type:P, ID: 72, start time:  1349, end time:  1363, shift:  0
+type:A, ID: 30, start time:  1363, end time:  1365, shift:  0
+type:P, ID: 22, start time:  1365, end time:  1371, shift:  0
+type:P, ID: 63, start time:  1371, end time:  1381, shift:  1
+type:P, ID: 58, start time:  1381, end time:  1387, shift: 56
+type:P, ID: 79, start time:  1387, end time:  1395, shift: 39
+type:P, ID: 14, start time:  1395, end time:  1399, shift: 42
+type:P, ID: 79, start time:  1399, end time:  1406, shift: 35
+type:P, ID: 22, start time:  1406, end time:  1416, shift: 27
+type:P, ID: 63, start time:  1416, end time:  1426, shift: 16
+type:P, ID: 72, start time:  1426, end time:  1440, shift:  3
 Period (1)
-ID: 17, start time:  8101 end time:  8103, shift: 58
-ID: 81, start time:  8103 end time:  8113, shift:  0
-ID: 39, start time:  8113 end time:  8128, shift: 32
-ID: 17, start time:  8128 end time:  8148, shift: 13
-ID:  4, start time:  8148 end time:  8169, shift: 10
-ID: 26, start time:  8169 end time:  8177, shift: 15
-ID: 39, start time:  8183 end time:  8198, shift: 43
-ID:  4, start time:  8198 end time:  8203, shift: 66
-ID: 81, start time:  8203 end time:  8213, shift:  0
-ID: 17, start time:  8213 end time:  8235, shift: 26
-ID:  4, start time:  8235 end time:  8251, shift: 18
-ID: 26, start time:  8251 end time:  8259, shift: 33
-ID: 39, start time:  8264 end time:  8279, shift: 43
-ID:  4, start time:  8281 end time:  8302, shift: 57
-ID: 17, start time:  8302 end time:  8303, shift: 58
-ID: 81, start time:  8303 end time:  8313, shift:  0
-ID: 17, start time:  8313 end time:  8334, shift: 27
-ID: 26, start time:  8334 end time:  8342, shift: 50
-ID: 39, start time:  8345 end time:  8360, shift: 43
-ID:  4, start time:  8371 end time:  8392, shift: 57
-ID: 17, start time:  8401 end time:  8403, shift: 58
-ID: 81, start time:  8403 end time:  8413, shift:  0
-ID: 17, start time:  8413 end time:  8433, shift: 28
-ID: 39, start time:  8433 end time:  8448, shift: 36
-ID: 26, start time:  8448 end time:  8456, shift: 36
-ID:  4, start time:  8461 end time:  8482, shift: 57
-ID: 17, start time:  8501 end time:  8503, shift: 58
-ID: 81, start time:  8503 end time:  8513, shift:  0
-ID: 17, start time:  8513 end time:  8533, shift: 28
-ID: 39, start time:  8533 end time:  8548, shift: 17
-ID: 26, start time:  8548 end time:  8556, shift: 36
-ID:  4, start time:  8556 end time:  8577, shift: 52
-ID: 39, start time:  8588 end time:  8603, shift: 43
-ID: 81, start time:  8603 end time:  8613, shift:  0
-ID: 17, start time:  8613 end time:  8635, shift: 26
-ID: 26, start time:  8635 end time:  8643, shift: 49
-ID:  4, start time:  8643 end time:  8664, shift: 55
-ID: 39, start time:  8669 end time:  8684, shift: 43
-ID: 17, start time:  8701 end time:  8703, shift: 58
-ID: 81, start time:  8703 end time:  8713, shift:  0
-ID: 17, start time:  8713 end time:  8733, shift: 28
-ID: 26, start time:  8733 end time:  8741, shift: 51
-ID:  4, start time:  8741 end time:  8750, shift: 59
-ID: 39, start time:  8750 end time:  8765, shift: 43
-ID:  4, start time:  8765 end time:  8777, shift: 32
-ID: 17, start time:  8801 end time:  8803, shift: 58
-ID: 81, start time:  8803 end time:  8813, shift:  0
-ID: 17, start time:  8813 end time:  8833, shift: 28
-ID: 39, start time:  8833 end time:  8848, shift: 41
-ID: 26, start time:  8848 end time:  8856, shift: 36
-ID:  4, start time:  8856 end time:  8877, shift: 22
-ID: 17, start time:  8901 end time:  8903, shift: 58
-ID: 81, start time:  8903 end time:  8913, shift:  0
-ID: 17, start time:  8913 end time:  8933, shift: 28
-ID: 39, start time:  8933 end time:  8948, shift: 22
-ID:  4, start time:  8948 end time:  8969, shift: 20
-ID: 26, start time:  8969 end time:  8977, shift: 15
-ID: 39, start time:  8993 end time:  9003, shift: 48
-ID: 81, start time:  9003 end time:  9013, shift:  0
-ID: 39, start time:  9013 end time:  9018, shift: 33
-ID: 17, start time:  9018 end time:  9040, shift: 21
-ID:  4, start time:  9040 end time:  9061, shift: 18
-ID: 26, start time:  9061 end time:  9069, shift: 23
-ID: 39, start time:  9074 end time:  9089, shift: 43
-ID:  4, start time:  9091 end time:  9103, shift: 66
-ID: 81, start time:  9103 end time:  9113, shift:  0
-ID: 17, start time:  9113 end time:  9135, shift: 26
-ID:  4, start time:  9135 end time:  9144, shift: 25
-ID: 26, start time:  9144 end time:  9152, shift: 40
-ID: 39, start time:  9155 end time:  9170, shift: 43
-ID:  4, start time:  9181 end time:  9202, shift: 57
-ID: 17, start time:  9202 end time:  9203, shift: 58
-ID: 81, start time:  9203 end time:  9213, shift:  0
-ID: 17, start time:  9213 end time:  9234, shift: 27
-ID: 26, start time:  9234 end time:  9242, shift: 50
-ID: 39, start time:  9242 end time:  9257, shift: 37
-ID:  4, start time:  9271 end time:  9292, shift: 57
-ID: 17, start time:  9301 end time:  9303, shift: 58
-ID: 81, start time:  9303 end time:  9313, shift:  0
-ID: 17, start time:  9313 end time:  9333, shift: 28
-ID: 39, start time:  9333 end time:  9348, shift: 27
-ID: 26, start time:  9348 end time:  9356, shift: 36
-ID:  4, start time:  9361 end time:  9382, shift: 57
-ID: 39, start time:  9398 end time:  9403, shift: 53
-ID: 81, start time:  9403 end time:  9413, shift:  0
-ID: 39, start time:  9413 end time:  9423, shift: 33
-ID: 17, start time:  9423 end time:  9445, shift: 16
-ID: 26, start time:  9445 end time:  9453, shift: 39
-ID:  4, start time:  9453 end time:  9474, shift: 55
-ID: 39, start time:  9479 end time:  9494, shift: 43
-ID: 17, start time:  9501 end time:  9503, shift: 58
-ID: 81, start time:  9503 end time:  9513, shift:  0
-ID: 17, start time:  9513 end time:  9533, shift: 28
-ID: 26, start time:  9533 end time:  9541, shift: 51
-ID:  4, start time:  9541 end time:  9562, shift: 57
-ID: 39, start time:  9562 end time:  9577, shift: 41
-ID: 17, start time:  9601 end time:  9603, shift: 58
-ID: 81, start time:  9603 end time:  9613, shift:  0
-ID: 17, start time:  9613 end time:  9633, shift: 28
-ID: 26, start time:  9633 end time:  9641, shift: 51
-ID: 39, start time:  9641 end time:  9656, shift: 43
-ID:  4, start time:  9656 end time:  9677, shift: 32
-ID: 17, start time:  9701 end time:  9703, shift: 58
-ID: 81, start time:  9703 end time:  9713, shift:  0
-ID: 17, start time:  9713 end time:  9733, shift: 28
-ID: 39, start time:  9733 end time:  9748, shift: 32
-ID: 26, start time:  9748 end time:  9756, shift: 36
-ID:  4, start time:  9756 end time:  9777, shift: 22
-ID: 17, start time:  9801 end time:  9803, shift: 58
-ID: 81, start time:  9803 end time:  9813, shift:  0
-ID: 17, start time:  9813 end time:  9833, shift: 28
-ID: 39, start time:  9833 end time:  9848, shift: 13
-ID:  4, start time:  9848 end time:  9869, shift: 20
-ID: 26, start time:  9869 end time:  9877, shift: 15
-ID: 39, start time:  9884 end time:  9899, shift: 43
-ID: 17, start time:  9901 end time:  9903, shift: 58
-ID: 81, start time:  9903 end time:  9913, shift:  0
-ID: 17, start time:  9913 end time:  9933, shift: 28
-ID:  4, start time:  9933 end time:  9954, shift: 25
-ID: 26, start time:  9954 end time:  9962, shift: 30
-ID: 39, start time:  9965 end time:  9980, shift: 43
-ID:  4, start time:  9991 end time: 10003, shift: 66
-ID: 81, start time: 10003 end time: 10013, shift:  0
-ID: 17, start time: 10013 end time: 10035, shift: 26
-ID:  4, start time: 10035 end time: 10044, shift: 25
-ID: 26, start time: 10044 end time: 10052, shift: 40
-ID: 39, start time: 10052 end time: 10067, shift: 37
-ID:  4, start time: 10081 end time: 10102, shift: 57
-ID: 17, start time: 10102 end time: 10103, shift: 58
-ID: 81, start time: 10103 end time: 10113, shift:  0
-ID: 17, start time: 10113 end time: 10134, shift: 27
-ID: 39, start time: 10134 end time: 10149, shift: 36
-ID: 26, start time: 10149 end time: 10157, shift: 35
-ID:  4, start time: 10171 end time: 10192, shift: 57
-ID: 17, start time: 10201 end time: 10203, shift: 58
-ID: 81, start time: 10203 end time: 10213, shift:  0
-ID: 17, start time: 10213 end time: 10233, shift: 28
-ID: 39, start time: 10233 end time: 10248, shift: 18
-ID: 26, start time: 10248 end time: 10256, shift: 36
-ID:  4, start time: 10261 end time: 10282, shift: 57
-ID: 39, start time: 10289 end time: 10303, shift: 44
-ID: 81, start time: 10303 end time: 10313, shift:  0
-ID: 39, start time: 10313 end time: 10314, shift: 33
-ID: 17, start time: 10314 end time: 10336, shift: 25
-ID: 26, start time: 10336 end time: 10344, shift: 48
-ID:  4, start time: 10351 end time: 10372, shift: 57
-ID: 39, start time: 10372 end time: 10387, shift: 41
-ID: 17, start time: 10401 end time: 10403, shift: 58
-ID: 81, start time: 10403 end time: 10413, shift:  0
-ID: 17, start time: 10413 end time: 10433, shift: 28
-ID: 26, start time: 10433 end time: 10441, shift: 51
-ID:  4, start time: 10441 end time: 10451, shift: 68
-ID: 39, start time: 10451 end time: 10466, shift: 43
-ID:  4, start time: 10466 end time: 10477, shift: 42
-ID: 17, start time: 10501 end time: 10503, shift: 58
-ID: 81, start time: 10503 end time: 10513, shift:  0
-ID: 17, start time: 10513 end time: 10533, shift: 28
-ID: 39, start time: 10533 end time: 10548, shift: 42
-ID: 26, start time: 10548 end time: 10556, shift: 36
-ID:  4, start time: 10556 end time: 10577, shift: 32
-ID: 17, start time: 10601 end time: 10603, shift: 58
-ID: 81, start time: 10603 end time: 10613, shift:  0
-ID: 17, start time: 10613 end time: 10633, shift: 28
-ID: 39, start time: 10633 end time: 10648, shift: 23
-ID: 26, start time: 10648 end time: 10656, shift: 36
-ID:  4, start time: 10656 end time: 10677, shift: 22
-ID: 39, start time: 10694 end time: 10703, shift: 49
-ID: 81, start time: 10703 end time: 10713, shift:  0
-ID: 39, start time: 10713 end time: 10719, shift: 33
-ID: 17, start time: 10719 end time: 10741, shift: 20
-ID:  4, start time: 10741 end time: 10762, shift: 27
-ID: 26, start time: 10762 end time: 10770, shift: 22
-ID: 39, start time: 10775 end time: 10790, shift: 43
-ID: 17, start time: 10801 end time: 10803, shift: 58
-ID: 81, start time: 10803 end time: 10813, shift:  0
-ID: 17, start time: 10813 end time: 10833, shift: 28
-ID:  4, start time: 10833 end time: 10854, shift: 25
-ID: 26, start time: 10854 end time: 10862, shift: 30
-ID: 39, start time: 10862 end time: 10877, shift: 37
-ID:  4, start time: 10891 end time: 10903, shift: 66
-ID: 81, start time: 10903 end time: 10913, shift:  0
-ID: 17, start time: 10913 end time: 10935, shift: 26
-ID:  4, start time: 10935 end time: 10944, shift: 25
-ID: 26, start time: 10944 end time: 10952, shift: 40
-ID: 39, start time: 10952 end time: 10967, shift: 28
-ID:  4, start time: 10981 end time: 11002, shift: 57
-ID: 17, start time: 11002 end time: 11003, shift: 58
-ID: 81, start time: 11003 end time: 11013, shift:  0
-ID: 17, start time: 11013 end time: 11034, shift: 27
-ID: 39, start time: 11034 end time: 11049, shift: 27
-ID: 26, start time: 11049 end time: 11057, shift: 35
-ID:  4, start time: 11071 end time: 11092, shift: 57
-ID: 39, start time: 11099 end time: 11103, shift: 54
-ID: 81, start time: 11103 end time: 11113, shift:  0
-ID: 39, start time: 11113 end time: 11124, shift: 33
-ID: 17, start time: 11124 end time: 11146, shift: 15
-ID: 26, start time: 11146 end time: 11154, shift: 38
-ID:  4, start time: 11161 end time: 11182, shift: 57
-ID: 39, start time: 11182 end time: 11197, shift: 41
-ID: 17, start time: 11201 end time: 11203, shift: 58
-ID: 81, start time: 11203 end time: 11213, shift:  0
-ID: 17, start time: 11213 end time: 11233, shift: 28
-ID: 26, start time: 11233 end time: 11241, shift: 51
-ID:  4, start time: 11251 end time: 11272, shift: 57
-ID: 39, start time: 11272 end time: 11287, shift: 32
-ID: 17, start time: 11301 end time: 11303, shift: 58
-ID: 81, start time: 11303 end time: 11313, shift:  0
-ID: 17, start time: 11313 end time: 11333, shift: 28
-ID: 26, start time: 11333 end time: 11341, shift: 51
-ID:  4, start time: 11341 end time: 11342, shift: 77
-ID: 39, start time: 11342 end time: 11357, shift: 43
-ID:  4, start time: 11357 end time: 11377, shift: 42
-ID: 17, start time: 11401 end time: 11403, shift: 58
-ID: 81, start time: 11403 end time: 11413, shift:  0
-ID: 17, start time: 11413 end time: 11433, shift: 28
-ID: 39, start time: 11433 end time: 11448, shift: 33
-ID: 26, start time: 11448 end time: 11456, shift: 36
-ID:  4, start time: 11456 end time: 11477, shift: 32
-ID: 17, start time: 11501 end time: 11503, shift: 58
-ID: 81, start time: 11503 end time: 11513, shift:  0
-ID: 17, start time: 11513 end time: 11533, shift: 28
-ID: 39, start time: 11533 end time: 11548, shift: 14
-ID: 26, start time: 11548 end time: 11556, shift: 36
-ID:  4, start time: 11556 end time: 11577, shift: 22
-ID: 39, start time: 11585 end time: 11600, shift: 43
-ID: 17, start time: 11601 end time: 11603, shift: 58
-ID: 81, start time: 11603 end time: 11613, shift:  0
-ID: 17, start time: 11613 end time: 11633, shift: 28
-ID:  4, start time: 11633 end time: 11654, shift: 35
-ID: 26, start time: 11654 end time: 11662, shift: 30
-ID: 39, start time: 11666 end time: 11681, shift: 43
-ID: 17, start time: 11701 end time: 11703, shift: 58
-ID: 81, start time: 11703 end time: 11713, shift:  0
-ID: 17, start time: 11713 end time: 11733, shift: 28
-ID:  4, start time: 11733 end time: 11754, shift: 25
-ID: 26, start time: 11754 end time: 11762, shift: 30
-ID: 39, start time: 11762 end time: 11777, shift: 28
-ID:  4, start time: 11791 end time: 11803, shift: 66
-ID: 81, start time: 11803 end time: 11813, shift:  0
-ID: 17, start time: 11813 end time: 11835, shift: 26
-ID:  4, start time: 11835 end time: 11844, shift: 25
-ID: 39, start time: 11844 end time: 11859, shift: 27
-ID: 26, start time: 11859 end time: 11867, shift: 25
-ID:  4, start time: 11881 end time: 11902, shift: 57
-ID: 17, start time: 11902 end time: 11903, shift: 58
-ID: 81, start time: 11903 end time: 11913, shift:  0
-ID: 17, start time: 11913 end time: 11934, shift: 27
-ID: 39, start time: 11934 end time: 11949, shift: 18
-ID: 26, start time: 11949 end time: 11957, shift: 35
-ID:  4, start time: 11971 end time: 11992, shift: 57
-ID: 39, start time: 11992 end time: 12003, shift: 45
-ID: 81, start time: 12003 end time: 12013, shift:  0
-ID: 39, start time: 12013 end time: 12017, shift: 31
-ID: 17, start time: 12017 end time: 12039, shift: 22
-ID: 26, start time: 12039 end time: 12047, shift: 45
-ID:  4, start time: 12061 end time: 12082, shift: 57
-ID: 39, start time: 12082 end time: 12097, shift: 32
-ID: 17, start time: 12101 end time: 12103, shift: 58
-ID: 81, start time: 12103 end time: 12113, shift:  0
-ID: 17, start time: 12113 end time: 12133, shift: 28
-ID: 26, start time: 12133 end time: 12141, shift: 51
-ID:  4, start time: 12151 end time: 12152, shift: 77
-ID: 39, start time: 12152 end time: 12167, shift: 43
-ID:  4, start time: 12167 end time: 12187, shift: 42
-ID: 17, start time: 12201 end time: 12203, shift: 58
-ID: 81, start time: 12203 end time: 12213, shift:  0
-ID: 17, start time: 12213 end time: 12233, shift: 28
-ID: 39, start time: 12233 end time: 12248, shift: 43
-ID: 26, start time: 12248 end time: 12256, shift: 36
-ID:  4, start time: 12256 end time: 12277, shift: 42
-ID: 17, start time: 12301 end time: 12303, shift: 58
-ID: 81, start time: 12303 end time: 12313, shift:  0
-ID: 17, start time: 12313 end time: 12333, shift: 28
-ID: 39, start time: 12333 end time: 12348, shift: 24
-ID: 26, start time: 12348 end time: 12356, shift: 36
-ID:  4, start time: 12356 end time: 12377, shift: 32
-ID: 39, start time: 12395 end time: 12403, shift: 50
-ID: 81, start time: 12403 end time: 12413, shift:  0
-ID: 39, start time: 12413 end time: 12420, shift: 33
-ID: 17, start time: 12420 end time: 12442, shift: 19
-ID: 26, start time: 12442 end time: 12450, shift: 42
-ID:  4, start time: 12450 end time: 12471, shift: 28
-ID: 39, start time: 12476 end time: 12491, shift: 43
-ID: 17, start time: 12501 end time: 12503, shift: 58
-ID: 81, start time: 12503 end time: 12513, shift:  0
-ID: 17, start time: 12513 end time: 12533, shift: 28
-ID:  4, start time: 12533 end time: 12554, shift: 35
-ID: 26, start time: 12554 end time: 12562, shift: 30
-ID: 39, start time: 12562 end time: 12577, shift: 38
-ID: 17, start time: 12601 end time: 12603, shift: 58
-ID: 81, start time: 12603 end time: 12613, shift:  0
-ID: 17, start time: 12613 end time: 12633, shift: 28
-ID:  4, start time: 12633 end time: 12654, shift: 25
-ID: 26, start time: 12654 end time: 12662, shift: 30
-ID: 39, start time: 12662 end time: 12677, shift: 19
-ID:  4, start time: 12691 end time: 12703, shift: 66
-ID: 81, start time: 12703 end time: 12713, shift:  0
-ID: 17, start time: 12713 end time: 12735, shift: 26
-ID:  4, start time: 12735 end time: 12744, shift: 25
-ID: 39, start time: 12744 end time: 12759, shift: 18
-ID: 26, start time: 12759 end time: 12767, shift: 25
-ID:  4, start time: 12781 end time: 12802, shift: 57
-ID: 39, start time: 12802 end time: 12803, shift: 55
-ID: 81, start time: 12803 end time: 12813, shift:  0
-ID: 39, start time: 12813 end time: 12827, shift: 31
-ID: 17, start time: 12827 end time: 12849, shift: 12
-ID: 26, start time: 12849 end time: 12857, shift: 35
-ID:  4, start time: 12871 end time: 12892, shift: 57
-ID: 39, start time: 12892 end time: 12903, shift: 36
-ID: 81, start time: 12903 end time: 12913, shift:  0
-ID: 39, start time: 12913 end time: 12917, shift: 22
-ID: 17, start time: 12917 end time: 12939, shift: 22
-ID: 26, start time: 12939 end time: 12947, shift: 45
-ID:  4, start time: 12961 end time: 12982, shift: 57
-ID: 39, start time: 12982 end time: 12997, shift: 23
-ID: 17, start time: 13001 end time: 13003, shift: 58
-ID: 81, start time: 13003 end time: 13013, shift:  0
-ID: 17, start time: 13013 end time: 13033, shift: 28
-ID: 26, start time: 13033 end time: 13041, shift: 51
-ID: 39, start time: 13043 end time: 13058, shift: 43
-ID:  4, start time: 13058 end time: 13079, shift: 50
-ID: 17, start time: 13101 end time: 13103, shift: 58
-ID: 81, start time: 13103 end time: 13113, shift:  0
-ID: 17, start time: 13113 end time: 13133, shift: 28
-ID: 39, start time: 13133 end time: 13148, shift: 34
-ID: 26, start time: 13148 end time: 13156, shift: 36
-ID:  4, start time: 13156 end time: 13177, shift: 42
-ID: 17, start time: 13201 end time: 13203, shift: 58
-ID: 81, start time: 13203 end time: 13213, shift:  0
-ID: 17, start time: 13213 end time: 13233, shift: 28
-ID: 39, start time: 13233 end time: 13248, shift: 15
-ID: 26, start time: 13248 end time: 13256, shift: 36
-ID:  4, start time: 13256 end time: 13277, shift: 32
-ID: 39, start time: 13286 end time: 13301, shift: 43
-ID: 17, start time: 13301 end time: 13303, shift: 58
-ID: 81, start time: 13303 end time: 13313, shift:  0
-ID: 17, start time: 13313 end time: 13333, shift: 28
-ID: 26, start time: 13333 end time: 13341, shift: 51
-ID:  4, start time: 13341 end time: 13362, shift: 37
-ID: 39, start time: 13367 end time: 13382, shift: 43
-ID: 17, start time: 13401 end time: 13403, shift: 58
-ID: 81, start time: 13403 end time: 13413, shift:  0
-ID: 17, start time: 13413 end time: 13433, shift: 28
-ID:  4, start time: 13433 end time: 13454, shift: 35
-ID: 26, start time: 13454 end time: 13462, shift: 30
-ID: 39, start time: 13462 end time: 13477, shift: 29
-ID: 17, start time: 13501 end time: 13503, shift: 58
-ID: 81, start time: 13503 end time: 13513, shift:  0
-ID: 17, start time: 13513 end time: 13533, shift: 28
-ID:  4, start time: 13533 end time: 13554, shift: 25
-ID: 39, start time: 13554 end time: 13569, shift: 18
-ID: 26, start time: 13569 end time: 13577, shift: 15
-ID:  4, start time: 13591 end time: 13603, shift: 66
-ID: 81, start time: 13603 end time: 13613, shift:  0
-ID: 17, start time: 13613 end time: 13635, shift: 26
-ID: 39, start time: 13635 end time: 13650, shift: 18
-ID:  4, start time: 13650 end time: 13659, shift: 10
-ID: 26, start time: 13659 end time: 13667, shift: 25
-ID:  4, start time: 13681 end time: 13702, shift: 57
-ID: 39, start time: 13702 end time: 13703, shift: 46
-ID: 81, start time: 13703 end time: 13713, shift:  0
-ID: 39, start time: 13713 end time: 13727, shift: 22
-ID: 17, start time: 13727 end time: 13749, shift: 12
-ID: 26, start time: 13749 end time: 13757, shift: 35
-ID:  4, start time: 13771 end time: 13792, shift: 57
-ID: 39, start time: 13792 end time: 13803, shift: 27
-ID: 81, start time: 13803 end time: 13813, shift:  0
-ID: 39, start time: 13813 end time: 13817, shift: 13
-ID: 17, start time: 13817 end time: 13839, shift: 22
-ID: 26, start time: 13839 end time: 13847, shift: 45
-ID: 39, start time: 13853 end time: 13868, shift: 43
-ID:  4, start time: 13868 end time: 13889, shift: 50
-ID: 17, start time: 13901 end time: 13903, shift: 58
-ID: 81, start time: 13903 end time: 13913, shift:  0
-ID: 17, start time: 13913 end time: 13933, shift: 28
-ID: 26, start time: 13933 end time: 13934, shift: 58
-ID: 39, start time: 13934 end time: 13949, shift: 43
-ID: 26, start time: 13949 end time: 13956, shift: 36
-ID:  4, start time: 13956 end time: 13977, shift: 52
-ID: 17, start time: 14001 end time: 14003, shift: 58
-ID: 81, start time: 14003 end time: 14013, shift:  0
-ID: 17, start time: 14013 end time: 14033, shift: 28
-ID: 39, start time: 14033 end time: 14048, shift: 25
-ID: 26, start time: 14048 end time: 14056, shift: 36
-ID:  4, start time: 14056 end time: 14077, shift: 42
-ID: 39, start time: 14096 end time: 14103, shift: 51
-ID: 81, start time: 14103 end time: 14113, shift:  0
-ID: 39, start time: 14113 end time: 14121, shift: 33
-ID: 17, start time: 14121 end time: 14143, shift: 18
-ID: 26, start time: 14143 end time: 14151, shift: 41
-ID:  4, start time: 14151 end time: 14172, shift: 37
-ID: 39, start time: 14177 end time: 14192, shift: 43
-ID: 17, start time: 14201 end time: 14203, shift: 58
-ID: 81, start time: 14203 end time: 14213, shift:  0
-ID: 17, start time: 14213 end time: 14233, shift: 28
-ID: 26, start time: 14233 end time: 14241, shift: 51
-ID:  4, start time: 14241 end time: 14262, shift: 37
-ID: 39, start time: 14262 end time: 14277, shift: 39
-ID: 17, start time: 14301 end time: 14303, shift: 58
-ID: 81, start time: 14303 end time: 14313, shift:  0
-ID: 17, start time: 14313 end time: 14333, shift: 28
-ID:  4, start time: 14333 end time: 14354, shift: 35
-ID: 26, start time: 14354 end time: 14362, shift: 30
-ID: 39, start time: 14362 end time: 14377, shift: 20
-ID: 17, start time: 14401 end time: 14403, shift: 58
-ID: 81, start time: 14403 end time: 14413, shift:  0
-ID: 17, start time: 14413 end time: 14433, shift: 28
-ID: 39, start time: 14433 end time: 14448, shift: 30
-ID:  4, start time: 14448 end time: 14469, shift: 10
-ID: 26, start time: 14469 end time: 14477, shift: 15
-ID:  4, start time: 14491 end time: 14503, shift: 66
-ID: 81, start time: 14503 end time: 14513, shift:  0
-ID: 39, start time: 14513 end time: 14528, shift: 31
-ID: 17, start time: 14528 end time: 14550, shift: 11
-ID:  4, start time: 14550 end time: 14559, shift: 10
-ID: 26, start time: 14559 end time: 14567, shift: 25
-ID:  4, start time: 14581 end time: 14602, shift: 57
-ID: 39, start time: 14602 end time: 14603, shift: 37
-ID: 81, start time: 14603 end time: 14613, shift:  0
-ID: 39, start time: 14613 end time: 14627, shift: 13
-ID: 17, start time: 14627 end time: 14649, shift: 12
-ID: 26, start time: 14649 end time: 14657, shift: 35
-ID: 39, start time: 14663 end time: 14678, shift: 43
-ID:  4, start time: 14678 end time: 14699, shift: 50
-ID: 17, start time: 14701 end time: 14703, shift: 58
-ID: 81, start time: 14703 end time: 14713, shift:  0
-ID: 17, start time: 14713 end time: 14733, shift: 28
-ID: 26, start time: 14733 end time: 14741, shift: 51
-ID: 39, start time: 14744 end time: 14759, shift: 43
-ID:  4, start time: 14761 end time: 14782, shift: 57
-ID: 17, start time: 14801 end time: 14803, shift: 58
-ID: 81, start time: 14803 end time: 14813, shift:  0
-ID: 17, start time: 14813 end time: 14833, shift: 28
-ID: 39, start time: 14833 end time: 14848, shift: 35
-ID: 26, start time: 14848 end time: 14856, shift: 36
-ID:  4, start time: 14856 end time: 14877, shift: 52
-ID: 17, start time: 14901 end time: 14903, shift: 58
-ID: 81, start time: 14903 end time: 14913, shift:  0
-ID: 17, start time: 14913 end time: 14933, shift: 28
-ID: 39, start time: 14933 end time: 14948, shift: 16
-ID: 26, start time: 14948 end time: 14956, shift: 36
-ID:  4, start time: 14956 end time: 14977, shift: 42
-ID: 39, start time: 14987 end time: 15002, shift: 43
-ID: 17, start time: 15002 end time: 15003, shift: 58
-ID: 81, start time: 15003 end time: 15013, shift:  0
-ID: 17, start time: 15013 end time: 15034, shift: 27
-ID: 26, start time: 15034 end time: 15042, shift: 50
-ID:  4, start time: 15042 end time: 15063, shift: 46
-ID: 39, start time: 15068 end time: 15083, shift: 43
-ID: 17, start time: 15101 end time: 15103, shift: 58
-ID: 81, start time: 15103 end time: 15113, shift:  0
-ID: 17, start time: 15113 end time: 15133, shift: 28
-ID: 26, start time: 15133 end time: 15141, shift: 51
-ID:  4, start time: 15141 end time: 15162, shift: 37
-ID: 39, start time: 15162 end time: 15177, shift: 30
-ID: 17, start time: 15201 end time: 15203, shift: 58
-ID: 81, start time: 15203 end time: 15213, shift:  0
-ID: 17, start time: 15213 end time: 15233, shift: 28
-ID: 39, start time: 15233 end time: 15248, shift: 40
-ID:  4, start time: 15248 end time: 15269, shift: 20
-ID: 26, start time: 15269 end time: 15277, shift: 15
-ID: 17, start time: 15301 end time: 15303, shift: 58
-ID: 81, start time: 15303 end time: 15313, shift:  0
-ID: 17, start time: 15313 end time: 15333, shift: 28
-ID: 39, start time: 15333 end time: 15348, shift: 21
-ID:  4, start time: 15348 end time: 15369, shift: 10
-ID: 26, start time: 15369 end time: 15377, shift: 15
-ID:  4, start time: 15391 end time: 15403, shift: 66
-ID: 81, start time: 15403 end time: 15413, shift:  0
-ID: 39, start time: 15413 end time: 15428, shift: 22
-ID: 17, start time: 15428 end time: 15450, shift: 11
-ID:  4, start time: 15450 end time: 15459, shift: 10
-ID: 26, start time: 15459 end time: 15467, shift: 25
-ID: 39, start time: 15473 end time: 15488, shift: 43
-ID:  4, start time: 15488 end time: 15503, shift: 56
-ID: 81, start time: 15503 end time: 15513, shift:  0
-ID:  4, start time: 15513 end time: 15519, shift: 40
-ID: 17, start time: 15519 end time: 15541, shift: 20
-ID: 26, start time: 15541 end time: 15549, shift: 43
-ID: 39, start time: 15554 end time: 15569, shift: 43
-ID:  4, start time: 15571 end time: 15592, shift: 57
-ID: 17, start time: 15601 end time: 15603, shift: 58
-ID: 81, start time: 15603 end time: 15613, shift:  0
-ID: 17, start time: 15613 end time: 15633, shift: 28
-ID: 26, start time: 15633 end time: 15641, shift: 51
-ID: 39, start time: 15641 end time: 15656, shift: 37
-ID:  4, start time: 15661 end time: 15682, shift: 57
-ID: 17, start time: 15701 end time: 15703, shift: 58
-ID: 81, start time: 15703 end time: 15713, shift:  0
-ID: 17, start time: 15713 end time: 15733, shift: 28
-ID: 39, start time: 15733 end time: 15748, shift: 26
-ID: 26, start time: 15748 end time: 15756, shift: 36
-ID:  4, start time: 15756 end time: 15777, shift: 52
-ID: 39, start time: 15797 end time: 15803, shift: 52
-ID: 81, start time: 15803 end time: 15813, shift:  0
-ID: 39, start time: 15813 end time: 15822, shift: 33
-ID: 17, start time: 15822 end time: 15844, shift: 17
-ID: 26, start time: 15844 end time: 15852, shift: 40
-ID:  4, start time: 15852 end time: 15873, shift: 46
-ID: 39, start time: 15878 end time: 15893, shift: 43
-ID: 17, start time: 15901 end time: 15903, shift: 58
-ID: 81, start time: 15903 end time: 15913, shift:  0
-ID: 17, start time: 15913 end time: 15933, shift: 28
-ID: 26, start time: 15933 end time: 15941, shift: 51
-ID:  4, start time: 15941 end time: 15962, shift: 47
-ID: 39, start time: 15962 end time: 15977, shift: 40
-ID: 17, start time: 16001 end time: 16003, shift: 58
-ID: 81, start time: 16003 end time: 16013, shift:  0
-ID: 17, start time: 16013 end time: 16033, shift: 28
-ID: 26, start time: 16033 end time: 16041, shift: 51
-ID: 39, start time: 16041 end time: 16056, shift: 42
-ID:  4, start time: 16056 end time: 16077, shift: 22
-ID: 17, start time: 16101 end time: 16103, shift: 58
-ID: 81, start time: 16103 end time: 16113, shift:  0
-ID: 17, start time: 16113 end time: 16133, shift: 28
-ID: 39, start time: 16133 end time: 16148, shift: 31
-ID:  4, start time: 16148 end time: 16169, shift: 20
-ID: 26, start time: 16169 end time: 16177, shift: 15
+type:A, ID: 30, start time:  1440, end time:  1442, shift:  0
+type:A, ID: 57, start time:  1442, end time:  1450, shift:  0
+type:A, ID: 61, start time:  1450, end time:  1458, shift:  0
+type:A, ID: 68, start time:  1458, end time:  1466, shift:  0
+type:A, ID: 69, start time:  1466, end time:  1474, shift:  0
+type:A, ID: 77, start time:  1474, end time:  1482, shift:  0
+type:A, ID: 79, start time:  1482, end time:  1483, shift:  0
+type:P, ID: 14, start time:  1483, end time:  1484, shift: 32
+type:P, ID: 63, start time:  1484, end time:  1490, shift: 12
+type:P, ID: 22, start time:  1490, end time:  1498, shift: 17
+type:P, ID: 14, start time:  1498, end time:  1503, shift: 18
+type:P, ID: 72, start time:  1503, end time:  1515, shift:  8
+type:P, ID: 79, start time:  1515, end time:  1525, shift:  6
+type:P, ID: 58, start time:  1525, end time:  1539, shift:  0
+type:A, ID: 79, start time:  1539, end time:  1546, shift:  0
+type:A, ID: 80, start time:  1546, end time:  1550, shift:  0
+type:P, ID: 63, start time:  1550, end time:  1562, shift:  0
+type:A, ID: 80, start time:  1562, end time:  1563, shift:  0
+type:P, ID: 22, start time:  1563, end time:  1572, shift: 15
+type:P, ID: 14, start time:  1572, end time:  1576, shift: 25
+type:P, ID: 72, start time:  1576, end time:  1588, shift: 15
+type:P, ID: 79, start time:  1588, end time:  1602, shift: 19
+type:P, ID: 58, start time:  1602, end time:  1610, shift: 21
+type:P, ID: 63, start time:  1610, end time:  1622, shift:  0
+type:A, ID: 80, start time:  1622, end time:  1625, shift:  0
+type:A, ID: 81, start time:  1625, end time:  1631, shift:  0
+type:P, ID: 58, start time:  1631, end time:  1635, shift:  0
+type:A, ID: 81, start time:  1635, end time:  1637, shift:  0
+type:A, ID: 94, start time:  1637, end time:  1645, shift:  0
+type:A, ID: 98, start time:  1645, end time:  1647, shift:  0
+type:P, ID: 22, start time:  1647, end time:  1653, shift:  6
+type:P, ID: 14, start time:  1653, end time:  1659, shift: 22
+type:P, ID: 72, start time:  1659, end time:  1674, shift:  9
+type:P, ID: 63, start time:  1674, end time:  1682, shift:  0
+type:A, ID: 98, start time:  1682, end time:  1688, shift:  0
+type:A, ID:  5, start time:  1688, end time:  1696, shift:  0
+type:P, ID: 79, start time:  1696, end time:  1711, shift:  0
+type:A, ID:  5, start time:  1711, end time:  1712, shift:  0
+type:A, ID:  8, start time:  1712, end time:  1713, shift:  0
+type:P, ID: 58, start time:  1713, end time:  1721, shift: 10
+type:P, ID: 22, start time:  1721, end time:  1729, shift:  2
+type:P, ID: 14, start time:  1729, end time:  1730, shift: 26
+type:P, ID: 63, start time:  1730, end time:  1742, shift:  0
+type:A, ID:  8, start time:  1742, end time:  1744, shift:  0
+type:P, ID: 14, start time:  1744, end time:  1749, shift: 12
+type:P, ID: 72, start time:  1749, end time:  1763, shift:  0
+type:A, ID:  8, start time:  1763, end time:  1764, shift:  0
+type:P, ID: 79, start time:  1764, end time:  1779, shift: 22
+type:P, ID: 22, start time:  1779, end time:  1788, shift: 15
+type:P, ID: 58, start time:  1788, end time:  1790, shift: 25
+type:P, ID: 63, start time:  1790, end time:  1802, shift:  0
+type:A, ID:  8, start time:  1802, end time:  1807, shift:  0
+type:A, ID: 26, start time:  1807, end time:  1811, shift:  0
+type:P, ID: 58, start time:  1811, end time:  1823, shift:  4
+type:P, ID: 14, start time:  1823, end time:  1829, shift: 12
+type:P, ID: 72, start time:  1829, end time:  1843, shift:  0
+type:A, ID: 26, start time:  1843, end time:  1847, shift:  0
+type:P, ID: 79, start time:  1847, end time:  1848, shift: 34
+type:P, ID: 63, start time:  1848, end time:  1860, shift:  2
+type:P, ID: 22, start time:  1860, end time:  1868, shift:  7
+type:P, ID: 79, start time:  1868, end time:  1877, shift: 14
+type:P, ID: 58, start time:  1877, end time:  1887, shift: 32
+type:P, ID: 14, start time:  1887, end time:  1893, shift: 28
+type:P, ID: 58, start time:  1893, end time:  1897, shift: 26
+type:P, ID: 72, start time:  1897, end time:  1908, shift: 12
+type:P, ID: 63, start time:  1908, end time:  1920, shift:  2
+type:P, ID: 72, start time:  1920, end time:  1923, shift:  0
+type:A, ID: 26, start time:  1923, end time:  1924, shift:  0
+type:A, ID: 32, start time:  1924, end time:  1933, shift:  0
+type:A, ID: 44, start time:  1933, end time:  1937, shift:  0
+type:P, ID: 22, start time:  1937, end time:  1947, shift:  0
+type:A, ID: 44, start time:  1947, end time:  1952, shift:  0
+type:A, ID: 51, start time:  1952, end time:  1959, shift:  0
+type:P, ID: 79, start time:  1959, end time:  1969, shift: 12
+type:P, ID: 14, start time:  1969, end time:  1970, shift: 26
+type:P, ID: 63, start time:  1970, end time:  1982, shift:  0
+type:A, ID: 51, start time:  1982, end time:  1984, shift:  0
+type:P, ID: 14, start time:  1984, end time:  1989, shift: 12
+type:P, ID: 72, start time:  1989, end time:  2003, shift:  0
+type:P, ID: 22, start time:  2003, end time:  2013, shift:  6
+type:P, ID: 58, start time:  2013, end time:  2019, shift:  0
+type:A, ID: 53, start time:  2019, end time:  2028, shift:  0
+type:A, ID: 62, start time:  2028, end time:  2029, shift:  0
+type:P, ID: 79, start time:  2029, end time:  2030, shift: 27
+type:P, ID: 63, start time:  2030, end time:  2042, shift:  0
+type:A, ID: 62, start time:  2042, end time:  2048, shift:  0
+type:P, ID: 79, start time:  2048, end time:  2062, shift:  9
+type:P, ID: 14, start time:  2062, end time:  2066, shift: 15
+type:P, ID: 72, start time:  2066, end time:  2080, shift:  3
+type:P, ID: 22, start time:  2080, end time:  2090, shift:  1
+type:P, ID: 58, start time:  2090, end time:  2096, shift: 17
+type:P, ID: 63, start time:  2096, end time:  2102, shift:  0
+type:A, ID: 62, start time:  2102, end time:  2104, shift:  0
+type:A, ID: 67, start time:  2104, end time:  2108, shift:  0
+type:P, ID: 58, start time:  2108, end time:  2110, shift:  5
+type:P, ID: 79, start time:  2110, end time:  2120, shift: 36
+type:P, ID: 14, start time:  2120, end time:  2126, shift: 35
+type:P, ID: 79, start time:  2126, end time:  2131, shift: 30
+type:P, ID: 22, start time:  2131, end time:  2140, shift: 23
+type:P, ID: 72, start time:  2140, end time:  2141, shift:  8
+type:P, ID: 63, start time:  2141, end time:  2149, shift: 13
+type:P, ID: 72, start time:  2149, end time:  2163, shift:  0
+type:A, ID: 67, start time:  2163, end time:  2168, shift:  0
+type:A, ID: 91, start time:  2168, end time:  2177, shift:  0
+type:P, ID: 58, start time:  2194, end time:  2204, shift:  7
+type:P, ID: 14, start time:  2204, end time:  2205, shift: 34
+type:P, ID: 63, start time:  2205, end time:  2211, shift: 11
+type:P, ID: 22, start time:  2211, end time:  2221, shift: 14
+type:P, ID: 14, start time:  2221, end time:  2223, shift: 18
+type:P, ID: 72, start time:  2223, end time:  2237, shift:  6
+type:P, ID: 79, start time:  2237, end time:  2251, shift:  0
+type:P, ID: 58, start time:  2261, end time:  2270, shift: 37
+type:P, ID: 63, start time:  2270, end time:  2282, shift:  0
+type:P, ID: 22, start time:  2292, end time:  2302, shift:  5
+type:P, ID: 14, start time:  2302, end time:  2308, shift: 13
+type:P, ID: 72, start time:  2308, end time:  2323, shift:  0
+type:P, ID: 79, start time:  2324, end time:  2336, shift:  5
+type:P, ID: 63, start time:  2336, end time:  2342, shift:  0
+type:P, ID: 22, start time:  2358, end time:  2366, shift: 13
+type:P, ID: 58, start time:  2366, end time:  2372, shift: 29
+type:P, ID: 14, start time:  2372, end time:  2376, shift: 25
+type:P, ID: 58, start time:  2376, end time:  2378, shift: 25
+type:P, ID: 72, start time:  2378, end time:  2392, shift: 11
+type:P, ID: 79, start time:  2392, end time:  2393, shift: 27
+type:P, ID: 63, start time:  2393, end time:  2402, shift:  0
+type:P, ID: 79, start time:  2420, end time:  2431, shift:  0
+type:P, ID: 22, start time:  2443, end time:  2451, shift:  0
+type:P, ID: 14, start time:  2455, end time:  2456, shift: 22
+type:P, ID: 63, start time:  2456, end time:  2462, shift:  0
+type:P, ID: 14, start time:  2468, end time:  2471, shift: 10
+type:P, ID: 72, start time:  2471, end time:  2483, shift:  0
+type:P, ID: 58, start time:  2487, end time:  2493, shift:  6
+type:P, ID: 79, start time:  2493, end time:  2508, shift: 13
+type:P, ID: 22, start time:  2508, end time:  2516, shift:  7
+type:P, ID: 63, start time:  2516, end time:  2522, shift:  0
+type:P, ID: 14, start time:  2544, end time:  2548, shift: 13
+type:P, ID: 72, start time:  2548, end time:  2563, shift:  0
+type:P, ID: 58, start time:  2569, end time:  2575, shift: 20
+type:P, ID: 79, start time:  2575, end time:  2576, shift: 27
+type:P, ID: 63, start time:  2576, end time:  2582, shift:  0
+type:P, ID: 22, start time:  2586, end time:  2595, shift:  0
+type:P, ID: 79, start time:  2603, end time:  2611, shift:  0
+type:P, ID: 14, start time:  2614, end time:  2620, shift: 21
+type:P, ID: 72, start time:  2620, end time:  2634, shift:  9
+type:P, ID: 63, start time:  2634, end time:  2642, shift:  0
+type:P, ID: 22, start time:  2659, end time:  2667, shift:  0
+type:P, ID: 58, start time:  2674, end time:  2686, shift:  5
+type:P, ID: 79, start time:  2686, end time:  2695, shift:  6
+type:P, ID: 14, start time:  2695, end time:  2696, shift: 20
+type:P, ID: 63, start time:  2696, end time:  2702, shift:  0
+type:P, ID: 14, start time:  2704, end time:  2709, shift: 12
+type:P, ID: 72, start time:  2709, end time:  2723, shift:  0
+type:P, ID: 22, start time:  2731, end time:  2739, shift:  0
+type:P, ID: 58, start time:  2747, end time:  2753, shift: 34
+type:P, ID: 79, start time:  2753, end time:  2754, shift: 23
+type:P, ID: 63, start time:  2754, end time:  2762, shift:  0
+type:P, ID: 79, start time:  2766, end time:  2780, shift: 11
+type:P, ID: 14, start time:  2780, end time:  2786, shift: 15
+type:P, ID: 72, start time:  2786, end time:  2800, shift:  3
+type:P, ID: 22, start time:  2800, end time:  2810, shift:  1
+type:P, ID: 63, start time:  2810, end time:  2822, shift:  0
+type:P, ID: 58, start time:  2830, end time:  2838, shift: 45
+type:P, ID: 79, start time:  2838, end time:  2844, shift: 34
+type:P, ID: 14, start time:  2844, end time:  2847, shift: 34
+type:P, ID: 79, start time:  2847, end time:  2850, shift: 31
+type:P, ID: 72, start time:  2850, end time:  2864, shift: 19
+type:P, ID: 22, start time:  2864, end time:  2865, shift: 11
+type:P, ID: 63, start time:  2865, end time:  2873, shift:  9
+type:P, ID: 22, start time:  2873, end time:  2880, shift:  3
 Period (2)
-ID: 17, start time: 16201 end time: 16203, shift: 58
-ID: 81, start time: 16203 end time: 16213, shift:  0
-ID: 39, start time: 16213 end time: 16228, shift: 32
-ID: 17, start time: 16228 end time: 16248, shift: 13
-ID:  4, start time: 16248 end time: 16269, shift: 10
-ID: 26, start time: 16269 end time: 16277, shift: 15
-ID: 39, start time: 16283 end time: 16298, shift: 43
-ID:  4, start time: 16298 end time: 16303, shift: 66
-ID: 81, start time: 16303 end time: 16313, shift:  0
-ID: 17, start time: 16313 end time: 16335, shift: 26
-ID:  4, start time: 16335 end time: 16351, shift: 18
-ID: 26, start time: 16351 end time: 16359, shift: 33
-ID: 39, start time: 16364 end time: 16379, shift: 43
-ID:  4, start time: 16381 end time: 16402, shift: 57
-ID: 17, start time: 16402 end time: 16403, shift: 58
-ID: 81, start time: 16403 end time: 16413, shift:  0
-ID: 17, start time: 16413 end time: 16434, shift: 27
-ID: 26, start time: 16434 end time: 16442, shift: 50
-ID: 39, start time: 16445 end time: 16460, shift: 43
-ID:  4, start time: 16471 end time: 16492, shift: 57
-ID: 17, start time: 16501 end time: 16503, shift: 58
-ID: 81, start time: 16503 end time: 16513, shift:  0
-ID: 17, start time: 16513 end time: 16533, shift: 28
-ID: 39, start time: 16533 end time: 16548, shift: 36
-ID: 26, start time: 16548 end time: 16556, shift: 36
-ID:  4, start time: 16561 end time: 16582, shift: 57
-ID: 17, start time: 16601 end time: 16603, shift: 58
-ID: 81, start time: 16603 end time: 16613, shift:  0
-ID: 17, start time: 16613 end time: 16633, shift: 28
-ID: 39, start time: 16633 end time: 16648, shift: 17
-ID: 26, start time: 16648 end time: 16656, shift: 36
-ID:  4, start time: 16656 end time: 16677, shift: 52
-ID: 39, start time: 16688 end time: 16703, shift: 43
-ID: 81, start time: 16703 end time: 16713, shift:  0
-ID: 17, start time: 16713 end time: 16735, shift: 26
-ID: 26, start time: 16735 end time: 16743, shift: 49
-ID:  4, start time: 16743 end time: 16764, shift: 55
-ID: 39, start time: 16769 end time: 16784, shift: 43
-ID: 17, start time: 16801 end time: 16803, shift: 58
-ID: 81, start time: 16803 end time: 16813, shift:  0
-ID: 17, start time: 16813 end time: 16833, shift: 28
-ID: 26, start time: 16833 end time: 16841, shift: 51
-ID:  4, start time: 16841 end time: 16850, shift: 59
-ID: 39, start time: 16850 end time: 16865, shift: 43
-ID:  4, start time: 16865 end time: 16877, shift: 32
-ID: 17, start time: 16901 end time: 16903, shift: 58
-ID: 81, start time: 16903 end time: 16913, shift:  0
-ID: 17, start time: 16913 end time: 16933, shift: 28
-ID: 39, start time: 16933 end time: 16948, shift: 41
-ID: 26, start time: 16948 end time: 16956, shift: 36
-ID:  4, start time: 16956 end time: 16977, shift: 22
-ID: 17, start time: 17001 end time: 17003, shift: 58
-ID: 81, start time: 17003 end time: 17013, shift:  0
-ID: 17, start time: 17013 end time: 17033, shift: 28
-ID: 39, start time: 17033 end time: 17048, shift: 22
-ID:  4, start time: 17048 end time: 17069, shift: 20
-ID: 26, start time: 17069 end time: 17077, shift: 15
-ID: 39, start time: 17093 end time: 17103, shift: 48
-ID: 81, start time: 17103 end time: 17113, shift:  0
-ID: 39, start time: 17113 end time: 17118, shift: 33
-ID: 17, start time: 17118 end time: 17140, shift: 21
-ID:  4, start time: 17140 end time: 17161, shift: 18
-ID: 26, start time: 17161 end time: 17169, shift: 23
-ID: 39, start time: 17174 end time: 17189, shift: 43
-ID:  4, start time: 17191 end time: 17203, shift: 66
-ID: 81, start time: 17203 end time: 17213, shift:  0
-ID: 17, start time: 17213 end time: 17235, shift: 26
-ID:  4, start time: 17235 end time: 17244, shift: 25
-ID: 26, start time: 17244 end time: 17252, shift: 40
-ID: 39, start time: 17255 end time: 17270, shift: 43
-ID:  4, start time: 17281 end time: 17302, shift: 57
-ID: 17, start time: 17302 end time: 17303, shift: 58
-ID: 81, start time: 17303 end time: 17313, shift:  0
-ID: 17, start time: 17313 end time: 17334, shift: 27
-ID: 26, start time: 17334 end time: 17342, shift: 50
-ID: 39, start time: 17342 end time: 17357, shift: 37
-ID:  4, start time: 17371 end time: 17392, shift: 57
-ID: 17, start time: 17401 end time: 17403, shift: 58
-ID: 81, start time: 17403 end time: 17413, shift:  0
-ID: 17, start time: 17413 end time: 17433, shift: 28
-ID: 39, start time: 17433 end time: 17448, shift: 27
-ID: 26, start time: 17448 end time: 17456, shift: 36
-ID:  4, start time: 17461 end time: 17482, shift: 57
-ID: 39, start time: 17498 end time: 17503, shift: 53
-ID: 81, start time: 17503 end time: 17513, shift:  0
-ID: 39, start time: 17513 end time: 17523, shift: 33
-ID: 17, start time: 17523 end time: 17545, shift: 16
-ID: 26, start time: 17545 end time: 17553, shift: 39
-ID:  4, start time: 17553 end time: 17574, shift: 55
-ID: 39, start time: 17579 end time: 17594, shift: 43
-ID: 17, start time: 17601 end time: 17603, shift: 58
-ID: 81, start time: 17603 end time: 17613, shift:  0
-ID: 17, start time: 17613 end time: 17633, shift: 28
-ID: 26, start time: 17633 end time: 17641, shift: 51
-ID:  4, start time: 17641 end time: 17662, shift: 57
-ID: 39, start time: 17662 end time: 17677, shift: 41
-ID: 17, start time: 17701 end time: 17703, shift: 58
-ID: 81, start time: 17703 end time: 17713, shift:  0
-ID: 17, start time: 17713 end time: 17733, shift: 28
-ID: 26, start time: 17733 end time: 17741, shift: 51
-ID: 39, start time: 17741 end time: 17756, shift: 43
-ID:  4, start time: 17756 end time: 17777, shift: 32
-ID: 17, start time: 17801 end time: 17803, shift: 58
-ID: 81, start time: 17803 end time: 17813, shift:  0
-ID: 17, start time: 17813 end time: 17833, shift: 28
-ID: 39, start time: 17833 end time: 17848, shift: 32
-ID: 26, start time: 17848 end time: 17856, shift: 36
-ID:  4, start time: 17856 end time: 17877, shift: 22
-ID: 17, start time: 17901 end time: 17903, shift: 58
-ID: 81, start time: 17903 end time: 17913, shift:  0
-ID: 17, start time: 17913 end time: 17933, shift: 28
-ID: 39, start time: 17933 end time: 17948, shift: 13
-ID:  4, start time: 17948 end time: 17969, shift: 20
-ID: 26, start time: 17969 end time: 17977, shift: 15
-ID: 39, start time: 17984 end time: 17999, shift: 43
-ID: 17, start time: 18001 end time: 18003, shift: 58
-ID: 81, start time: 18003 end time: 18013, shift:  0
-ID: 17, start time: 18013 end time: 18033, shift: 28
-ID:  4, start time: 18033 end time: 18054, shift: 25
-ID: 26, start time: 18054 end time: 18062, shift: 30
-ID: 39, start time: 18065 end time: 18080, shift: 43
-ID:  4, start time: 18091 end time: 18103, shift: 66
-ID: 81, start time: 18103 end time: 18113, shift:  0
-ID: 17, start time: 18113 end time: 18135, shift: 26
-ID:  4, start time: 18135 end time: 18144, shift: 25
-ID: 26, start time: 18144 end time: 18152, shift: 40
-ID: 39, start time: 18152 end time: 18167, shift: 37
-ID:  4, start time: 18181 end time: 18202, shift: 57
-ID: 17, start time: 18202 end time: 18203, shift: 58
-ID: 81, start time: 18203 end time: 18213, shift:  0
-ID: 17, start time: 18213 end time: 18234, shift: 27
-ID: 39, start time: 18234 end time: 18249, shift: 36
-ID: 26, start time: 18249 end time: 18257, shift: 35
-ID:  4, start time: 18271 end time: 18292, shift: 57
-ID: 17, start time: 18301 end time: 18303, shift: 58
-ID: 81, start time: 18303 end time: 18313, shift:  0
-ID: 17, start time: 18313 end time: 18333, shift: 28
-ID: 39, start time: 18333 end time: 18348, shift: 18
-ID: 26, start time: 18348 end time: 18356, shift: 36
-ID:  4, start time: 18361 end time: 18382, shift: 57
-ID: 39, start time: 18389 end time: 18403, shift: 44
-ID: 81, start time: 18403 end time: 18413, shift:  0
-ID: 39, start time: 18413 end time: 18414, shift: 33
-ID: 17, start time: 18414 end time: 18436, shift: 25
-ID: 26, start time: 18436 end time: 18444, shift: 48
-ID:  4, start time: 18451 end time: 18472, shift: 57
-ID: 39, start time: 18472 end time: 18487, shift: 41
-ID: 17, start time: 18501 end time: 18503, shift: 58
-ID: 81, start time: 18503 end time: 18513, shift:  0
-ID: 17, start time: 18513 end time: 18533, shift: 28
-ID: 26, start time: 18533 end time: 18541, shift: 51
-ID:  4, start time: 18541 end time: 18551, shift: 68
-ID: 39, start time: 18551 end time: 18566, shift: 43
-ID:  4, start time: 18566 end time: 18577, shift: 42
-ID: 17, start time: 18601 end time: 18603, shift: 58
-ID: 81, start time: 18603 end time: 18613, shift:  0
-ID: 17, start time: 18613 end time: 18633, shift: 28
-ID: 39, start time: 18633 end time: 18648, shift: 42
-ID: 26, start time: 18648 end time: 18656, shift: 36
-ID:  4, start time: 18656 end time: 18677, shift: 32
-ID: 17, start time: 18701 end time: 18703, shift: 58
-ID: 81, start time: 18703 end time: 18713, shift:  0
-ID: 17, start time: 18713 end time: 18733, shift: 28
-ID: 39, start time: 18733 end time: 18748, shift: 23
-ID: 26, start time: 18748 end time: 18756, shift: 36
-ID:  4, start time: 18756 end time: 18777, shift: 22
-ID: 39, start time: 18794 end time: 18803, shift: 49
-ID: 81, start time: 18803 end time: 18813, shift:  0
-ID: 39, start time: 18813 end time: 18819, shift: 33
-ID: 17, start time: 18819 end time: 18841, shift: 20
-ID:  4, start time: 18841 end time: 18862, shift: 27
-ID: 26, start time: 18862 end time: 18870, shift: 22
-ID: 39, start time: 18875 end time: 18890, shift: 43
-ID: 17, start time: 18901 end time: 18903, shift: 58
-ID: 81, start time: 18903 end time: 18913, shift:  0
-ID: 17, start time: 18913 end time: 18933, shift: 28
-ID:  4, start time: 18933 end time: 18954, shift: 25
-ID: 26, start time: 18954 end time: 18962, shift: 30
-ID: 39, start time: 18962 end time: 18977, shift: 37
-ID:  4, start time: 18991 end time: 19003, shift: 66
-ID: 81, start time: 19003 end time: 19013, shift:  0
-ID: 17, start time: 19013 end time: 19035, shift: 26
-ID:  4, start time: 19035 end time: 19044, shift: 25
-ID: 26, start time: 19044 end time: 19052, shift: 40
-ID: 39, start time: 19052 end time: 19067, shift: 28
-ID:  4, start time: 19081 end time: 19102, shift: 57
-ID: 17, start time: 19102 end time: 19103, shift: 58
-ID: 81, start time: 19103 end time: 19113, shift:  0
-ID: 17, start time: 19113 end time: 19134, shift: 27
-ID: 39, start time: 19134 end time: 19149, shift: 27
-ID: 26, start time: 19149 end time: 19157, shift: 35
-ID:  4, start time: 19171 end time: 19192, shift: 57
-ID: 39, start time: 19199 end time: 19203, shift: 54
-ID: 81, start time: 19203 end time: 19213, shift:  0
-ID: 39, start time: 19213 end time: 19224, shift: 33
-ID: 17, start time: 19224 end time: 19246, shift: 15
-ID: 26, start time: 19246 end time: 19254, shift: 38
-ID:  4, start time: 19261 end time: 19282, shift: 57
-ID: 39, start time: 19282 end time: 19297, shift: 41
-ID: 17, start time: 19301 end time: 19303, shift: 58
-ID: 81, start time: 19303 end time: 19313, shift:  0
-ID: 17, start time: 19313 end time: 19333, shift: 28
-ID: 26, start time: 19333 end time: 19341, shift: 51
-ID:  4, start time: 19351 end time: 19372, shift: 57
-ID: 39, start time: 19372 end time: 19387, shift: 32
-ID: 17, start time: 19401 end time: 19403, shift: 58
-ID: 81, start time: 19403 end time: 19413, shift:  0
-ID: 17, start time: 19413 end time: 19433, shift: 28
-ID: 26, start time: 19433 end time: 19441, shift: 51
-ID:  4, start time: 19441 end time: 19442, shift: 77
-ID: 39, start time: 19442 end time: 19457, shift: 43
-ID:  4, start time: 19457 end time: 19477, shift: 42
-ID: 17, start time: 19501 end time: 19503, shift: 58
-ID: 81, start time: 19503 end time: 19513, shift:  0
-ID: 17, start time: 19513 end time: 19533, shift: 28
-ID: 39, start time: 19533 end time: 19548, shift: 33
-ID: 26, start time: 19548 end time: 19556, shift: 36
-ID:  4, start time: 19556 end time: 19577, shift: 32
-ID: 17, start time: 19601 end time: 19603, shift: 58
-ID: 81, start time: 19603 end time: 19613, shift:  0
-ID: 17, start time: 19613 end time: 19633, shift: 28
-ID: 39, start time: 19633 end time: 19648, shift: 14
-ID: 26, start time: 19648 end time: 19656, shift: 36
-ID:  4, start time: 19656 end time: 19677, shift: 22
-ID: 39, start time: 19685 end time: 19700, shift: 43
-ID: 17, start time: 19701 end time: 19703, shift: 58
-ID: 81, start time: 19703 end time: 19713, shift:  0
-ID: 17, start time: 19713 end time: 19733, shift: 28
-ID:  4, start time: 19733 end time: 19754, shift: 35
-ID: 26, start time: 19754 end time: 19762, shift: 30
-ID: 39, start time: 19766 end time: 19781, shift: 43
-ID: 17, start time: 19801 end time: 19803, shift: 58
-ID: 81, start time: 19803 end time: 19813, shift:  0
-ID: 17, start time: 19813 end time: 19833, shift: 28
-ID:  4, start time: 19833 end time: 19854, shift: 25
-ID: 26, start time: 19854 end time: 19862, shift: 30
-ID: 39, start time: 19862 end time: 19877, shift: 28
-ID:  4, start time: 19891 end time: 19903, shift: 66
-ID: 81, start time: 19903 end time: 19913, shift:  0
-ID: 17, start time: 19913 end time: 19935, shift: 26
-ID:  4, start time: 19935 end time: 19944, shift: 25
-ID: 39, start time: 19944 end time: 19959, shift: 27
-ID: 26, start time: 19959 end time: 19967, shift: 25
-ID:  4, start time: 19981 end time: 20002, shift: 57
-ID: 17, start time: 20002 end time: 20003, shift: 58
-ID: 81, start time: 20003 end time: 20013, shift:  0
-ID: 17, start time: 20013 end time: 20034, shift: 27
-ID: 39, start time: 20034 end time: 20049, shift: 18
-ID: 26, start time: 20049 end time: 20057, shift: 35
-ID:  4, start time: 20071 end time: 20092, shift: 57
-ID: 39, start time: 20092 end time: 20103, shift: 45
-ID: 81, start time: 20103 end time: 20113, shift:  0
-ID: 39, start time: 20113 end time: 20117, shift: 31
-ID: 17, start time: 20117 end time: 20139, shift: 22
-ID: 26, start time: 20139 end time: 20147, shift: 45
-ID:  4, start time: 20161 end time: 20182, shift: 57
-ID: 39, start time: 20182 end time: 20197, shift: 32
-ID: 17, start time: 20201 end time: 20203, shift: 58
-ID: 81, start time: 20203 end time: 20213, shift:  0
-ID: 17, start time: 20213 end time: 20233, shift: 28
-ID: 26, start time: 20233 end time: 20241, shift: 51
-ID:  4, start time: 20251 end time: 20252, shift: 77
-ID: 39, start time: 20252 end time: 20267, shift: 43
-ID:  4, start time: 20267 end time: 20287, shift: 42
-ID: 17, start time: 20301 end time: 20303, shift: 58
-ID: 81, start time: 20303 end time: 20313, shift:  0
-ID: 17, start time: 20313 end time: 20333, shift: 28
-ID: 39, start time: 20333 end time: 20348, shift: 43
-ID: 26, start time: 20348 end time: 20356, shift: 36
-ID:  4, start time: 20356 end time: 20377, shift: 42
-ID: 17, start time: 20401 end time: 20403, shift: 58
-ID: 81, start time: 20403 end time: 20413, shift:  0
-ID: 17, start time: 20413 end time: 20433, shift: 28
-ID: 39, start time: 20433 end time: 20448, shift: 24
-ID: 26, start time: 20448 end time: 20456, shift: 36
-ID:  4, start time: 20456 end time: 20477, shift: 32
-ID: 39, start time: 20495 end time: 20503, shift: 50
-ID: 81, start time: 20503 end time: 20513, shift:  0
-ID: 39, start time: 20513 end time: 20520, shift: 33
-ID: 17, start time: 20520 end time: 20542, shift: 19
-ID: 26, start time: 20542 end time: 20550, shift: 42
-ID:  4, start time: 20550 end time: 20571, shift: 28
-ID: 39, start time: 20576 end time: 20591, shift: 43
-ID: 17, start time: 20601 end time: 20603, shift: 58
-ID: 81, start time: 20603 end time: 20613, shift:  0
-ID: 17, start time: 20613 end time: 20633, shift: 28
-ID:  4, start time: 20633 end time: 20654, shift: 35
-ID: 26, start time: 20654 end time: 20662, shift: 30
-ID: 39, start time: 20662 end time: 20677, shift: 38
-ID: 17, start time: 20701 end time: 20703, shift: 58
-ID: 81, start time: 20703 end time: 20713, shift:  0
-ID: 17, start time: 20713 end time: 20733, shift: 28
-ID:  4, start time: 20733 end time: 20754, shift: 25
-ID: 26, start time: 20754 end time: 20762, shift: 30
-ID: 39, start time: 20762 end time: 20777, shift: 19
-ID:  4, start time: 20791 end time: 20803, shift: 66
-ID: 81, start time: 20803 end time: 20813, shift:  0
-ID: 17, start time: 20813 end time: 20835, shift: 26
-ID:  4, start time: 20835 end time: 20844, shift: 25
-ID: 39, start time: 20844 end time: 20859, shift: 18
-ID: 26, start time: 20859 end time: 20867, shift: 25
-ID:  4, start time: 20881 end time: 20902, shift: 57
-ID: 39, start time: 20902 end time: 20903, shift: 55
-ID: 81, start time: 20903 end time: 20913, shift:  0
-ID: 39, start time: 20913 end time: 20927, shift: 31
-ID: 17, start time: 20927 end time: 20949, shift: 12
-ID: 26, start time: 20949 end time: 20957, shift: 35
-ID:  4, start time: 20971 end time: 20992, shift: 57
-ID: 39, start time: 20992 end time: 21003, shift: 36
-ID: 81, start time: 21003 end time: 21013, shift:  0
-ID: 39, start time: 21013 end time: 21017, shift: 22
-ID: 17, start time: 21017 end time: 21039, shift: 22
-ID: 26, start time: 21039 end time: 21047, shift: 45
-ID:  4, start time: 21061 end time: 21082, shift: 57
-ID: 39, start time: 21082 end time: 21097, shift: 23
-ID: 17, start time: 21101 end time: 21103, shift: 58
-ID: 81, start time: 21103 end time: 21113, shift:  0
-ID: 17, start time: 21113 end time: 21133, shift: 28
-ID: 26, start time: 21133 end time: 21141, shift: 51
-ID: 39, start time: 21143 end time: 21158, shift: 43
-ID:  4, start time: 21158 end time: 21179, shift: 50
-ID: 17, start time: 21201 end time: 21203, shift: 58
-ID: 81, start time: 21203 end time: 21213, shift:  0
-ID: 17, start time: 21213 end time: 21233, shift: 28
-ID: 39, start time: 21233 end time: 21248, shift: 34
-ID: 26, start time: 21248 end time: 21256, shift: 36
-ID:  4, start time: 21256 end time: 21277, shift: 42
-ID: 17, start time: 21301 end time: 21303, shift: 58
-ID: 81, start time: 21303 end time: 21313, shift:  0
-ID: 17, start time: 21313 end time: 21333, shift: 28
-ID: 39, start time: 21333 end time: 21348, shift: 15
-ID: 26, start time: 21348 end time: 21356, shift: 36
-ID:  4, start time: 21356 end time: 21377, shift: 32
-ID: 39, start time: 21386 end time: 21401, shift: 43
-ID: 17, start time: 21401 end time: 21403, shift: 58
-ID: 81, start time: 21403 end time: 21413, shift:  0
-ID: 17, start time: 21413 end time: 21433, shift: 28
-ID: 26, start time: 21433 end time: 21441, shift: 51
-ID:  4, start time: 21441 end time: 21462, shift: 37
-ID: 39, start time: 21467 end time: 21482, shift: 43
-ID: 17, start time: 21501 end time: 21503, shift: 58
-ID: 81, start time: 21503 end time: 21513, shift:  0
-ID: 17, start time: 21513 end time: 21533, shift: 28
-ID:  4, start time: 21533 end time: 21554, shift: 35
-ID: 26, start time: 21554 end time: 21562, shift: 30
-ID: 39, start time: 21562 end time: 21577, shift: 29
-ID: 17, start time: 21601 end time: 21603, shift: 58
-ID: 81, start time: 21603 end time: 21613, shift:  0
-ID: 17, start time: 21613 end time: 21633, shift: 28
-ID:  4, start time: 21633 end time: 21654, shift: 25
-ID: 39, start time: 21654 end time: 21669, shift: 18
-ID: 26, start time: 21669 end time: 21677, shift: 15
-ID:  4, start time: 21691 end time: 21703, shift: 66
-ID: 81, start time: 21703 end time: 21713, shift:  0
-ID: 17, start time: 21713 end time: 21735, shift: 26
-ID: 39, start time: 21735 end time: 21750, shift: 18
-ID:  4, start time: 21750 end time: 21759, shift: 10
-ID: 26, start time: 21759 end time: 21767, shift: 25
-ID:  4, start time: 21781 end time: 21802, shift: 57
-ID: 39, start time: 21802 end time: 21803, shift: 46
-ID: 81, start time: 21803 end time: 21813, shift:  0
-ID: 39, start time: 21813 end time: 21827, shift: 22
-ID: 17, start time: 21827 end time: 21849, shift: 12
-ID: 26, start time: 21849 end time: 21857, shift: 35
-ID:  4, start time: 21871 end time: 21892, shift: 57
-ID: 39, start time: 21892 end time: 21903, shift: 27
-ID: 81, start time: 21903 end time: 21913, shift:  0
-ID: 39, start time: 21913 end time: 21917, shift: 13
-ID: 17, start time: 21917 end time: 21939, shift: 22
-ID: 26, start time: 21939 end time: 21947, shift: 45
-ID: 39, start time: 21953 end time: 21968, shift: 43
-ID:  4, start time: 21968 end time: 21989, shift: 50
-ID: 17, start time: 22001 end time: 22003, shift: 58
-ID: 81, start time: 22003 end time: 22013, shift:  0
-ID: 17, start time: 22013 end time: 22033, shift: 28
-ID: 26, start time: 22033 end time: 22034, shift: 58
-ID: 39, start time: 22034 end time: 22049, shift: 43
-ID: 26, start time: 22049 end time: 22056, shift: 36
-ID:  4, start time: 22056 end time: 22077, shift: 52
-ID: 17, start time: 22101 end time: 22103, shift: 58
-ID: 81, start time: 22103 end time: 22113, shift:  0
-ID: 17, start time: 22113 end time: 22133, shift: 28
-ID: 39, start time: 22133 end time: 22148, shift: 25
-ID: 26, start time: 22148 end time: 22156, shift: 36
-ID:  4, start time: 22156 end time: 22177, shift: 42
-ID: 39, start time: 22196 end time: 22203, shift: 51
-ID: 81, start time: 22203 end time: 22213, shift:  0
-ID: 39, start time: 22213 end time: 22221, shift: 33
-ID: 17, start time: 22221 end time: 22243, shift: 18
-ID: 26, start time: 22243 end time: 22251, shift: 41
-ID:  4, start time: 22251 end time: 22272, shift: 37
-ID: 39, start time: 22277 end time: 22292, shift: 43
-ID: 17, start time: 22301 end time: 22303, shift: 58
-ID: 81, start time: 22303 end time: 22313, shift:  0
-ID: 17, start time: 22313 end time: 22333, shift: 28
-ID: 26, start time: 22333 end time: 22341, shift: 51
-ID:  4, start time: 22341 end time: 22362, shift: 37
-ID: 39, start time: 22362 end time: 22377, shift: 39
-ID: 17, start time: 22401 end time: 22403, shift: 58
-ID: 81, start time: 22403 end time: 22413, shift:  0
-ID: 17, start time: 22413 end time: 22433, shift: 28
-ID:  4, start time: 22433 end time: 22454, shift: 35
-ID: 26, start time: 22454 end time: 22462, shift: 30
-ID: 39, start time: 22462 end time: 22477, shift: 20
-ID: 17, start time: 22501 end time: 22503, shift: 58
-ID: 81, start time: 22503 end time: 22513, shift:  0
-ID: 17, start time: 22513 end time: 22533, shift: 28
-ID: 39, start time: 22533 end time: 22548, shift: 30
-ID:  4, start time: 22548 end time: 22569, shift: 10
-ID: 26, start time: 22569 end time: 22577, shift: 15
-ID:  4, start time: 22591 end time: 22603, shift: 66
-ID: 81, start time: 22603 end time: 22613, shift:  0
-ID: 39, start time: 22613 end time: 22628, shift: 31
-ID: 17, start time: 22628 end time: 22650, shift: 11
-ID:  4, start time: 22650 end time: 22659, shift: 10
-ID: 26, start time: 22659 end time: 22667, shift: 25
-ID:  4, start time: 22681 end time: 22702, shift: 57
-ID: 39, start time: 22702 end time: 22703, shift: 37
-ID: 81, start time: 22703 end time: 22713, shift:  0
-ID: 39, start time: 22713 end time: 22727, shift: 13
-ID: 17, start time: 22727 end time: 22749, shift: 12
-ID: 26, start time: 22749 end time: 22757, shift: 35
-ID: 39, start time: 22763 end time: 22778, shift: 43
-ID:  4, start time: 22778 end time: 22799, shift: 50
-ID: 17, start time: 22801 end time: 22803, shift: 58
-ID: 81, start time: 22803 end time: 22813, shift:  0
-ID: 17, start time: 22813 end time: 22833, shift: 28
-ID: 26, start time: 22833 end time: 22841, shift: 51
-ID: 39, start time: 22844 end time: 22859, shift: 43
-ID:  4, start time: 22861 end time: 22882, shift: 57
-ID: 17, start time: 22901 end time: 22903, shift: 58
-ID: 81, start time: 22903 end time: 22913, shift:  0
-ID: 17, start time: 22913 end time: 22933, shift: 28
-ID: 39, start time: 22933 end time: 22948, shift: 35
-ID: 26, start time: 22948 end time: 22956, shift: 36
-ID:  4, start time: 22956 end time: 22977, shift: 52
-ID: 17, start time: 23001 end time: 23003, shift: 58
-ID: 81, start time: 23003 end time: 23013, shift:  0
-ID: 17, start time: 23013 end time: 23033, shift: 28
-ID: 39, start time: 23033 end time: 23048, shift: 16
-ID: 26, start time: 23048 end time: 23056, shift: 36
-ID:  4, start time: 23056 end time: 23077, shift: 42
-ID: 39, start time: 23087 end time: 23102, shift: 43
-ID: 17, start time: 23102 end time: 23103, shift: 58
-ID: 81, start time: 23103 end time: 23113, shift:  0
-ID: 17, start time: 23113 end time: 23134, shift: 27
-ID: 26, start time: 23134 end time: 23142, shift: 50
-ID:  4, start time: 23142 end time: 23163, shift: 46
-ID: 39, start time: 23168 end time: 23183, shift: 43
-ID: 17, start time: 23201 end time: 23203, shift: 58
-ID: 81, start time: 23203 end time: 23213, shift:  0
-ID: 17, start time: 23213 end time: 23233, shift: 28
-ID: 26, start time: 23233 end time: 23241, shift: 51
-ID:  4, start time: 23241 end time: 23262, shift: 37
-ID: 39, start time: 23262 end time: 23277, shift: 30
-ID: 17, start time: 23301 end time: 23303, shift: 58
-ID: 81, start time: 23303 end time: 23313, shift:  0
-ID: 17, start time: 23313 end time: 23333, shift: 28
-ID: 39, start time: 23333 end time: 23348, shift: 40
-ID:  4, start time: 23348 end time: 23369, shift: 20
-ID: 26, start time: 23369 end time: 23377, shift: 15
-ID: 17, start time: 23401 end time: 23403, shift: 58
-ID: 81, start time: 23403 end time: 23413, shift:  0
-ID: 17, start time: 23413 end time: 23433, shift: 28
-ID: 39, start time: 23433 end time: 23448, shift: 21
-ID:  4, start time: 23448 end time: 23469, shift: 10
-ID: 26, start time: 23469 end time: 23477, shift: 15
-ID:  4, start time: 23491 end time: 23503, shift: 66
-ID: 81, start time: 23503 end time: 23513, shift:  0
-ID: 39, start time: 23513 end time: 23528, shift: 22
-ID: 17, start time: 23528 end time: 23550, shift: 11
-ID:  4, start time: 23550 end time: 23559, shift: 10
-ID: 26, start time: 23559 end time: 23567, shift: 25
-ID: 39, start time: 23573 end time: 23588, shift: 43
-ID:  4, start time: 23588 end time: 23603, shift: 56
-ID: 81, start time: 23603 end time: 23613, shift:  0
-ID:  4, start time: 23613 end time: 23619, shift: 40
-ID: 17, start time: 23619 end time: 23641, shift: 20
-ID: 26, start time: 23641 end time: 23649, shift: 43
-ID: 39, start time: 23654 end time: 23669, shift: 43
-ID:  4, start time: 23671 end time: 23692, shift: 57
-ID: 17, start time: 23701 end time: 23703, shift: 58
-ID: 81, start time: 23703 end time: 23713, shift:  0
-ID: 17, start time: 23713 end time: 23733, shift: 28
-ID: 26, start time: 23733 end time: 23741, shift: 51
-ID: 39, start time: 23741 end time: 23756, shift: 37
-ID:  4, start time: 23761 end time: 23782, shift: 57
-ID: 17, start time: 23801 end time: 23803, shift: 58
-ID: 81, start time: 23803 end time: 23813, shift:  0
-ID: 17, start time: 23813 end time: 23833, shift: 28
-ID: 39, start time: 23833 end time: 23848, shift: 26
-ID: 26, start time: 23848 end time: 23856, shift: 36
-ID:  4, start time: 23856 end time: 23877, shift: 52
-ID: 39, start time: 23897 end time: 23903, shift: 52
-ID: 81, start time: 23903 end time: 23913, shift:  0
-ID: 39, start time: 23913 end time: 23922, shift: 33
-ID: 17, start time: 23922 end time: 23944, shift: 17
-ID: 26, start time: 23944 end time: 23952, shift: 40
-ID:  4, start time: 23952 end time: 23973, shift: 46
-ID: 39, start time: 23978 end time: 23993, shift: 43
-ID: 17, start time: 24001 end time: 24003, shift: 58
-ID: 81, start time: 24003 end time: 24013, shift:  0
-ID: 17, start time: 24013 end time: 24033, shift: 28
-ID: 26, start time: 24033 end time: 24041, shift: 51
-ID:  4, start time: 24041 end time: 24062, shift: 47
-ID: 39, start time: 24062 end time: 24077, shift: 40
-ID: 17, start time: 24101 end time: 24103, shift: 58
-ID: 81, start time: 24103 end time: 24113, shift:  0
-ID: 17, start time: 24113 end time: 24133, shift: 28
-ID: 26, start time: 24133 end time: 24141, shift: 51
-ID: 39, start time: 24141 end time: 24156, shift: 42
-ID:  4, start time: 24156 end time: 24177, shift: 22
-ID: 17, start time: 24201 end time: 24203, shift: 58
-ID: 81, start time: 24203 end time: 24213, shift:  0
-ID: 17, start time: 24213 end time: 24233, shift: 28
-ID: 39, start time: 24233 end time: 24248, shift: 31
-ID:  4, start time: 24248 end time: 24269, shift: 20
-ID: 26, start time: 24269 end time: 24277, shift: 15
+type:P, ID: 14, start time:  2881, end time:  2882, shift: 77
+type:P, ID: 63, start time:  2882, end time:  2894, shift: 48
+type:P, ID: 22, start time:  2894, end time:  2903, shift: 52
+type:P, ID: 14, start time:  2903, end time:  2905, shift: 56
+type:P, ID: 72, start time:  2905, end time:  2917, shift: 46
+type:P, ID: 79, start time:  2917, end time:  2932, shift: 39
+type:P, ID: 58, start time:  2932, end time:  2940, shift: 39
+type:P, ID: 63, start time:  2942, end time:  2954, shift: 48
+type:P, ID: 22, start time:  2955, end time:  2965, shift: 62
+type:P, ID: 14, start time:  2965, end time:  2971, shift: 70
+type:P, ID: 72, start time:  2971, end time:  2983, shift: 60
+type:P, ID: 79, start time:  2983, end time:  2998, shift: 63
+type:P, ID: 58, start time:  2998, end time:  3002, shift: 63
+type:P, ID: 63, start time:  3002, end time:  3012, shift: 50
+type:P, ID: 58, start time:  3012, end time:  3022, shift: 53
+type:P, ID: 22, start time:  3027, end time:  3036, shift: 63
+type:P, ID: 14, start time:  3041, end time:  3045, shift: 76
+type:P, ID: 72, start time:  3045, end time:  3060, shift: 63
+type:P, ID: 79, start time:  3061, end time:  3062, shift: 76
+type:P, ID: 63, start time:  3062, end time:  3074, shift: 48
+type:P, ID: 79, start time:  3074, end time:  3087, shift: 64
+type:P, ID: 58, start time:  3087, end time:  3099, shift: 70
+type:P, ID: 22, start time:  3099, end time:  3107, shift: 64
+type:P, ID: 58, start time:  3107, end time:  3109, shift: 62
+type:P, ID: 14, start time:  3121, end time:  3122, shift: 74
+type:P, ID: 63, start time:  3122, end time:  3128, shift: 54
+type:P, ID: 14, start time:  3128, end time:  3133, shift: 68
+type:P, ID: 72, start time:  3133, end time:  3145, shift: 58
+type:P, ID: 79, start time:  3151, end time:  3161, shift: 80
+type:P, ID: 22, start time:  3171, end time:  3179, shift: 64
+type:P, ID: 58, start time:  3179, end time:  3182, shift: 79
+type:P, ID: 63, start time:  3182, end time:  3188, shift: 54
+type:P, ID: 58, start time:  3188, end time:  3194, shift: 73
+type:P, ID: 14, start time:  3201, end time:  3207, shift: 74
+type:P, ID: 72, start time:  3207, end time:  3221, shift: 62
+type:P, ID: 79, start time:  3241, end time:  3242, shift: 78
+type:P, ID: 63, start time:  3242, end time:  3252, shift: 50
+type:P, ID: 22, start time:  3252, end time:  3261, shift: 54
+type:P, ID: 79, start time:  3261, end time:  3272, shift: 59
+type:P, ID: 58, start time:  3272, end time:  3280, shift: 83
+type:P, ID: 14, start time:  3281, end time:  3285, shift: 76
+type:P, ID: 72, start time:  3285, end time:  3297, shift: 66
+type:P, ID: 63, start time:  3302, end time:  3312, shift: 50
+type:P, ID: 22, start time:  3315, end time:  3325, shift: 62
+type:P, ID: 79, start time:  3331, end time:  3345, shift: 76
+type:P, ID: 14, start time:  3361, end time:  3362, shift: 76
+type:P, ID: 63, start time:  3362, end time:  3370, shift: 52
+type:P, ID: 14, start time:  3370, end time:  3373, shift: 68
+type:P, ID: 72, start time:  3373, end time:  3388, shift: 55
+type:P, ID: 22, start time:  3388, end time:  3396, shift: 63
+type:P, ID: 58, start time:  3396, end time:  3404, shift: 55
+type:P, ID: 79, start time:  3421, end time:  3422, shift: 78
+type:P, ID: 63, start time:  3422, end time:  3434, shift: 48
+type:P, ID: 79, start time:  3434, end time:  3445, shift: 66
+type:P, ID: 14, start time:  3445, end time:  3451, shift: 70
+type:P, ID: 72, start time:  3451, end time:  3465, shift: 58
+type:P, ID: 22, start time:  3465, end time:  3471, shift: 60
+type:P, ID: 58, start time:  3471, end time:  3480, shift: 75
+type:P, ID: 63, start time:  3482, end time:  3488, shift: 54
+type:P, ID: 79, start time:  3511, end time:  3521, shift: 78
+type:P, ID: 14, start time:  3521, end time:  3527, shift: 74
+type:P, ID: 79, start time:  3527, end time:  3529, shift: 72
+type:P, ID: 72, start time:  3529, end time:  3541, shift: 62
+type:P, ID: 22, start time:  3541, end time:  3542, shift: 53
+type:P, ID: 63, start time:  3542, end time:  3554, shift: 48
+type:P, ID: 22, start time:  3554, end time:  3562, shift: 41
+type:P, ID: 58, start time:  3562, end time:  3574, shift: 77
+type:P, ID: 14, start time:  3601, end time:  3602, shift: 74
+type:P, ID: 63, start time:  3602, end time:  3614, shift: 48
+type:P, ID: 22, start time:  3614, end time:  3622, shift: 53
+type:P, ID: 14, start time:  3622, end time:  3627, shift: 54
+type:P, ID: 72, start time:  3627, end time:  3641, shift: 42
+type:P, ID: 79, start time:  3641, end time:  3655, shift: 36
+type:P, ID: 58, start time:  3655, end time:  3662, shift: 84
+type:P, ID: 63, start time:  3662, end time:  3674, shift: 48
+type:P, ID: 58, start time:  3674, end time:  3675, shift: 72
+type:P, ID: 22, start time:  3675, end time:  3685, shift: 62
+type:P, ID: 14, start time:  3685, end time:  3691, shift: 70
+type:P, ID: 72, start time:  3691, end time:  3703, shift: 60
+type:P, ID: 79, start time:  3703, end time:  3717, shift: 64
+type:P, ID: 63, start time:  3722, end time:  3731, shift: 51
+type:P, ID: 22, start time:  3747, end time:  3757, shift: 62
+type:P, ID: 58, start time:  3757, end time:  3761, shift: 72
+type:P, ID: 14, start time:  3761, end time:  3764, shift: 77
+type:P, ID: 58, start time:  3764, end time:  3774, shift: 69
+type:P, ID: 72, start time:  3774, end time:  3782, shift: 55
+type:P, ID: 63, start time:  3782, end time:  3790, shift: 52
+type:P, ID: 72, start time:  3790, end time:  3796, shift: 47
+type:P, ID: 79, start time:  3796, end time:  3810, shift: 61
+type:P, ID: 22, start time:  3819, end time:  3827, shift: 64
+type:P, ID: 14, start time:  3841, end time:  3842, shift: 76
+type:P, ID: 63, start time:  3842, end time:  3848, shift: 54
+type:P, ID: 14, start time:  3848, end time:  3851, shift: 70
+type:P, ID: 72, start time:  3851, end time:  3865, shift: 58
+type:P, ID: 58, start time:  3865, end time:  3873, shift: 66
+type:P, ID: 79, start time:  3873, end time:  3887, shift: 74
+type:P, ID: 22, start time:  3891, end time:  3899, shift: 64
+type:P, ID: 63, start time:  3902, end time:  3908, shift: 54
+type:P, ID: 14, start time:  3921, end time:  3925, shift: 76
+type:P, ID: 72, start time:  3925, end time:  3939, shift: 64
+type:P, ID: 58, start time:  3939, end time:  3945, shift: 90
+type:P, ID: 79, start time:  3961, end time:  3962, shift: 78
+type:P, ID: 63, start time:  3962, end time:  3970, shift: 52
+type:P, ID: 22, start time:  3970, end time:  3979, shift: 56
+type:P, ID: 79, start time:  3979, end time:  3990, shift: 61
+type:P, ID: 14, start time:  4001, end time:  4004, shift: 77
+type:P, ID: 72, start time:  4004, end time:  4019, shift: 64
+type:P, ID: 63, start time:  4022, end time:  4030, shift: 52
+type:P, ID: 22, start time:  4035, end time:  4045, shift: 62
+type:P, ID: 58, start time:  4045, end time:  4053, shift: 78
+type:P, ID: 79, start time:  4053, end time:  4065, shift: 76
+type:P, ID: 14, start time:  4081, end time:  4082, shift: 74
+type:P, ID: 63, start time:  4082, end time:  4091, shift: 51
+type:P, ID: 14, start time:  4091, end time:  4096, shift: 65
+type:P, ID: 72, start time:  4096, end time:  4110, shift: 53
+type:P, ID: 22, start time:  4110, end time:  4118, shift: 61
+type:P, ID: 58, start time:  4131, end time:  4137, shift: 90
+type:P, ID: 79, start time:  4141, end time:  4142, shift: 76
+type:P, ID: 63, start time:  4142, end time:  4151, shift: 51
+type:P, ID: 79, start time:  4151, end time:  4164, shift: 67
+type:P, ID: 14, start time:  4164, end time:  4170, shift: 71
+type:P, ID: 72, start time:  4170, end time:  4184, shift: 59
+type:P, ID: 22, start time:  4184, end time:  4194, shift: 57
+type:P, ID: 63, start time:  4202, end time:  4208, shift: 54
+type:P, ID: 58, start time:  4227, end time:  4241, shift: 82
+type:P, ID: 14, start time:  4241, end time:  4245, shift: 76
+type:P, ID: 79, start time:  4245, end time:  4257, shift: 64
+type:P, ID: 22, start time:  4257, end time:  4262, shift: 58
+type:P, ID: 63, start time:  4262, end time:  4274, shift: 48
+type:P, ID: 22, start time:  4274, end time:  4277, shift: 46
+type:P, ID: 72, start time:  4277, end time:  4292, shift: 31
+Period (3)
+type:P, ID: 14, start time:  4321, end time:  4322, shift: 74
+type:P, ID: 63, start time:  4322, end time:  4331, shift: 51
+type:P, ID: 22, start time:  4331, end time:  4337, shift: 58
+type:P, ID: 14, start time:  4337, end time:  4342, shift: 59
+type:P, ID: 72, start time:  4342, end time:  4354, shift: 49
+type:P, ID: 79, start time:  4354, end time:  4364, shift: 47
+type:P, ID: 58, start time:  4364, end time:  4373, shift: 46
+type:P, ID: 63, start time:  4382, end time:  4394, shift: 48
+type:P, ID: 22, start time:  4395, end time:  4405, shift: 62
+type:P, ID: 14, start time:  4405, end time:  4411, shift: 70
+type:P, ID: 72, start time:  4411, end time:  4425, shift: 58
+type:P, ID: 79, start time:  4425, end time:  4439, shift: 62
+type:P, ID: 58, start time:  4439, end time:  4442, shift: 70
+type:P, ID: 63, start time:  4442, end time:  4450, shift: 52
+type:P, ID: 58, start time:  4450, end time:  4453, shift: 62
+type:P, ID: 22, start time:  4467, end time:  4476, shift: 63
+type:P, ID: 14, start time:  4481, end time:  4484, shift: 77
+type:P, ID: 72, start time:  4484, end time:  4499, shift: 64
+type:P, ID: 79, start time:  4501, end time:  4502, shift: 78
+type:P, ID: 63, start time:  4502, end time:  4510, shift: 52
+type:P, ID: 79, start time:  4510, end time:  4521, shift: 70
+type:P, ID: 58, start time:  4521, end time:  4535, shift: 76
+type:P, ID: 22, start time:  4539, end time:  4549, shift: 62
+type:P, ID: 14, start time:  4561, end time:  4562, shift: 76
+type:P, ID: 63, start time:  4562, end time:  4571, shift: 51
+type:P, ID: 14, start time:  4571, end time:  4574, shift: 67
+type:P, ID: 72, start time:  4574, end time:  4586, shift: 57
+type:P, ID: 79, start time:  4591, end time:  4601, shift: 80
+type:P, ID: 22, start time:  4611, end time:  4617, shift: 66
+type:P, ID: 58, start time:  4617, end time:  4622, shift: 84
+type:P, ID: 63, start time:  4622, end time:  4628, shift: 54
+type:P, ID: 58, start time:  4628, end time:  4629, shift: 78
+type:P, ID: 14, start time:  4641, end time:  4644, shift: 77
+type:P, ID: 72, start time:  4644, end time:  4656, shift: 67
+type:P, ID: 79, start time:  4681, end time:  4682, shift: 80
+type:P, ID: 63, start time:  4682, end time:  4692, shift: 50
+type:P, ID: 22, start time:  4692, end time:  4702, shift: 53
+type:P, ID: 79, start time:  4702, end time:  4711, shift: 60
+type:P, ID: 58, start time:  4711, end time:  4721, shift: 78
+type:P, ID: 14, start time:  4721, end time:  4724, shift: 77
+type:P, ID: 58, start time:  4724, end time:  4728, shift: 75
+type:P, ID: 72, start time:  4728, end time:  4742, shift: 61
+type:P, ID: 63, start time:  4742, end time:  4751, shift: 51
+type:P, ID: 22, start time:  4755, end time:  4765, shift: 62
+type:P, ID: 79, start time:  4771, end time:  4785, shift: 76
+type:P, ID: 14, start time:  4801, end time:  4802, shift: 74
+type:P, ID: 63, start time:  4802, end time:  4814, shift: 48
+type:P, ID: 14, start time:  4814, end time:  4819, shift: 62
+type:P, ID: 72, start time:  4819, end time:  4833, shift: 50
+type:P, ID: 22, start time:  4833, end time:  4841, shift: 58
+type:P, ID: 58, start time:  4841, end time:  4855, shift: 44
+type:P, ID: 79, start time:  4861, end time:  4862, shift: 81
+type:P, ID: 63, start time:  4862, end time:  4868, shift: 54
+type:P, ID: 79, start time:  4868, end time:  4876, shift: 75
+type:P, ID: 14, start time:  4881, end time:  4887, shift: 74
+type:P, ID: 72, start time:  4887, end time:  4899, shift: 64
+type:P, ID: 22, start time:  4899, end time:  4907, shift: 64
+type:P, ID: 58, start time:  4907, end time:  4919, shift: 76
+type:P, ID: 63, start time:  4922, end time:  4930, shift: 52
+type:P, ID: 79, start time:  4951, end time:  4961, shift: 76
+type:P, ID: 14, start time:  4961, end time:  4967, shift: 74
+type:P, ID: 79, start time:  4967, end time:  4971, shift: 70
+type:P, ID: 22, start time:  4971, end time:  4980, shift: 63
+type:P, ID: 72, start time:  4980, end time:  4982, shift: 49
+type:P, ID: 63, start time:  4982, end time:  4994, shift: 48
+type:P, ID: 72, start time:  4994, end time:  5006, shift: 37
+type:P, ID: 58, start time:  5006, end time:  5012, shift: 79
+type:P, ID: 14, start time:  5041, end time:  5042, shift: 74
+type:P, ID: 63, start time:  5042, end time:  5052, shift: 50
+type:P, ID: 22, start time:  5052, end time:  5062, shift: 53
+type:P, ID: 14, start time:  5062, end time:  5067, shift: 54
+type:P, ID: 72, start time:  5067, end time:  5082, shift: 41
+type:P, ID: 79, start time:  5082, end time:  5092, shift: 39
+type:P, ID: 58, start time:  5092, end time:  5102, shift: 83
+type:P, ID: 63, start time:  5102, end time:  5108, shift: 54
+type:P, ID: 58, start time:  5108, end time:  5110, shift: 77
+type:P, ID: 22, start time:  5115, end time:  5124, shift: 63
+type:P, ID: 14, start time:  5124, end time:  5127, shift: 74
+type:P, ID: 72, start time:  5127, end time:  5142, shift: 61
+type:P, ID: 79, start time:  5142, end time:  5156, shift: 65
+type:P, ID: 63, start time:  5162, end time:  5168, shift: 54
+type:P, ID: 22, start time:  5187, end time:  5196, shift: 63
+type:P, ID: 58, start time:  5196, end time:  5201, shift: 77
+type:P, ID: 14, start time:  5201, end time:  5207, shift: 74
+type:P, ID: 58, start time:  5207, end time:  5212, shift: 71
+type:P, ID: 72, start time:  5212, end time:  5222, shift: 57
+type:P, ID: 63, start time:  5222, end time:  5228, shift: 54
+type:P, ID: 72, start time:  5228, end time:  5232, shift: 51
+type:P, ID: 79, start time:  5232, end time:  5246, shift: 65
+type:P, ID: 22, start time:  5259, end time:  5265, shift: 66
+type:P, ID: 14, start time:  5281, end time:  5282, shift: 76
+type:P, ID: 63, start time:  5282, end time:  5290, shift: 52
+type:P, ID: 14, start time:  5290, end time:  5293, shift: 68
+type:P, ID: 72, start time:  5293, end time:  5308, shift: 55
+type:P, ID: 58, start time:  5308, end time:  5320, shift: 59
+type:P, ID: 79, start time:  5320, end time:  5334, shift: 67
+type:P, ID: 22, start time:  5334, end time:  5342, shift: 59
+type:P, ID: 63, start time:  5342, end time:  5348, shift: 54
+type:P, ID: 22, start time:  5348, end time:  5350, shift: 53
+type:P, ID: 14, start time:  5361, end time:  5365, shift: 76
+type:P, ID: 72, start time:  5365, end time:  5380, shift: 63
+type:P, ID: 58, start time:  5380, end time:  5386, shift: 89
+type:P, ID: 79, start time:  5401, end time:  5402, shift: 80
+type:P, ID: 63, start time:  5402, end time:  5408, shift: 54
+type:P, ID: 22, start time:  5408, end time:  5418, shift: 57
+type:P, ID: 79, start time:  5418, end time:  5427, shift: 64
+type:P, ID: 14, start time:  5441, end time:  5444, shift: 77
+type:P, ID: 72, start time:  5444, end time:  5458, shift: 65
+type:P, ID: 63, start time:  5462, end time:  5468, shift: 54
+type:P, ID: 22, start time:  5475, end time:  5485, shift: 62
+type:P, ID: 58, start time:  5485, end time:  5497, shift: 74
+type:P, ID: 79, start time:  5497, end time:  5509, shift: 72
+type:P, ID: 14, start time:  5521, end time:  5522, shift: 74
+type:P, ID: 63, start time:  5522, end time:  5530, shift: 52
+type:P, ID: 14, start time:  5530, end time:  5535, shift: 66
+type:P, ID: 72, start time:  5535, end time:  5549, shift: 54
+type:P, ID: 22, start time:  5549, end time:  5557, shift: 62
+type:P, ID: 58, start time:  5571, end time:  5582, shift: 84
+type:P, ID: 63, start time:  5582, end time:  5594, shift: 48
+type:P, ID: 58, start time:  5594, end time:  5595, shift: 72
+type:P, ID: 79, start time:  5595, end time:  5607, shift: 64
+type:P, ID: 14, start time:  5607, end time:  5611, shift: 70
+type:P, ID: 72, start time:  5611, end time:  5625, shift: 58
+type:P, ID: 22, start time:  5625, end time:  5634, shift: 57
+type:P, ID: 63, start time:  5642, end time:  5654, shift: 48
+type:P, ID: 58, start time:  5667, end time:  5681, shift: 82
+type:P, ID: 14, start time:  5681, end time:  5687, shift: 74
+type:P, ID: 79, start time:  5687, end time:  5701, shift: 60
+type:P, ID: 22, start time:  5701, end time:  5702, shift: 52
+type:P, ID: 63, start time:  5702, end time:  5708, shift: 54
+type:P, ID: 22, start time:  5708, end time:  5717, shift: 46
+type:P, ID: 72, start time:  5717, end time:  5731, shift: 32
+Period (4)
+type:P, ID: 14, start time:  5761, end time:  5762, shift: 76
+type:P, ID: 63, start time:  5762, end time:  5770, shift: 52
+type:P, ID: 22, start time:  5770, end time:  5778, shift: 57
+type:P, ID: 14, start time:  5778, end time:  5781, shift: 60
+type:P, ID: 72, start time:  5781, end time:  5795, shift: 48
+type:P, ID: 79, start time:  5795, end time:  5810, shift: 41
+type:P, ID: 58, start time:  5810, end time:  5822, shift: 37
+type:P, ID: 63, start time:  5822, end time:  5828, shift: 54
+type:P, ID: 22, start time:  5835, end time:  5845, shift: 62
+type:P, ID: 14, start time:  5845, end time:  5848, shift: 73
+type:P, ID: 72, start time:  5848, end time:  5863, shift: 60
+type:P, ID: 79, start time:  5863, end time:  5877, shift: 64
+type:P, ID: 58, start time:  5877, end time:  5882, shift: 68
+type:P, ID: 63, start time:  5882, end time:  5891, shift: 51
+type:P, ID: 58, start time:  5891, end time:  5896, shift: 59
+type:P, ID: 22, start time:  5907, end time:  5916, shift: 63
+type:P, ID: 14, start time:  5921, end time:  5927, shift: 74
+type:P, ID: 72, start time:  5927, end time:  5939, shift: 64
+type:P, ID: 79, start time:  5941, end time:  5942, shift: 76
+type:P, ID: 63, start time:  5942, end time:  5952, shift: 50
+type:P, ID: 79, start time:  5952, end time:  5965, shift: 66
+type:P, ID: 58, start time:  5965, end time:  5979, shift: 72
+type:P, ID: 22, start time:  5979, end time:  5988, shift: 63
+type:P, ID: 14, start time:  6001, end time:  6002, shift: 77
+type:P, ID: 63, start time:  6002, end time:  6010, shift: 52
+type:P, ID: 14, start time:  6010, end time:  6012, shift: 69
+type:P, ID: 72, start time:  6012, end time:  6027, shift: 56
+type:P, ID: 79, start time:  6031, end time:  6046, shift: 75
+type:P, ID: 22, start time:  6051, end time:  6059, shift: 64
+type:P, ID: 58, start time:  6059, end time:  6062, shift: 76
+type:P, ID: 63, start time:  6062, end time:  6074, shift: 48
+type:P, ID: 58, start time:  6074, end time:  6083, shift: 64
+type:P, ID: 14, start time:  6083, end time:  6089, shift: 72
+type:P, ID: 72, start time:  6089, end time:  6103, shift: 60
+type:P, ID: 79, start time:  6121, end time:  6122, shift: 76
+type:P, ID: 63, start time:  6122, end time:  6130, shift: 52
+type:P, ID: 22, start time:  6130, end time:  6138, shift: 57
+type:P, ID: 79, start time:  6138, end time:  6151, shift: 60
+type:P, ID: 58, start time:  6151, end time:  6161, shift: 82
+type:P, ID: 14, start time:  6161, end time:  6165, shift: 76
+type:P, ID: 72, start time:  6165, end time:  6177, shift: 66
+type:P, ID: 63, start time:  6182, end time:  6194, shift: 48
+type:P, ID: 22, start time:  6195, end time:  6201, shift: 66
+type:P, ID: 79, start time:  6211, end time:  6226, shift: 75
+type:P, ID: 14, start time:  6241, end time:  6242, shift: 76
+type:P, ID: 63, start time:  6242, end time:  6251, shift: 51
+type:P, ID: 14, start time:  6251, end time:  6254, shift: 67
+type:P, ID: 72, start time:  6254, end time:  6266, shift: 57
+type:P, ID: 58, start time:  6266, end time:  6267, shift: 65
+type:P, ID: 22, start time:  6267, end time:  6277, shift: 62
+type:P, ID: 58, start time:  6277, end time:  6284, shift: 55
+type:P, ID: 79, start time:  6301, end time:  6302, shift: 76
+type:P, ID: 63, start time:  6302, end time:  6308, shift: 54
+type:P, ID: 79, start time:  6308, end time:  6321, shift: 70
+type:P, ID: 14, start time:  6321, end time:  6327, shift: 74
+type:P, ID: 72, start time:  6327, end time:  6342, shift: 61
+type:P, ID: 22, start time:  6342, end time:  6350, shift: 61
+type:P, ID: 58, start time:  6350, end time:  6360, shift: 75
+type:P, ID: 63, start time:  6362, end time:  6371, shift: 51
+type:P, ID: 79, start time:  6391, end time:  6401, shift: 78
+type:P, ID: 14, start time:  6401, end time:  6405, shift: 76
+type:P, ID: 79, start time:  6405, end time:  6407, shift: 74
+type:P, ID: 72, start time:  6407, end time:  6419, shift: 64
+type:P, ID: 22, start time:  6419, end time:  6422, shift: 54
+type:P, ID: 63, start time:  6422, end time:  6432, shift: 50
+type:P, ID: 22, start time:  6432, end time:  6439, shift: 44
+type:P, ID: 58, start time:  6439, end time:  6451, shift: 80
+type:P, ID: 14, start time:  6481, end time:  6482, shift: 76
+type:P, ID: 63, start time:  6482, end time:  6494, shift: 48
+type:P, ID: 22, start time:  6494, end time:  6502, shift: 53
+type:P, ID: 14, start time:  6502, end time:  6505, shift: 56
+type:P, ID: 72, start time:  6505, end time:  6519, shift: 44
+type:P, ID: 79, start time:  6519, end time:  6533, shift: 38
+type:P, ID: 58, start time:  6533, end time:  6541, shift: 86
+type:P, ID: 63, start time:  6542, end time:  6551, shift: 51
+type:P, ID: 22, start time:  6555, end time:  6563, shift: 64
+type:P, ID: 14, start time:  6563, end time:  6566, shift: 75
+type:P, ID: 72, start time:  6566, end time:  6581, shift: 62
+type:P, ID: 79, start time:  6581, end time:  6591, shift: 70
+type:P, ID: 63, start time:  6602, end time:  6614, shift: 48
+type:P, ID: 22, start time:  6627, end time:  6636, shift: 63
+type:P, ID: 58, start time:  6636, end time:  6641, shift: 79
+type:P, ID: 14, start time:  6641, end time:  6647, shift: 74
+type:P, ID: 58, start time:  6647, end time:  6650, shift: 73
+type:P, ID: 72, start time:  6650, end time:  6662, shift: 58
+type:P, ID: 63, start time:  6662, end time:  6674, shift: 48
+type:P, ID: 72, start time:  6674, end time:  6677, shift: 46
+type:P, ID: 79, start time:  6677, end time:  6691, shift: 60
+type:P, ID: 22, start time:  6699, end time:  6707, shift: 64
+type:P, ID: 14, start time:  6721, end time:  6722, shift: 76
+type:P, ID: 63, start time:  6722, end time:  6734, shift: 48
+type:P, ID: 14, start time:  6734, end time:  6737, shift: 64
+type:P, ID: 72, start time:  6737, end time:  6749, shift: 54
+type:P, ID: 58, start time:  6749, end time:  6755, shift: 64
+type:P, ID: 79, start time:  6755, end time:  6770, shift: 71
+type:P, ID: 22, start time:  6771, end time:  6781, shift: 62
+type:P, ID: 63, start time:  6782, end time:  6794, shift: 48
+type:P, ID: 14, start time:  6801, end time:  6807, shift: 74
+type:P, ID: 72, start time:  6807, end time:  6821, shift: 62
+type:P, ID: 58, start time:  6821, end time:  6827, shift: 88
+type:P, ID: 79, start time:  6841, end time:  6842, shift: 78
+type:P, ID: 63, start time:  6842, end time:  6848, shift: 54
+type:P, ID: 22, start time:  6848, end time:  6856, shift: 59
+type:P, ID: 79, start time:  6856, end time:  6867, shift: 64
+type:P, ID: 14, start time:  6881, end time:  6885, shift: 76
+type:P, ID: 72, start time:  6885, end time:  6899, shift: 64
+type:P, ID: 63, start time:  6902, end time:  6908, shift: 54
+type:P, ID: 22, start time:  6915, end time:  6924, shift: 63
+type:P, ID: 58, start time:  6924, end time:  6938, shift: 73
+type:P, ID: 79, start time:  6938, end time:  6952, shift: 69
+type:P, ID: 14, start time:  6961, end time:  6962, shift: 74
+type:P, ID: 63, start time:  6962, end time:  6974, shift: 48
+type:P, ID: 14, start time:  6974, end time:  6979, shift: 62
+type:P, ID: 72, start time:  6979, end time:  6991, shift: 52
+type:P, ID: 22, start time:  6991, end time:  7000, shift: 59
+type:P, ID: 58, start time:  7011, end time:  7019, shift: 88
+type:P, ID: 79, start time:  7021, end time:  7022, shift: 78
+type:P, ID: 63, start time:  7022, end time:  7030, shift: 52
+type:P, ID: 79, start time:  7030, end time:  7041, shift: 70
+type:P, ID: 14, start time:  7041, end time:  7047, shift: 74
+type:P, ID: 72, start time:  7047, end time:  7062, shift: 61
+type:P, ID: 22, start time:  7062, end time:  7071, shift: 60
+type:P, ID: 63, start time:  7082, end time:  7091, shift: 51
+type:P, ID: 58, start time:  7107, end time:  7113, shift: 90
+type:P, ID: 79, start time:  7113, end time:  7121, shift: 76
+type:P, ID: 14, start time:  7121, end time:  7127, shift: 74
+type:P, ID: 79, start time:  7127, end time:  7131, shift: 70
+type:P, ID: 22, start time:  7131, end time:  7140, shift: 63
+type:P, ID: 72, start time:  7140, end time:  7142, shift: 51
+type:P, ID: 63, start time:  7142, end time:  7148, shift: 54
+type:P, ID: 72, start time:  7148, end time:  7158, shift: 45
+Period (5)
+type:P, ID: 14, start time:  7201, end time:  7202, shift: 74
+type:P, ID: 63, start time:  7202, end time:  7214, shift: 48
+type:P, ID: 22, start time:  7214, end time:  7223, shift: 52
+type:P, ID: 14, start time:  7223, end time:  7228, shift: 53
+type:P, ID: 72, start time:  7228, end time:  7242, shift: 41
+type:P, ID: 79, start time:  7242, end time:  7257, shift: 34
+type:P, ID: 58, start time:  7257, end time:  7263, shift: 36
+type:P, ID: 63, start time:  7263, end time:  7275, shift: 47
+type:P, ID: 22, start time:  7275, end time:  7284, shift: 63
+type:P, ID: 14, start time:  7284, end time:  7290, shift: 71
+type:P, ID: 72, start time:  7290, end time:  7305, shift: 58
+type:P, ID: 79, start time:  7305, end time:  7320, shift: 61
+type:P, ID: 58, start time:  7320, end time:  7322, shift: 65
+type:P, ID: 63, start time:  7322, end time:  7328, shift: 54
+type:P, ID: 58, start time:  7328, end time:  7336, shift: 59
+type:P, ID: 22, start time:  7347, end time:  7357, shift: 62
+type:P, ID: 14, start time:  7361, end time:  7364, shift: 77
+type:P, ID: 72, start time:  7364, end time:  7379, shift: 64
+type:P, ID: 79, start time:  7381, end time:  7382, shift: 80
+type:P, ID: 63, start time:  7382, end time:  7394, shift: 48
+type:P, ID: 79, start time:  7394, end time:  7403, shift: 68
+type:P, ID: 58, start time:  7403, end time:  7411, shift: 80
+type:P, ID: 22, start time:  7419, end time:  7429, shift: 62
+type:P, ID: 14, start time:  7441, end time:  7442, shift: 74
+type:P, ID: 63, start time:  7442, end time:  7450, shift: 52
+type:P, ID: 14, start time:  7450, end time:  7455, shift: 66
+type:P, ID: 72, start time:  7455, end time:  7470, shift: 53
+type:P, ID: 79, start time:  7471, end time:  7480, shift: 81
+type:P, ID: 22, start time:  7491, end time:  7501, shift: 62
+type:P, ID: 58, start time:  7501, end time:  7502, shift: 78
+type:P, ID: 63, start time:  7502, end time:  7510, shift: 52
+type:P, ID: 58, start time:  7510, end time:  7517, shift: 70
+type:P, ID: 14, start time:  7521, end time:  7525, shift: 76
+type:P, ID: 72, start time:  7525, end time:  7540, shift: 63
+type:P, ID: 79, start time:  7561, end time:  7562, shift: 78
+type:P, ID: 63, start time:  7562, end time:  7570, shift: 52
+type:P, ID: 22, start time:  7570, end time:  7578, shift: 57
+type:P, ID: 79, start time:  7578, end time:  7589, shift: 62
+type:P, ID: 58, start time:  7589, end time:  7598, shift: 85
+type:P, ID: 14, start time:  7601, end time:  7605, shift: 76
+type:P, ID: 72, start time:  7605, end time:  7619, shift: 64
+type:P, ID: 63, start time:  7622, end time:  7630, shift: 52
+type:P, ID: 22, start time:  7635, end time:  7645, shift: 62
+type:P, ID: 79, start time:  7651, end time:  7666, shift: 75
+type:P, ID: 14, start time:  7681, end time:  7682, shift: 74
+type:P, ID: 63, start time:  7682, end time:  7694, shift: 48
+type:P, ID: 14, start time:  7694, end time:  7699, shift: 62
+type:P, ID: 72, start time:  7699, end time:  7711, shift: 52
+type:P, ID: 22, start time:  7711, end time:  7719, shift: 60
+type:P, ID: 58, start time:  7719, end time:  7727, shift: 52
+type:P, ID: 79, start time:  7741, end time:  7742, shift: 76
+type:P, ID: 63, start time:  7742, end time:  7748, shift: 54
+type:P, ID: 79, start time:  7748, end time:  7761, shift: 70
+type:P, ID: 14, start time:  7761, end time:  7765, shift: 76
+type:P, ID: 72, start time:  7765, end time:  7777, shift: 66
+type:P, ID: 22, start time:  7779, end time:  7789, shift: 62
+type:P, ID: 58, start time:  7789, end time:  7801, shift: 74
+type:P, ID: 63, start time:  7802, end time:  7808, shift: 54
+type:P, ID: 79, start time:  7831, end time:  7841, shift: 80
+type:P, ID: 14, start time:  7841, end time:  7847, shift: 74
+type:P, ID: 72, start time:  7847, end time:  7861, shift: 62
+type:P, ID: 22, start time:  7861, end time:  7862, shift: 54
+type:P, ID: 63, start time:  7862, end time:  7874, shift: 48
+type:P, ID: 22, start time:  7874, end time:  7881, shift: 42
+type:P, ID: 58, start time:  7881, end time:  7889, shift: 82
+type:P, ID: 14, start time:  7921, end time:  7922, shift: 74
+type:P, ID: 63, start time:  7922, end time:  7930, shift: 52
+type:P, ID: 22, start time:  7930, end time:  7938, shift: 57
+type:P, ID: 14, start time:  7938, end time:  7943, shift: 58
+type:P, ID: 72, start time:  7943, end time:  7955, shift: 48
+type:P, ID: 79, start time:  7955, end time:  7967, shift: 44
+type:P, ID: 58, start time:  7971, end time:  7977, shift: 90
+type:P, ID: 63, start time:  7982, end time:  7994, shift: 48
+type:P, ID: 22, start time:  7995, end time:  8004, shift: 63
+type:P, ID: 14, start time:  8004, end time:  8008, shift: 73
+type:P, ID: 72, start time:  8008, end time:  8022, shift: 61
+type:P, ID: 79, start time:  8022, end time:  8032, shift: 69
+type:P, ID: 63, start time:  8042, end time:  8050, shift: 52
+type:P, ID: 22, start time:  8067, end time:  8077, shift: 62
+type:P, ID: 58, start time:  8077, end time:  8081, shift: 72
+type:P, ID: 14, start time:  8081, end time:  8087, shift: 74
+type:P, ID: 58, start time:  8087, end time:  8097, shift: 66
+type:P, ID: 72, start time:  8097, end time:  8102, shift: 52
+type:P, ID: 63, start time:  8102, end time:  8108, shift: 54
+type:P, ID: 72, start time:  8108, end time:  8117, shift: 46
+type:P, ID: 79, start time:  8117, end time:  8131, shift: 60
+type:P, ID: 22, start time:  8139, end time:  8147, shift: 64
+type:P, ID: 14, start time:  8161, end time:  8162, shift: 76
+type:P, ID: 63, start time:  8162, end time:  8174, shift: 48
+type:P, ID: 14, start time:  8174, end time:  8177, shift: 64
+type:P, ID: 72, start time:  8177, end time:  8191, shift: 52
+type:P, ID: 58, start time:  8191, end time:  8199, shift: 60
+type:P, ID: 79, start time:  8199, end time:  8208, shift: 73
+type:P, ID: 22, start time:  8211, end time:  8221, shift: 62
+type:P, ID: 63, start time:  8222, end time:  8231, shift: 51
+type:P, ID: 14, start time:  8241, end time:  8245, shift: 76
+type:P, ID: 72, start time:  8245, end time:  8259, shift: 64
+type:P, ID: 58, start time:  8259, end time:  8267, shift: 88
+type:P, ID: 79, start time:  8281, end time:  8282, shift: 78
+type:P, ID: 63, start time:  8282, end time:  8290, shift: 52
+type:P, ID: 22, start time:  8290, end time:  8296, shift: 59
+type:P, ID: 79, start time:  8296, end time:  8307, shift: 64
+type:P, ID: 14, start time:  8321, end time:  8325, shift: 76
+type:P, ID: 72, start time:  8325, end time:  8337, shift: 66
+type:P, ID: 63, start time:  8342, end time:  8348, shift: 54
+type:P, ID: 22, start time:  8355, end time:  8365, shift: 62
+type:P, ID: 58, start time:  8365, end time:  8373, shift: 78
+type:P, ID: 79, start time:  8373, end time:  8385, shift: 76
+type:P, ID: 14, start time:  8401, end time:  8402, shift: 76
+type:P, ID: 63, start time:  8402, end time:  8410, shift: 52
+type:P, ID: 14, start time:  8410, end time:  8413, shift: 68
+type:P, ID: 72, start time:  8413, end time:  8425, shift: 58
+type:P, ID: 22, start time:  8427, end time:  8436, shift: 63
+type:P, ID: 58, start time:  8451, end time:  8457, shift: 90
+type:P, ID: 79, start time:  8461, end time:  8462, shift: 80
+type:P, ID: 63, start time:  8462, end time:  8474, shift: 48
+type:P, ID: 79, start time:  8474, end time:  8483, shift: 68
+type:P, ID: 14, start time:  8483, end time:  8487, shift: 74
+type:P, ID: 72, start time:  8487, end time:  8501, shift: 62
+type:P, ID: 22, start time:  8501, end time:  8507, shift: 64
+type:P, ID: 63, start time:  8522, end time:  8530, shift: 52
+type:P, ID: 58, start time:  8547, end time:  8555, shift: 88
+type:P, ID: 79, start time:  8555, end time:  8561, shift: 74
+type:P, ID: 14, start time:  8561, end time:  8565, shift: 76
+type:P, ID: 79, start time:  8565, end time:  8571, shift: 70
+type:P, ID: 22, start time:  8571, end time:  8579, shift: 64
+type:P, ID: 72, start time:  8579, end time:  8582, shift: 50
+type:P, ID: 63, start time:  8582, end time:  8588, shift: 54
+type:P, ID: 72, start time:  8588, end time:  8599, shift: 44
+Period (6)
+type:P, ID: 14, start time:  8641, end time:  8642, shift: 76
+type:P, ID: 63, start time:  8642, end time:  8651, shift: 51
+type:P, ID: 22, start time:  8651, end time:  8659, shift: 56
+type:P, ID: 14, start time:  8659, end time:  8662, shift: 59
+type:P, ID: 72, start time:  8662, end time:  8674, shift: 49
+type:P, ID: 79, start time:  8674, end time:  8683, shift: 48
+type:P, ID: 58, start time:  8683, end time:  8695, shift: 44
+type:P, ID: 63, start time:  8702, end time:  8710, shift: 52
+type:P, ID: 22, start time:  8715, end time:  8724, shift: 63
+type:P, ID: 14, start time:  8724, end time:  8730, shift: 71
+type:P, ID: 72, start time:  8730, end time:  8745, shift: 58
+type:P, ID: 79, start time:  8745, end time:  8757, shift: 64
+type:P, ID: 58, start time:  8757, end time:  8762, shift: 69
+type:P, ID: 63, start time:  8762, end time:  8770, shift: 52
+type:P, ID: 58, start time:  8770, end time:  8774, shift: 61
+type:P, ID: 22, start time:  8787, end time:  8796, shift: 63
+type:P, ID: 14, start time:  8801, end time:  8804, shift: 77
+type:P, ID: 72, start time:  8804, end time:  8818, shift: 65
+type:P, ID: 79, start time:  8821, end time:  8822, shift: 76
+type:P, ID: 63, start time:  8822, end time:  8828, shift: 54
+type:P, ID: 79, start time:  8828, end time:  8841, shift: 70
+type:P, ID: 58, start time:  8841, end time:  8849, shift: 82
+type:P, ID: 22, start time:  8859, end time:  8869, shift: 62
+type:P, ID: 14, start time:  8881, end time:  8882, shift: 74
+type:P, ID: 63, start time:  8882, end time:  8894, shift: 48
+type:P, ID: 14, start time:  8894, end time:  8899, shift: 62
+type:P, ID: 72, start time:  8899, end time:  8914, shift: 49
+type:P, ID: 79, start time:  8914, end time:  8928, shift: 73
+type:P, ID: 22, start time:  8931, end time:  8941, shift: 62
+type:P, ID: 58, start time:  8941, end time:  8942, shift: 74
+type:P, ID: 63, start time:  8942, end time:  8950, shift: 52
+type:P, ID: 58, start time:  8950, end time:  8961, shift: 66
+type:P, ID: 14, start time:  8961, end time:  8964, shift: 77
+type:P, ID: 72, start time:  8964, end time:  8978, shift: 65
+type:P, ID: 79, start time:  9001, end time:  9002, shift: 80
+type:P, ID: 63, start time:  9002, end time:  9012, shift: 50
+type:P, ID: 22, start time:  9012, end time:  9020, shift: 55
+type:P, ID: 79, start time:  9020, end time:  9029, shift: 62
+type:P, ID: 58, start time:  9029, end time:  9041, shift: 80
+type:P, ID: 14, start time:  9041, end time:  9044, shift: 77
+type:P, ID: 58, start time:  9044, end time:  9046, shift: 77
+type:P, ID: 72, start time:  9046, end time:  9060, shift: 63
+type:P, ID: 63, start time:  9062, end time:  9074, shift: 48
+type:P, ID: 22, start time:  9075, end time:  9083, shift: 64
+type:P, ID: 79, start time:  9091, end time:  9106, shift: 75
+type:P, ID: 14, start time:  9121, end time:  9122, shift: 76
+type:P, ID: 63, start time:  9122, end time:  9128, shift: 54
+type:P, ID: 14, start time:  9128, end time:  9131, shift: 70
+type:P, ID: 72, start time:  9131, end time:  9145, shift: 58
+type:P, ID: 58, start time:  9145, end time:  9147, shift: 68
+type:P, ID: 22, start time:  9147, end time:  9156, shift: 63
+type:P, ID: 58, start time:  9156, end time:  9160, shift: 59
+type:P, ID: 79, start time:  9181, end time:  9182, shift: 76
+type:P, ID: 63, start time:  9182, end time:  9190, shift: 52
+type:P, ID: 79, start time:  9190, end time:  9203, shift: 68
+type:P, ID: 14, start time:  9203, end time:  9206, shift: 75
+type:P, ID: 72, start time:  9206, end time:  9221, shift: 62
+type:P, ID: 22, start time:  9221, end time:  9230, shift: 61
+type:P, ID: 58, start time:  9230, end time:  9242, shift: 71
+type:P, ID: 63, start time:  9242, end time:  9252, shift: 50
+type:P, ID: 58, start time:  9252, end time:  9254, shift: 61
+type:P, ID: 79, start time:  9271, end time:  9280, shift: 81
+type:P, ID: 14, start time:  9281, end time:  9287, shift: 74
+type:P, ID: 72, start time:  9287, end time:  9302, shift: 61
+type:P, ID: 63, start time:  9302, end time:  9314, shift: 48
+type:P, ID: 22, start time:  9314, end time:  9322, shift: 41
+type:P, ID: 58, start time:  9322, end time:  9330, shift: 81
+type:P, ID: 14, start time:  9361, end time:  9362, shift: 77
+type:P, ID: 63, start time:  9362, end time:  9371, shift: 51
+type:P, ID: 22, start time:  9371, end time:  9379, shift: 56
+type:P, ID: 14, start time:  9379, end time:  9381, shift: 60
+type:P, ID: 72, start time:  9381, end time:  9396, shift: 47
+type:P, ID: 79, start time:  9396, end time:  9408, shift: 43
+type:P, ID: 58, start time:  9411, end time:  9422, shift: 82
+type:P, ID: 63, start time:  9422, end time:  9428, shift: 54
+type:P, ID: 58, start time:  9428, end time:  9431, shift: 76
+type:P, ID: 22, start time:  9435, end time:  9443, shift: 64
+type:P, ID: 14, start time:  9443, end time:  9447, shift: 74
+type:P, ID: 72, start time:  9447, end time:  9459, shift: 64
+type:P, ID: 79, start time:  9459, end time:  9473, shift: 68
+type:P, ID: 63, start time:  9482, end time:  9494, shift: 48
+type:P, ID: 22, start time:  9507, end time:  9516, shift: 63
+type:P, ID: 58, start time:  9516, end time:  9521, shift: 73
+type:P, ID: 14, start time:  9521, end time:  9525, shift: 76
+type:P, ID: 58, start time:  9525, end time:  9534, shift: 69
+type:P, ID: 72, start time:  9534, end time:  9542, shift: 57
+type:P, ID: 63, start time:  9542, end time:  9550, shift: 52
+type:P, ID: 72, start time:  9550, end time:  9554, shift: 49
+type:P, ID: 79, start time:  9554, end time:  9564, shift: 67
+type:P, ID: 22, start time:  9579, end time:  9585, shift: 66
+type:P, ID: 14, start time:  9601, end time:  9602, shift: 77
+type:P, ID: 63, start time:  9602, end time:  9614, shift: 48
+type:P, ID: 14, start time:  9614, end time:  9616, shift: 65
+type:P, ID: 72, start time:  9616, end time:  9630, shift: 53
+type:P, ID: 58, start time:  9630, end time:  9638, shift: 61
+type:P, ID: 79, start time:  9638, end time:  9652, shift: 69
+type:P, ID: 22, start time:  9652, end time:  9660, shift: 63
+type:P, ID: 63, start time:  9662, end time:  9670, shift: 52
+type:P, ID: 14, start time:  9681, end time:  9685, shift: 76
+type:P, ID: 72, start time:  9685, end time:  9700, shift: 63
+type:P, ID: 58, start time:  9700, end time:  9712, shift: 83
+type:P, ID: 79, start time:  9721, end time:  9722, shift: 76
+type:P, ID: 63, start time:  9722, end time:  9732, shift: 50
+type:P, ID: 22, start time:  9732, end time:  9740, shift: 55
+type:P, ID: 79, start time:  9740, end time:  9753, shift: 58
+type:P, ID: 14, start time:  9761, end time:  9767, shift: 74
+type:P, ID: 72, start time:  9767, end time:  9781, shift: 62
+type:P, ID: 63, start time:  9782, end time:  9792, shift: 50
+type:P, ID: 22, start time:  9795, end time:  9804, shift: 63
+type:P, ID: 58, start time:  9804, end time:  9818, shift: 73
+type:P, ID: 79, start time:  9818, end time:  9830, shift: 71
+type:P, ID: 14, start time:  9841, end time:  9842, shift: 77
+type:P, ID: 63, start time:  9842, end time:  9851, shift: 51
+type:P, ID: 14, start time:  9851, end time:  9853, shift: 68
+type:P, ID: 72, start time:  9853, end time:  9867, shift: 56
+type:P, ID: 22, start time:  9867, end time:  9875, shift: 64
+type:P, ID: 58, start time:  9891, end time:  9900, shift: 87
+type:P, ID: 79, start time:  9901, end time:  9902, shift: 76
+type:P, ID: 63, start time:  9902, end time:  9912, shift: 50
+type:P, ID: 79, start time:  9912, end time:  9925, shift: 66

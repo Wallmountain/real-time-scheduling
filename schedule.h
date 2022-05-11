@@ -1,7 +1,6 @@
 #include "stream.h"
 #include "list.h"
 
-
 #define swap(a, b) \
     do {           \
         b ^= a;    \
@@ -34,7 +33,8 @@ typedef struct event {
  * store the total time and how much time we have used before
  */
 typedef struct period {
-    unsigned int using_time, total_time;
+    unsigned int using_time, 
+                 total_time;
     list_head job_list;
 } period;
 
@@ -44,6 +44,7 @@ typedef struct period {
  */
 typedef struct schedule {
     unsigned int count, period;
+    unsigned int aperiodic_response_time, aperiodic_waiting_time;
     list periodic_task,
          aperiodic_task,
          sporadic_task;
@@ -103,6 +104,10 @@ void schedule_init(schedule *plan);
 void free_schedule(schedule *a);
 
 int check_periodic_schedule(list *p_list, unsigned int *hyperperiod, task *node);
+
+void delay_schedule(schedule *plan);
+
+int aperiodic_task_schedule(schedule *plan);
 
 void expand_schedule(schedule *plan, unsigned int hyperperiod);
 

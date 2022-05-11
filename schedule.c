@@ -45,8 +45,11 @@ void schedule_init(schedule *plan)
 {
     plan->hyperperiod = malloc(sizeof(period));
     plan->hyperperiod->using_time = plan->hyperperiod->total_time = 0;
+    list_init(&plan->periodic_task);
+    list_init(&plan->aperiodic_task);
+    list_init(&plan->sporadic_task);
     INIT_LIST_HEAD(&plan->hyperperiod->job_list);
-    plan->count = 0;
+    plan->count = plan->aperiodic_response_time = plan->aperiodic_waiting_time = 0;
 }
 
 void free_schedule(schedule *a) {
@@ -56,7 +59,7 @@ void free_schedule(schedule *a) {
     free_list(&a->aperiodic_task);
     free_list(&a->sporadic_task);
     event *node, *safe;
-    for(int i=0;i<a->count; i++)
+    for(int i=0;i < a->count; i++)
         list_for_each_entry_safe(node, safe, &a->hyperperiod[i].job_list, list)
             free(node);
     free(a->hyperperiod);
@@ -182,7 +185,7 @@ int update_status_job(status *a, unsigned int now_time, unsigned int cost)
     if(a->remain_time <= cost) {
         spend = a->remain_time;
         int num_of_period = (now_time + a->remain_time - a->info->phase) /
-                            a->info->period;
+                            a->info->period + 1;
         a->remain_time = a->info->job[num_of_period];
         a->release_time += a->info->period;
         a->deadline += a->info->period;
@@ -210,6 +213,128 @@ unsigned int cal_hyperperiod(unsigned int a, unsigned int b)
     return hyperperiod;
 }
 
+void delay_schedule(schedule *plan)
+{
+    int total_time = 0;
+    task *node = plan->aperiodic_task.head;
+    for(int i = 0;i < plan->aperiodic_task.count;i++, node = node->next)
+        total_time += node->exe_time;
+
+    for(int i = 0;i < plan->count;i++) {
+        if(total_time <= 0)
+            break;
+        
+        int time = (i + 1) * plan->period;
+        list_head *head = plan->hyperperiod[i].job_list.prev;
+
+        for(;head != &plan->hyperperiod[i].job_list;head = head->prev) {
+            time = (list_entry(head, event, list)->end_time + list_entry(head, event, list)->shift > time)?
+                   time :
+                   list_entry(head, event, list)->end_time + list_entry(head, event, list)->shift;
+            list_entry(head, event, list)->start_time += time - list_entry(head, event, list)->end_time;
+            list_entry(head, event, list)->shift -= time - list_entry(head, event, list)->end_time;
+            list_entry(head, event, list)->end_time = time;
+            time = list_entry(head, event, list)->start_time;
+        }
+        total_time -= plan->hyperperiod[i].total_time - plan->hyperperiod[i].using_time;
+    }
+}
+
+int aperiodic_task_schedule(schedule *plan)
+{
+    int now_period = 0;
+    task *temp = plan->aperiodic_task.head;
+    status *head = NULL;
+    for(int i=0; i < plan->aperiodic_task.count; i++, temp = temp->next) {
+        status *n_node = malloc(sizeof(*n_node));
+        n_node->release_time = temp->phase;
+        n_node->deadline = 0;
+        n_node->remain_time = temp->exe_time;
+        n_node->info = temp;
+        n_node->next = NULL;
+        en_status_list(&head, n_node, remain_time);
+    }
+    list_head *schedule_node = plan->hyperperiod[now_period].job_list.next;
+    int time = 0, end_time = list_entry(schedule_node, event, list)->start_time;
+    while(time < stream_time && time >= end_time) {
+        if(schedule_node->next == &plan->hyperperiod[now_period].job_list) {
+            time = list_entry(schedule_node, event, list)->end_time;
+            schedule_node = schedule_node->next;
+            end_time = (now_period + 1) * plan->period;
+        } else if(schedule_node->next == plan->hyperperiod[now_period].job_list.next) {
+            if(++now_period == plan->count)
+                time = stream_time;
+            else {
+                time = now_period * plan->period;
+                schedule_node = plan->hyperperiod[now_period].job_list.next;
+                end_time = list_entry(schedule_node, event, list)->start_time;
+            }
+        } else {
+            time = list_entry(schedule_node, event, list)->end_time;
+            schedule_node = schedule_node->next;
+            end_time = list_entry(schedule_node, event, list)->start_time;
+        }
+    } 
+    while(time < stream_time) {
+        status *now = head;
+        while(now && now->release_time > time)
+            now = now->next;
+        if(now) {
+            event *node = malloc(sizeof(*node));
+            node->type = APERIODIC;
+            node->shift = 0;
+
+            int spend;
+            if(now->remain_time < end_time - time) {
+                spend = now->remain_time;
+            } else {
+                spend = end_time - time;
+            }
+
+            now->remain_time -= spend;
+
+            node->start_time = time;
+            node->end_time = time + spend;
+            node->id = now->info->id;
+
+            list_add_tail(&node->list,
+                     schedule_node);
+            
+            plan->hyperperiod[now_period].using_time += spend;
+            remove_node(&head, now);
+            if(!now->remain_time) {
+                plan->aperiodic_response_time += time + spend - now->release_time;
+                plan->aperiodic_waiting_time += time + spend - now->release_time - now->info->exe_time;
+                free(now);
+            } else {
+               en_status_list(&head, now, remain_time);
+            }
+            time += spend;
+        } else
+            time++;
+        while(time < stream_time && time >= end_time) {
+            if(schedule_node->next == &plan->hyperperiod[now_period].job_list) {
+                time = list_entry(schedule_node, event, list)->end_time;
+                schedule_node = schedule_node->next;
+                end_time = (now_period + 1) * plan->period;
+            } else if(schedule_node->next == plan->hyperperiod[now_period].job_list.next) {
+                if(++now_period == plan->count)
+                    time = stream_time;
+                else {
+                    time = now_period * plan->period;
+                    schedule_node = plan->hyperperiod[now_period].job_list.next;
+                    end_time = list_entry(schedule_node, event, list)->start_time;
+                }
+            } else {
+                time = list_entry(schedule_node, event, list)->end_time;
+                schedule_node = schedule_node->next;
+                end_time = list_entry(schedule_node, event, list)->start_time;
+            }
+        } 
+    }
+    return 1;
+}
+
 void expand_schedule(schedule *plan, unsigned int hyperperiod)
 {
     int now_period = 0;
@@ -229,7 +354,7 @@ void expand_schedule(schedule *plan, unsigned int hyperperiod)
         status *n_node = malloc(sizeof(*n_node));
         n_node->release_time = temp->phase;
         n_node->deadline = temp->deadline + temp->phase;
-        n_node->remain_time = temp->exe_time;
+        n_node->remain_time = temp->job[0];
         n_node->info = temp;
         n_node->next = NULL;
         en_status_list(&head, n_node, deadline);
@@ -245,7 +370,7 @@ void expand_schedule(schedule *plan, unsigned int hyperperiod)
             if(comp) {
                 event *node = malloc(sizeof(*node));
                 node->type = PERIODIC;
-                node->shift = comp->deadline;
+                node->shift = comp->deadline - time - comp->remain_time;
 
                 int spend = update_status_job(comp, time, 
                                               now->release_time - time);
@@ -253,7 +378,6 @@ void expand_schedule(schedule *plan, unsigned int hyperperiod)
                 node->start_time = time;
                 node->end_time = time + spend;
                 node->id = comp->info->id;
-                node->shift = node->shift - time - spend;
 
                 if(time > (now_period + 1) * hyperperiod)
                     now_period++;
@@ -277,13 +401,12 @@ void expand_schedule(schedule *plan, unsigned int hyperperiod)
         }
         event *node = malloc(sizeof(*node));
         node->type = PERIODIC;
-        node->shift = now->deadline;
+        node->shift = now->deadline - time - now->remain_time;
         int spend = update_status_job(now, time, now->remain_time);
 
         node->start_time = time;
         node->end_time = time + spend;
         node->id = now->info->id;
-        node->shift = node->shift - time - spend;
 
         if(time > (now_period + 1) * hyperperiod)
             now_period++;
