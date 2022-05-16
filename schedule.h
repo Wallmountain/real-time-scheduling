@@ -44,7 +44,7 @@ typedef struct period {
  */
 typedef struct schedule {
     unsigned int count, period;
-    unsigned int aperiodic_response_time, aperiodic_waiting_time;
+    unsigned int aperiodic_response_time;
     list periodic_task,
          aperiodic_task,
          sporadic_task;

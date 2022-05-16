@@ -49,7 +49,7 @@ void schedule_init(schedule *plan)
     list_init(&plan->aperiodic_task);
     list_init(&plan->sporadic_task);
     INIT_LIST_HEAD(&plan->hyperperiod->job_list);
-    plan->count = plan->aperiodic_response_time = plan->aperiodic_waiting_time = 0;
+    plan->count = plan->aperiodic_response_time = 0;
 }
 
 void free_schedule(schedule *a) {
@@ -304,7 +304,6 @@ int aperiodic_task_schedule(schedule *plan)
             remove_node(&head, now);
             if(!now->remain_time) {
                 plan->aperiodic_response_time += time + spend - now->release_time;
-                plan->aperiodic_waiting_time += time + spend - now->release_time - now->info->exe_time;
                 free(now);
             } else {
                en_status_list(&head, now, remain_time);

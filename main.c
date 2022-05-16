@@ -17,7 +17,7 @@ int main() {
 
     read_aperiodic_task(&plan.aperiodic_task);
     delay_schedule(&plan);
-    //aperiodic_task_schedule(&plan);
+    aperiodic_task_schedule(&plan);
     print_periodic_info(&plan, &p_fail);
     /* 
        add aperiodic and sporadic implement here
@@ -48,7 +48,6 @@ void print_periodic_info(schedule *plan, list *fail)
     printf("(3) %d%\n", (int)using_time * 100 / stream_time);
 
     printf("(5) %5.2f\n", (double)plan->aperiodic_response_time / periodic_task_num);
-    printf("(6) %5.2f\n", (double)plan->aperiodic_waiting_time / periodic_task_num);
     printf("(4)\n");
 
     int now_period = 0;
