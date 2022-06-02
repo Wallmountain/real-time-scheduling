@@ -16,6 +16,7 @@ static int prime_factor[] = {2, 3, 5, 7, 11, 13, 17, 19, \
 #define stream_time 10000 // total time unit
 #define periodic_job_input "OnlinejobsOfHRT.txt"
 #define aperiodic_job_input "OnlinejobsOf100AP.txt"
+#define sporadic_job_input "OnlinejobsOf100SP.txt"
 #define periodic_task_num 100
 #define table_number 11
 
@@ -62,6 +63,8 @@ bool task_selection(task *node);
 int build_periodic_task_hashtable(list *success, list *fail);
 
 int read_aperiodic_task(list *success);
+
+int read_sporadic_task(list *success);
 
 void free_list(list *a);
 

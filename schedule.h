@@ -109,6 +109,10 @@ void delay_schedule(schedule *plan);
 
 int aperiodic_task_schedule(schedule *plan);
 
+int check_sporadic_task(schedule *plan, task *node);
+
+int sporadic_task_schedule(schedule *plan);
+
 void expand_schedule(schedule *plan, unsigned int hyperperiod);
 
 void print_schedule(list *p_list, unsigned int hyperperiod);

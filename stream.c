@@ -16,6 +16,53 @@ bool task_selection(task *node)
     return !(period ^ 1);
 }
 
+int read_sporadic_task(list *success)
+{
+    FILE *fd = fopen(sporadic_job_input, "r");
+    int n;
+    for(int task_num = 0;task_num < periodic_task_num;task_num++) {
+        char buffer[10000];
+        if(!fgets(buffer, 10000, fd)) {
+            fclose(fd);
+            return 1;
+        }
+        task *node = malloc(sizeof(*node));
+        node->next = NULL;
+        /*
+         * tokenize the buffer and assign to the corresponding vaiable in struct
+         */
+        char *token;
+        if(!(token = strtok(buffer, " "))) {
+            printf("ERROR : wrong number of parameter in periodic task\n");
+            fclose(fd);
+            free(node);
+            return -1;
+        }
+        node->job = NULL;
+        node->period = node->utilization = 0;
+        for (n = 0;n < 4;n++) {
+            switch(n) {
+                case 0:
+                    node->id = atoi(token);
+                    break;
+                case 1:
+                    node->phase = atoi(token);
+                    break;
+                case 2:
+                    node->exe_time = atoi(token);
+                    break;
+                case 3:
+                    node->deadline = atoi(token);
+                    break;
+            }
+            token = strtok(NULL, " ");
+        }
+        en_list(&success->head, node, deadline);
+        success->count++;
+    }
+    return 1;
+}
+
 int read_aperiodic_task(list *success)
 {
     FILE *fd = fopen(aperiodic_job_input, "r");
@@ -122,7 +169,6 @@ int build_periodic_task_hashtable(list *success, list *fail)
             insert_head(&fail->head, node);
             fail->count++;
             fgets(buffer, 10000, fd);
-            fgets(buffer, 10000, fd);
             continue;
         }
         int job_num = stream_time / node->period;
@@ -145,7 +191,6 @@ int build_periodic_task_hashtable(list *success, list *fail)
                 insert_head(&fail->head, node);
                 fail->count++;
                 fgets(buffer, 10000, fd);
-                fgets(buffer, 10000, fd);
                 continue;
             }
             token = strtok(NULL, " ");
@@ -158,7 +203,6 @@ int build_periodic_task_hashtable(list *success, list *fail)
             success[(int)(node->utilization * 10)].count++;
             en_list(&success[(int)(node->utilization * 10)].head, node, utilization);
         }
-        fgets(buffer, 10000, fd);
         fgets(buffer, 10000, fd);
     }
     fclose(fd);

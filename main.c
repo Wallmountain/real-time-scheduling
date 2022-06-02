@@ -15,13 +15,12 @@ int main() {
     for(int i=0;i < table_number;i++)
         free_list(&success[i]);
 
+    read_sporadic_task(&plan.sporadic_task);
     read_aperiodic_task(&plan.aperiodic_task);
     delay_schedule(&plan);
+    sporadic_task_schedule(&plan);
     aperiodic_task_schedule(&plan);
     print_periodic_info(&plan, &p_fail);
-    /* 
-       add aperiodic and sporadic implement here
-       */
     free(success);
     free_schedule(&plan);
     return 0;
@@ -29,12 +28,6 @@ int main() {
 
 void print_periodic_info(schedule *plan, list *fail)
 {
-    // printf("(1) ");
-    // for(task *node = fail->head; node; node = node->next) {
-    //     printf("TASK %d", node->id);
-    //     if(node->next)
-    //         printf(", ");
-    // }
     printf("(1) %d tasks: ", plan->periodic_task.count);
     for(task *node = plan->periodic_task.head; node; node = node->next) {
         printf("TASK %d", node->id);
@@ -48,7 +41,18 @@ void print_periodic_info(schedule *plan, list *fail)
     printf("(3) %d%\n", (int)using_time * 100 / stream_time);
 
     printf("(5) %5.2f\n", (double)plan->aperiodic_response_time / periodic_task_num);
-    printf("(4)\n");
+
+    printf("(6) %d%\n", periodic_task_num - plan->sporadic_task.count);
+
+    printf("(7) %d tasks: ", plan->sporadic_task.count);
+
+    for(task *node = plan->sporadic_task.head; node; node = node->next) {
+        printf("STask %d", node->id);
+        if(node->next)
+            printf(", ");
+    }
+
+    printf("\n(4)\n");
 
     int now_period = 0;
     event *entry;
