@@ -57,7 +57,7 @@ int read_sporadic_task(list *success)
             }
             token = strtok(NULL, " ");
         }
-        en_list(&success->head, node, deadline);
+        en_list_big(&success->head, node, deadline);
         success->count++;
     }
     return 1;

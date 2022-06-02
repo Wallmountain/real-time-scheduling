@@ -6,7 +6,7 @@
 #include <math.h>
 #include <stdbool.h>
 
-#define pf_limit 3
+#define pf_limit 2
 #define prime_factor_len 23
 
 static int prime_factor[] = {2, 3, 5, 7, 11, 13, 17, 19, \
@@ -51,6 +51,15 @@ typedef struct list {
     do {                                               \
         task **temp = head;                            \
         while(*temp && (*temp)->member < node->member) \
+            temp = &(*temp)->next;                     \
+        node->next = *temp;                            \
+        *temp = node;                                  \
+    } while(0)
+
+#define en_list_big(head, node, member)                    \
+    do {                                               \
+        task **temp = head;                            \
+        while(*temp && (*temp)->member > node->member) \
             temp = &(*temp)->next;                     \
         node->next = *temp;                            \
         *temp = node;                                  \

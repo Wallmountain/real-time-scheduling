@@ -242,36 +242,36 @@ void delay_schedule(schedule *plan)
 
 int check_sporadic_task(schedule *plan, task *node)
 {
-    int time = node->phase, remain_time = node->exe_time, end_time;
+    int time = node->deadline, remain_time = node->exe_time, end_time;
     int now_period = time / plan->period;
-    list_head *schedule_node = plan->hyperperiod[now_period].job_list.next;
-    while(time > list_entry(schedule_node, event, list)->start_time)
-       schedule_node = schedule_node->next;
+    list_head *schedule_node = plan->hyperperiod[now_period].job_list.prev;
+    while(time < list_entry(schedule_node, event, list)->end_time)
+       schedule_node = schedule_node->prev;
+    
+    if(schedule_node->next != &plan->hyperperiod[now_period].job_list && list_entry(schedule_node->next, event, list)->start_time < time)
+        time = list_entry(schedule_node->next, event, list)->start_time;
+    end_time = list_entry(schedule_node, event, list)->end_time;
 
-    if(schedule_node->prev != &plan->hyperperiod[now_period].job_list && list_entry(schedule_node->prev, event, list)->end_time > time)
-        time = list_entry(schedule_node->prev, event, list)->end_time;
-
-    end_time = list_entry(schedule_node, event, list)->start_time;
     while(remain_time > 0) {
-        remain_time -= end_time - time;
-        if(schedule_node->next == &plan->hyperperiod[now_period].job_list) {
-            time = list_entry(schedule_node, event, list)->end_time;
-            schedule_node = schedule_node->next;
-            end_time = (now_period + 1) * plan->period;
-            if(end_time > stream_time)
-                end_time = stream_time;
-        } else if(schedule_node->next == plan->hyperperiod[now_period].job_list.next) {
-            if(++now_period == plan->count) {
+        remain_time -= time - end_time;
+        if(schedule_node->prev == &plan->hyperperiod[now_period].job_list) {
+            time = list_entry(schedule_node, event, list)->start_time;
+            schedule_node = schedule_node->prev;
+            end_time = now_period * plan->period;
+            if(end_time < 0)
+                end_time = 0;
+        } else if(schedule_node->prev == plan->hyperperiod[now_period].job_list.prev) {
+            if(--now_period < 0) {
                 return 0;
             } else {
-                time = now_period * plan->period;
-                schedule_node = plan->hyperperiod[now_period].job_list.next;
-                end_time = list_entry(schedule_node, event, list)->start_time;
+                time = (now_period + 1) * plan->period;
+                schedule_node = plan->hyperperiod[now_period].job_list.prev;
+                end_time = list_entry(schedule_node, event, list)->end_time;
             }
         } else {
-            time = list_entry(schedule_node, event, list)->end_time;
-            schedule_node = schedule_node->next;
-            end_time = list_entry(schedule_node, event, list)->start_time;
+            time = list_entry(schedule_node, event, list)->start_time;
+            schedule_node = schedule_node->prev;
+            end_time = list_entry(schedule_node, event, list)->end_time;
         }
     }
     return 1;
@@ -292,60 +292,60 @@ int sporadic_task_schedule(schedule *plan)
             plan->sporadic_task.count++;
             en_list(&plan->sporadic_task.head, node, id);
 
-            int time = node->phase, remain_time = node->exe_time, end_time;
+            int time = node->deadline, remain_time = node->exe_time, end_time;
             int now_period = time / plan->period;
-            list_head *schedule_node = plan->hyperperiod[now_period].job_list.next;
-            while(time > list_entry(schedule_node, event, list)->start_time)
-            schedule_node = schedule_node->next;
+            list_head *schedule_node = plan->hyperperiod[now_period].job_list.prev;
+            while(time < list_entry(schedule_node, event, list)->end_time)
+                schedule_node = schedule_node->prev;
 
-            if(schedule_node->prev != &plan->hyperperiod[now_period].job_list && list_entry(schedule_node->prev, event, list)->end_time > time)
-                time = list_entry(schedule_node->prev, event, list)->end_time;
+            if(schedule_node->next != &plan->hyperperiod[now_period].job_list && list_entry(schedule_node->next, event, list)->start_time < time)
+                time = list_entry(schedule_node->next, event, list)->start_time;
+            end_time = list_entry(schedule_node, event, list)->end_time;
 
-            end_time = list_entry(schedule_node, event, list)->start_time;
             while(remain_time > 0) {
-                if(end_time > time) {
+                if(time > end_time) {
                     event *s_node = malloc(sizeof(*s_node));
                     s_node->type = SPORADIC;
-                    s_node->shift = 0;
 
                     int spend;
-                    if(remain_time < end_time - time) {
+                    if(remain_time < time - end_time) {
                         spend = remain_time;
                     } else {
-                        spend = end_time - time;
+                        spend = time - end_time;
                     }
 
                     remain_time -= spend;
 
-                    s_node->start_time = time;
-                    s_node->end_time = time + spend;
+                    s_node->start_time = time - spend;
+                    s_node->end_time = time;
                     s_node->id = node->id;
+                    s_node->shift = node->deadline - time;
 
                     list_add_tail(&s_node->list,
-                            schedule_node);
+                            schedule_node->next);
                 
                     plan->hyperperiod[now_period].using_time += spend;
-                    time += spend;
+                    time -= spend;
                 }
 
-                if(schedule_node->next == &plan->hyperperiod[now_period].job_list) {
-                    time = list_entry(schedule_node, event, list)->end_time;
-                    schedule_node = schedule_node->next;
-                    end_time = (now_period + 1) * plan->period;
-                    if(end_time > stream_time)
-                        end_time = stream_time;
-                } else if(schedule_node->next == plan->hyperperiod[now_period].job_list.next) {
-                    if(++now_period == plan->count) {
-                        time = stream_time;
+                if(schedule_node->prev == &plan->hyperperiod[now_period].job_list) {
+                    time = list_entry(schedule_node, event, list)->start_time;
+                    schedule_node = schedule_node->prev;
+                    end_time = now_period * plan->period;
+                    if(end_time < 0)
+                        end_time = 0;
+                } else if(schedule_node->prev == plan->hyperperiod[now_period].job_list.prev) {
+                    if(--now_period < 0) {
+                        time = 0;
                     } else {
-                        time = now_period * plan->period;
-                        schedule_node = plan->hyperperiod[now_period].job_list.next;
-                        end_time = list_entry(schedule_node, event, list)->start_time;
+                        time = (now_period + 1) * plan->period;
+                        schedule_node = plan->hyperperiod[now_period].job_list.prev;
+                        end_time = list_entry(schedule_node, event, list)->end_time;
                     }
                 } else {
-                    time = list_entry(schedule_node, event, list)->end_time;
-                    schedule_node = schedule_node->next;
-                    end_time = list_entry(schedule_node, event, list)->start_time;
+                    time = list_entry(schedule_node, event, list)->start_time;
+                    schedule_node = schedule_node->prev;
+                    end_time = list_entry(schedule_node, event, list)->end_time;
                 }
             }
         }
