@@ -9,7 +9,7 @@ void list_init(list *p)
 bool task_selection(task *node)
 {
     unsigned int period = node->period;
-    for(int i = 0;i < pf_limit;i++) {
+    for(int i = 0; i < pf_limit; i++) {
         while(period % prime_factor[i] == 0)
             period /= prime_factor[i];
     }
